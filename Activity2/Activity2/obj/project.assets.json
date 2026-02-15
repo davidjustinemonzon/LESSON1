@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Activity2\\Activity2\\Activity2.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\LESSON1\\LEESON1(2)\\Activity2\\Activity2\\Activity2.csproj",
       "projectName": "Activity2",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\Activity2\\Activity2\\Activity2.csproj",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\LESSON1\\LEESON1(2)\\Activity2\\Activity2\\Activity2.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\Activity2\\Activity2\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\source\\repos\\LESSON1\\LEESON1(2)\\Activity2\\Activity2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\KINEME2\\NuGetPackages"
