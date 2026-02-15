@@ -31,7 +31,6 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            radioButton1 = new RadioButton();
             radioButton2 = new RadioButton();
             label4 = new Label();
             label5 = new Label();
@@ -110,6 +109,7 @@
             radioButton30 = new RadioButton();
             radioButton31 = new RadioButton();
             radioButton32 = new RadioButton();
+            radioButton1 = new RadioButton();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -160,18 +160,6 @@
             label3.Size = new Size(90, 15);
             label3.TabIndex = 2;
             label3.Text = "Food Bundles A";
-            // 
-            // radioButton1
-            // 
-            radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(44, 103);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(103, 19);
-            radioButton1.TabIndex = 3;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "Food Bundle A";
-            radioButton1.UseVisualStyleBackColor = true;
-            radioButton1.CheckedChanged += this.radioButton1_CheckedChanged;
             // 
             // radioButton2
             // 
@@ -957,11 +945,23 @@
             radioButton32.Text = "Pizza 6";
             radioButton32.UseVisualStyleBackColor = true;
             // 
+            // radioButton1
+            // 
+            radioButton1.AutoSize = true;
+            radioButton1.Location = new Point(44, 103);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(103, 19);
+            radioButton1.TabIndex = 82;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "Food Bundle A";
+            radioButton1.UseVisualStyleBackColor = true;
+            // 
             // Activity4
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1158, 784);
+            Controls.Add(radioButton1);
             Controls.Add(radioButton28);
             Controls.Add(radioButton29);
             Controls.Add(radioButton30);
@@ -1040,7 +1040,6 @@
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(radioButton2);
-            Controls.Add(radioButton1);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -1077,7 +1076,6 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private RadioButton radioButton1;
         private RadioButton radioButton2;
         private Label label4;
         private Label label5;
@@ -1156,5 +1154,6 @@
         private RadioButton radioButton30;
         private RadioButton radioButton31;
         private RadioButton radioButton32;
+        private RadioButton radioButton1;
     }
 }
