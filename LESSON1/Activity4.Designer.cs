@@ -35,7 +35,7 @@
             label4 = new Label();
             label5 = new Label();
             pricetxtbox = new TextBox();
-            textBox2 = new TextBox();
+            qtytxtbox = new TextBox();
             discount_amounttxtbox = new TextBox();
             discounted_amounttxtbox = new TextBox();
             total_billstxtbox = new TextBox();
@@ -199,12 +199,13 @@
             pricetxtbox.TabIndex = 7;
             pricetxtbox.TextChanged += pricetxtbox_TextChanged;
             // 
-            // textBox2
+            // qtytxtbox
             // 
-            textBox2.Location = new Point(97, 230);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(162, 23);
-            textBox2.TabIndex = 8;
+            qtytxtbox.Location = new Point(97, 230);
+            qtytxtbox.Name = "qtytxtbox";
+            qtytxtbox.Size = new Size(162, 23);
+            qtytxtbox.TabIndex = 8;
+            qtytxtbox.TextChanged += qtytxtbox_TextChanged;
             // 
             // discount_amounttxtbox
             // 
@@ -686,6 +687,7 @@
             button1.TabIndex = 57;
             button1.Text = "CALCULATE BILLS";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -696,6 +698,7 @@
             button2.TabIndex = 58;
             button2.Text = "PRINT\r\nTRANSACTION";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -706,6 +709,7 @@
             button3.TabIndex = 59;
             button3.Text = "REMOVE ORDER";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
@@ -716,6 +720,7 @@
             button4.TabIndex = 60;
             button4.Text = "NEW";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button5
             // 
@@ -726,6 +731,7 @@
             button5.TabIndex = 61;
             button5.Text = "EXIT";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // radioButton13
             // 
@@ -1038,7 +1044,7 @@
             Controls.Add(total_billstxtbox);
             Controls.Add(discounted_amounttxtbox);
             Controls.Add(discount_amounttxtbox);
-            Controls.Add(textBox2);
+            Controls.Add(qtytxtbox);
             Controls.Add(pricetxtbox);
             Controls.Add(label5);
             Controls.Add(label4);
@@ -1083,7 +1089,7 @@
         private Label label4;
         private Label label5;
         private TextBox pricetxtbox;
-        private TextBox textBox2;
+        private TextBox qtytxtbox;
         private TextBox discount_amounttxtbox;
         private TextBox discounted_amounttxtbox;
         private TextBox total_billstxtbox;
