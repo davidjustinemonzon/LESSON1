@@ -31,17 +31,17 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            radioButton2 = new RadioButton();
+            food_bundleB = new RadioButton();
             label4 = new Label();
             label5 = new Label();
-            textBox1 = new TextBox();
+            pricetxtbox = new TextBox();
             textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            textBox6 = new TextBox();
+            discount_amounttxtbox = new TextBox();
+            discounted_amounttxtbox = new TextBox();
+            total_billstxtbox = new TextBox();
+            total_qtytxtbox = new TextBox();
             textBox7 = new TextBox();
-            textBox8 = new TextBox();
+            changetxtbox = new TextBox();
             label6 = new Label();
             label7 = new Label();
             label8 = new Label();
@@ -109,7 +109,7 @@
             radioButton30 = new RadioButton();
             radioButton31 = new RadioButton();
             radioButton32 = new RadioButton();
-            radioButton1 = new RadioButton();
+            food_bundleA = new RadioButton();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -161,16 +161,17 @@
             label3.TabIndex = 2;
             label3.Text = "Food Bundles A";
             // 
-            // radioButton2
+            // food_bundleB
             // 
-            radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(44, 135);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(102, 19);
-            radioButton2.TabIndex = 4;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "Food Bundle B";
-            radioButton2.UseVisualStyleBackColor = true;
+            food_bundleB.AutoSize = true;
+            food_bundleB.Location = new Point(44, 135);
+            food_bundleB.Name = "food_bundleB";
+            food_bundleB.Size = new Size(102, 19);
+            food_bundleB.TabIndex = 4;
+            food_bundleB.TabStop = true;
+            food_bundleB.Text = "Food Bundle B";
+            food_bundleB.UseVisualStyleBackColor = true;
+            food_bundleB.CheckedChanged += food_bundleB_CheckedChanged;
             // 
             // label4
             // 
@@ -190,12 +191,13 @@
             label5.TabIndex = 6;
             label5.Text = "Price:";
             // 
-            // textBox1
+            // pricetxtbox
             // 
-            textBox1.Location = new Point(97, 201);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(162, 23);
-            textBox1.TabIndex = 7;
+            pricetxtbox.Location = new Point(97, 201);
+            pricetxtbox.Name = "pricetxtbox";
+            pricetxtbox.Size = new Size(162, 23);
+            pricetxtbox.TabIndex = 7;
+            pricetxtbox.TextChanged += pricetxtbox_TextChanged;
             // 
             // textBox2
             // 
@@ -204,37 +206,37 @@
             textBox2.Size = new Size(162, 23);
             textBox2.TabIndex = 8;
             // 
-            // textBox3
+            // discount_amounttxtbox
             // 
-            textBox3.Font = new Font("Segoe UI", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox3.Location = new Point(97, 259);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(162, 46);
-            textBox3.TabIndex = 9;
+            discount_amounttxtbox.Font = new Font("Segoe UI", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            discount_amounttxtbox.Location = new Point(97, 259);
+            discount_amounttxtbox.Name = "discount_amounttxtbox";
+            discount_amounttxtbox.Size = new Size(162, 46);
+            discount_amounttxtbox.TabIndex = 9;
             // 
-            // textBox4
+            // discounted_amounttxtbox
             // 
-            textBox4.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox4.Location = new Point(97, 311);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(162, 39);
-            textBox4.TabIndex = 10;
+            discounted_amounttxtbox.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            discounted_amounttxtbox.Location = new Point(97, 311);
+            discounted_amounttxtbox.Name = "discounted_amounttxtbox";
+            discounted_amounttxtbox.Size = new Size(162, 39);
+            discounted_amounttxtbox.TabIndex = 10;
             // 
-            // textBox5
+            // total_billstxtbox
             // 
-            textBox5.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox5.Location = new Point(97, 356);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(162, 33);
-            textBox5.TabIndex = 11;
+            total_billstxtbox.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            total_billstxtbox.Location = new Point(97, 356);
+            total_billstxtbox.Name = "total_billstxtbox";
+            total_billstxtbox.Size = new Size(162, 33);
+            total_billstxtbox.TabIndex = 11;
             // 
-            // textBox6
+            // total_qtytxtbox
             // 
-            textBox6.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox6.Location = new Point(97, 395);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(162, 35);
-            textBox6.TabIndex = 12;
+            total_qtytxtbox.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            total_qtytxtbox.Location = new Point(97, 395);
+            total_qtytxtbox.Name = "total_qtytxtbox";
+            total_qtytxtbox.Size = new Size(162, 35);
+            total_qtytxtbox.TabIndex = 12;
             // 
             // textBox7
             // 
@@ -244,13 +246,13 @@
             textBox7.Size = new Size(162, 39);
             textBox7.TabIndex = 13;
             // 
-            // textBox8
+            // changetxtbox
             // 
-            textBox8.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox8.Location = new Point(97, 481);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(162, 39);
-            textBox8.TabIndex = 14;
+            changetxtbox.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            changetxtbox.Location = new Point(97, 481);
+            changetxtbox.Name = "changetxtbox";
+            changetxtbox.Size = new Size(162, 39);
+            changetxtbox.TabIndex = 14;
             // 
             // label6
             // 
@@ -945,23 +947,24 @@
             radioButton32.Text = "Pizza 6";
             radioButton32.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // food_bundleA
             // 
-            radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(44, 103);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(103, 19);
-            radioButton1.TabIndex = 82;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "Food Bundle A";
-            radioButton1.UseVisualStyleBackColor = true;
+            food_bundleA.AutoSize = true;
+            food_bundleA.Location = new Point(44, 103);
+            food_bundleA.Name = "food_bundleA";
+            food_bundleA.Size = new Size(103, 19);
+            food_bundleA.TabIndex = 82;
+            food_bundleA.TabStop = true;
+            food_bundleA.Text = "Food Bundle A";
+            food_bundleA.UseVisualStyleBackColor = true;
+            food_bundleA.CheckedChanged += food_bundleA_CheckedChanged;
             // 
             // Activity4
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1158, 784);
-            Controls.Add(radioButton1);
+            Controls.Add(food_bundleA);
             Controls.Add(radioButton28);
             Controls.Add(radioButton29);
             Controls.Add(radioButton30);
@@ -1029,17 +1032,17 @@
             Controls.Add(label8);
             Controls.Add(label7);
             Controls.Add(label6);
-            Controls.Add(textBox8);
+            Controls.Add(changetxtbox);
             Controls.Add(textBox7);
-            Controls.Add(textBox6);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
+            Controls.Add(total_qtytxtbox);
+            Controls.Add(total_billstxtbox);
+            Controls.Add(discounted_amounttxtbox);
+            Controls.Add(discount_amounttxtbox);
             Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(pricetxtbox);
             Controls.Add(label5);
             Controls.Add(label4);
-            Controls.Add(radioButton2);
+            Controls.Add(food_bundleB);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -1076,17 +1079,17 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private RadioButton radioButton2;
+        private RadioButton food_bundleB;
         private Label label4;
         private Label label5;
-        private TextBox textBox1;
+        private TextBox pricetxtbox;
         private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
+        private TextBox discount_amounttxtbox;
+        private TextBox discounted_amounttxtbox;
+        private TextBox total_billstxtbox;
+        private TextBox total_qtytxtbox;
         private TextBox textBox7;
-        private TextBox textBox8;
+        private TextBox changetxtbox;
         private Label label6;
         private Label label7;
         private Label label8;
@@ -1154,6 +1157,6 @@
         private RadioButton radioButton30;
         private RadioButton radioButton31;
         private RadioButton radioButton32;
-        private RadioButton radioButton1;
+        private RadioButton food_bundleA;
     }
 }
