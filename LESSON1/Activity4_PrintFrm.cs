@@ -15,6 +15,13 @@ namespace LESSON1
         public Activity4_PrintFrm()
         {
             InitializeComponent();
+
+            printDisplayListbox.Items.AddRange(printDisplayListbox.Items);
+        }
+
+        private void Activity4_PrintFrm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

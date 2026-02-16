@@ -48,6 +48,7 @@
             Controls.Add(printDisplayListbox);
             Name = "Activity4_PrintFrm";
             Text = "Activity4_PrintFrm";
+            Load += Activity4_PrintFrm_Load;
             ResumeLayout(false);
         }
 

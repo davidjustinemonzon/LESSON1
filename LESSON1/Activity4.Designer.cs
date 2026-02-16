@@ -89,27 +89,27 @@
             button3 = new Button();
             button4 = new Button();
             button5 = new Button();
-            radioButton13 = new RadioButton();
-            radioButton14 = new RadioButton();
-            radioButton15 = new RadioButton();
-            radioButton16 = new RadioButton();
-            radioButton17 = new RadioButton();
-            radioButton18 = new RadioButton();
-            radioButton19 = new RadioButton();
-            radioButton20 = new RadioButton();
-            radioButton21 = new RadioButton();
-            radioButton22 = new RadioButton();
-            radioButton23 = new RadioButton();
-            radioButton24 = new RadioButton();
-            radioButton25 = new RadioButton();
-            radioButton26 = new RadioButton();
-            radioButton27 = new RadioButton();
-            radioButton28 = new RadioButton();
-            radioButton29 = new RadioButton();
-            radioButton30 = new RadioButton();
-            radioButton31 = new RadioButton();
-            radioButton32 = new RadioButton();
             food_bundleA = new RadioButton();
+            checkBox1 = new CheckBox();
+            checkBox2 = new CheckBox();
+            checkBox3 = new CheckBox();
+            checkBox4 = new CheckBox();
+            checkBox5 = new CheckBox();
+            checkBox6 = new CheckBox();
+            checkBox7 = new CheckBox();
+            checkBox8 = new CheckBox();
+            checkBox9 = new CheckBox();
+            checkBox10 = new CheckBox();
+            checkBox11 = new CheckBox();
+            checkBox12 = new CheckBox();
+            checkBox13 = new CheckBox();
+            checkBox14 = new CheckBox();
+            checkBox15 = new CheckBox();
+            checkBox16 = new CheckBox();
+            checkBox17 = new CheckBox();
+            checkBox18 = new CheckBox();
+            checkBox19 = new CheckBox();
+            checkBox20 = new CheckBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -733,226 +733,6 @@
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
             // 
-            // radioButton13
-            // 
-            radioButton13.AutoSize = true;
-            radioButton13.Location = new Point(516, 219);
-            radioButton13.Name = "radioButton13";
-            radioButton13.Size = new Size(74, 19);
-            radioButton13.TabIndex = 62;
-            radioButton13.TabStop = true;
-            radioButton13.Text = "Hawaiian";
-            radioButton13.UseVisualStyleBackColor = true;
-            // 
-            // radioButton14
-            // 
-            radioButton14.AutoSize = true;
-            radioButton14.Location = new Point(643, 219);
-            radioButton14.Name = "radioButton14";
-            radioButton14.Size = new Size(103, 19);
-            radioButton14.TabIndex = 63;
-            radioButton14.TabStop = true;
-            radioButton14.Text = "New York Style";
-            radioButton14.UseVisualStyleBackColor = true;
-            // 
-            // radioButton15
-            // 
-            radioButton15.AutoSize = true;
-            radioButton15.Location = new Point(770, 219);
-            radioButton15.Name = "radioButton15";
-            radioButton15.Size = new Size(79, 19);
-            radioButton15.TabIndex = 64;
-            radioButton15.TabStop = true;
-            radioButton15.Text = "Pepperoni";
-            radioButton15.UseVisualStyleBackColor = true;
-            // 
-            // radioButton16
-            // 
-            radioButton16.AutoSize = true;
-            radioButton16.Location = new Point(897, 219);
-            radioButton16.Name = "radioButton16";
-            radioButton16.Size = new Size(116, 19);
-            radioButton16.TabIndex = 65;
-            radioButton16.TabStop = true;
-            radioButton16.Text = "Cauliflower Crust";
-            radioButton16.UseVisualStyleBackColor = true;
-            // 
-            // radioButton17
-            // 
-            radioButton17.AutoSize = true;
-            radioButton17.Location = new Point(1024, 219);
-            radioButton17.Name = "radioButton17";
-            radioButton17.Size = new Size(73, 19);
-            radioButton17.TabIndex = 66;
-            radioButton17.TabStop = true;
-            radioButton17.Text = "Dominos";
-            radioButton17.UseVisualStyleBackColor = true;
-            // 
-            // radioButton18
-            // 
-            radioButton18.AutoSize = true;
-            radioButton18.Location = new Point(1024, 386);
-            radioButton18.Name = "radioButton18";
-            radioButton18.Size = new Size(104, 19);
-            radioButton18.TabIndex = 71;
-            radioButton18.TabStop = true;
-            radioButton18.Text = "Pizza Barbeque";
-            radioButton18.UseVisualStyleBackColor = true;
-            // 
-            // radioButton19
-            // 
-            radioButton19.AutoSize = true;
-            radioButton19.Location = new Point(897, 386);
-            radioButton19.Name = "radioButton19";
-            radioButton19.Size = new Size(102, 19);
-            radioButton19.TabIndex = 70;
-            radioButton19.TabStop = true;
-            radioButton19.Text = "Pizza Special D";
-            radioButton19.UseVisualStyleBackColor = true;
-            // 
-            // radioButton20
-            // 
-            radioButton20.AutoSize = true;
-            radioButton20.Location = new Point(770, 386);
-            radioButton20.Name = "radioButton20";
-            radioButton20.Size = new Size(102, 19);
-            radioButton20.TabIndex = 69;
-            radioButton20.TabStop = true;
-            radioButton20.Text = "Pizza Special C";
-            radioButton20.UseVisualStyleBackColor = true;
-            // 
-            // radioButton21
-            // 
-            radioButton21.AutoSize = true;
-            radioButton21.Location = new Point(643, 386);
-            radioButton21.Name = "radioButton21";
-            radioButton21.Size = new Size(101, 19);
-            radioButton21.TabIndex = 68;
-            radioButton21.TabStop = true;
-            radioButton21.Text = "Pizza Special B";
-            radioButton21.UseVisualStyleBackColor = true;
-            // 
-            // radioButton22
-            // 
-            radioButton22.AutoSize = true;
-            radioButton22.Location = new Point(516, 386);
-            radioButton22.Name = "radioButton22";
-            radioButton22.Size = new Size(102, 19);
-            radioButton22.TabIndex = 67;
-            radioButton22.TabStop = true;
-            radioButton22.Text = "Pizza Special A";
-            radioButton22.UseVisualStyleBackColor = true;
-            // 
-            // radioButton23
-            // 
-            radioButton23.AutoSize = true;
-            radioButton23.Location = new Point(1024, 552);
-            radioButton23.Name = "radioButton23";
-            radioButton23.Size = new Size(60, 19);
-            radioButton23.TabIndex = 76;
-            radioButton23.TabStop = true;
-            radioButton23.Text = "Pizza 5";
-            radioButton23.UseVisualStyleBackColor = true;
-            // 
-            // radioButton24
-            // 
-            radioButton24.AutoSize = true;
-            radioButton24.Location = new Point(897, 552);
-            radioButton24.Name = "radioButton24";
-            radioButton24.Size = new Size(60, 19);
-            radioButton24.TabIndex = 75;
-            radioButton24.TabStop = true;
-            radioButton24.Text = "Pizza 4";
-            radioButton24.UseVisualStyleBackColor = true;
-            // 
-            // radioButton25
-            // 
-            radioButton25.AutoSize = true;
-            radioButton25.Location = new Point(770, 552);
-            radioButton25.Name = "radioButton25";
-            radioButton25.Size = new Size(60, 19);
-            radioButton25.TabIndex = 74;
-            radioButton25.TabStop = true;
-            radioButton25.Text = "Pizza 3";
-            radioButton25.UseVisualStyleBackColor = true;
-            // 
-            // radioButton26
-            // 
-            radioButton26.AutoSize = true;
-            radioButton26.Location = new Point(643, 552);
-            radioButton26.Name = "radioButton26";
-            radioButton26.Size = new Size(60, 19);
-            radioButton26.TabIndex = 73;
-            radioButton26.TabStop = true;
-            radioButton26.Text = "Pizza 2";
-            radioButton26.UseVisualStyleBackColor = true;
-            // 
-            // radioButton27
-            // 
-            radioButton27.AutoSize = true;
-            radioButton27.Location = new Point(516, 552);
-            radioButton27.Name = "radioButton27";
-            radioButton27.Size = new Size(60, 19);
-            radioButton27.TabIndex = 72;
-            radioButton27.TabStop = true;
-            radioButton27.Text = "Pizza 1";
-            radioButton27.UseVisualStyleBackColor = true;
-            // 
-            // radioButton28
-            // 
-            radioButton28.AutoSize = true;
-            radioButton28.Location = new Point(1024, 700);
-            radioButton28.Name = "radioButton28";
-            radioButton28.Size = new Size(98, 19);
-            radioButton28.TabIndex = 81;
-            radioButton28.TabStop = true;
-            radioButton28.Text = "Amazon Pizza";
-            radioButton28.UseVisualStyleBackColor = true;
-            // 
-            // radioButton29
-            // 
-            radioButton29.AutoSize = true;
-            radioButton29.Location = new Point(897, 700);
-            radioButton29.Name = "radioButton29";
-            radioButton29.Size = new Size(60, 19);
-            radioButton29.TabIndex = 80;
-            radioButton29.TabStop = true;
-            radioButton29.Text = "Pizza 9";
-            radioButton29.UseVisualStyleBackColor = true;
-            // 
-            // radioButton30
-            // 
-            radioButton30.AutoSize = true;
-            radioButton30.Location = new Point(770, 700);
-            radioButton30.Name = "radioButton30";
-            radioButton30.Size = new Size(60, 19);
-            radioButton30.TabIndex = 79;
-            radioButton30.TabStop = true;
-            radioButton30.Text = "Pizza 8";
-            radioButton30.UseVisualStyleBackColor = true;
-            // 
-            // radioButton31
-            // 
-            radioButton31.AutoSize = true;
-            radioButton31.Location = new Point(643, 700);
-            radioButton31.Name = "radioButton31";
-            radioButton31.Size = new Size(60, 19);
-            radioButton31.TabIndex = 78;
-            radioButton31.TabStop = true;
-            radioButton31.Text = "Pizza 7";
-            radioButton31.UseVisualStyleBackColor = true;
-            // 
-            // radioButton32
-            // 
-            radioButton32.AutoSize = true;
-            radioButton32.Location = new Point(516, 700);
-            radioButton32.Name = "radioButton32";
-            radioButton32.Size = new Size(60, 19);
-            radioButton32.TabIndex = 77;
-            radioButton32.TabStop = true;
-            radioButton32.Text = "Pizza 6";
-            radioButton32.UseVisualStyleBackColor = true;
-            // 
             // food_bundleA
             // 
             food_bundleA.AutoSize = true;
@@ -965,32 +745,252 @@
             food_bundleA.UseVisualStyleBackColor = true;
             food_bundleA.CheckedChanged += food_bundleA_CheckedChanged;
             // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(516, 215);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(75, 19);
+            checkBox1.TabIndex = 83;
+            checkBox1.Text = "Hawaiian";
+            checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
+            // 
+            // checkBox2
+            // 
+            checkBox2.AutoSize = true;
+            checkBox2.Location = new Point(643, 215);
+            checkBox2.Name = "checkBox2";
+            checkBox2.Size = new Size(104, 19);
+            checkBox2.TabIndex = 84;
+            checkBox2.Text = "New York Style";
+            checkBox2.UseVisualStyleBackColor = true;
+            checkBox2.CheckedChanged += checkBox2_CheckedChanged;
+            // 
+            // checkBox3
+            // 
+            checkBox3.AutoSize = true;
+            checkBox3.Location = new Point(770, 214);
+            checkBox3.Name = "checkBox3";
+            checkBox3.Size = new Size(80, 19);
+            checkBox3.TabIndex = 85;
+            checkBox3.Text = "Pepperoni";
+            checkBox3.UseVisualStyleBackColor = true;
+            checkBox3.CheckedChanged += checkBox3_CheckedChanged;
+            // 
+            // checkBox4
+            // 
+            checkBox4.AutoSize = true;
+            checkBox4.Location = new Point(897, 214);
+            checkBox4.Name = "checkBox4";
+            checkBox4.Size = new Size(117, 19);
+            checkBox4.TabIndex = 86;
+            checkBox4.Text = "Cauliflower Crust";
+            checkBox4.UseVisualStyleBackColor = true;
+            checkBox4.CheckedChanged += checkBox4_CheckedChanged;
+            // 
+            // checkBox5
+            // 
+            checkBox5.AutoSize = true;
+            checkBox5.Location = new Point(1023, 214);
+            checkBox5.Name = "checkBox5";
+            checkBox5.Size = new Size(74, 19);
+            checkBox5.TabIndex = 87;
+            checkBox5.Text = "Dominos";
+            checkBox5.UseVisualStyleBackColor = true;
+            checkBox5.CheckedChanged += checkBox5_CheckedChanged;
+            // 
+            // checkBox6
+            // 
+            checkBox6.AutoSize = true;
+            checkBox6.Location = new Point(1023, 386);
+            checkBox6.Name = "checkBox6";
+            checkBox6.Size = new Size(105, 19);
+            checkBox6.TabIndex = 92;
+            checkBox6.Text = "Pizza Barbeque";
+            checkBox6.UseVisualStyleBackColor = true;
+            checkBox6.CheckedChanged += checkBox6_CheckedChanged;
+            // 
+            // checkBox7
+            // 
+            checkBox7.AutoSize = true;
+            checkBox7.Location = new Point(897, 386);
+            checkBox7.Name = "checkBox7";
+            checkBox7.Size = new Size(103, 19);
+            checkBox7.TabIndex = 91;
+            checkBox7.Text = "Pizza Special D";
+            checkBox7.UseVisualStyleBackColor = true;
+            checkBox7.CheckedChanged += checkBox7_CheckedChanged;
+            // 
+            // checkBox8
+            // 
+            checkBox8.AutoSize = true;
+            checkBox8.Location = new Point(770, 386);
+            checkBox8.Name = "checkBox8";
+            checkBox8.Size = new Size(103, 19);
+            checkBox8.TabIndex = 90;
+            checkBox8.Text = "Pizza Special C";
+            checkBox8.UseVisualStyleBackColor = true;
+            checkBox8.CheckedChanged += checkBox8_CheckedChanged;
+            // 
+            // checkBox9
+            // 
+            checkBox9.AutoSize = true;
+            checkBox9.Location = new Point(643, 387);
+            checkBox9.Name = "checkBox9";
+            checkBox9.Size = new Size(102, 19);
+            checkBox9.TabIndex = 89;
+            checkBox9.Text = "Pizza Special B";
+            checkBox9.UseVisualStyleBackColor = true;
+            checkBox9.CheckedChanged += checkBox9_CheckedChanged;
+            // 
+            // checkBox10
+            // 
+            checkBox10.AutoSize = true;
+            checkBox10.Location = new Point(516, 387);
+            checkBox10.Name = "checkBox10";
+            checkBox10.Size = new Size(103, 19);
+            checkBox10.TabIndex = 88;
+            checkBox10.Text = "Pizza Special A";
+            checkBox10.UseVisualStyleBackColor = true;
+            checkBox10.CheckedChanged += checkBox10_CheckedChanged;
+            // 
+            // checkBox11
+            // 
+            checkBox11.AutoSize = true;
+            checkBox11.Location = new Point(1023, 552);
+            checkBox11.Name = "checkBox11";
+            checkBox11.Size = new Size(61, 19);
+            checkBox11.TabIndex = 97;
+            checkBox11.Text = "Pizza 5";
+            checkBox11.UseVisualStyleBackColor = true;
+            checkBox11.CheckedChanged += checkBox11_CheckedChanged;
+            // 
+            // checkBox12
+            // 
+            checkBox12.AutoSize = true;
+            checkBox12.Location = new Point(897, 552);
+            checkBox12.Name = "checkBox12";
+            checkBox12.Size = new Size(61, 19);
+            checkBox12.TabIndex = 96;
+            checkBox12.Text = "Pizza 4";
+            checkBox12.UseVisualStyleBackColor = true;
+            checkBox12.CheckedChanged += checkBox12_CheckedChanged;
+            // 
+            // checkBox13
+            // 
+            checkBox13.AutoSize = true;
+            checkBox13.Location = new Point(770, 552);
+            checkBox13.Name = "checkBox13";
+            checkBox13.Size = new Size(61, 19);
+            checkBox13.TabIndex = 95;
+            checkBox13.Text = "Pizza 3";
+            checkBox13.UseVisualStyleBackColor = true;
+            checkBox13.CheckedChanged += checkBox13_CheckedChanged;
+            // 
+            // checkBox14
+            // 
+            checkBox14.AutoSize = true;
+            checkBox14.Location = new Point(643, 553);
+            checkBox14.Name = "checkBox14";
+            checkBox14.Size = new Size(61, 19);
+            checkBox14.TabIndex = 94;
+            checkBox14.Text = "Pizza 2";
+            checkBox14.UseVisualStyleBackColor = true;
+            checkBox14.CheckedChanged += checkBox14_CheckedChanged;
+            // 
+            // checkBox15
+            // 
+            checkBox15.AutoSize = true;
+            checkBox15.Location = new Point(516, 553);
+            checkBox15.Name = "checkBox15";
+            checkBox15.Size = new Size(61, 19);
+            checkBox15.TabIndex = 93;
+            checkBox15.Text = "Pizza 1";
+            checkBox15.UseVisualStyleBackColor = true;
+            checkBox15.CheckedChanged += checkBox15_CheckedChanged;
+            // 
+            // checkBox16
+            // 
+            checkBox16.AutoSize = true;
+            checkBox16.Location = new Point(1023, 699);
+            checkBox16.Name = "checkBox16";
+            checkBox16.Size = new Size(99, 19);
+            checkBox16.TabIndex = 102;
+            checkBox16.Text = "Amazon Pizza";
+            checkBox16.UseVisualStyleBackColor = true;
+            checkBox16.CheckedChanged += checkBox16_CheckedChanged;
+            // 
+            // checkBox17
+            // 
+            checkBox17.AutoSize = true;
+            checkBox17.Location = new Point(897, 699);
+            checkBox17.Name = "checkBox17";
+            checkBox17.Size = new Size(61, 19);
+            checkBox17.TabIndex = 101;
+            checkBox17.Text = "Pizza 9";
+            checkBox17.UseVisualStyleBackColor = true;
+            checkBox17.CheckedChanged += checkBox17_CheckedChanged;
+            // 
+            // checkBox18
+            // 
+            checkBox18.AutoSize = true;
+            checkBox18.Location = new Point(770, 699);
+            checkBox18.Name = "checkBox18";
+            checkBox18.Size = new Size(61, 19);
+            checkBox18.TabIndex = 100;
+            checkBox18.Text = "Pizza 8";
+            checkBox18.UseVisualStyleBackColor = true;
+            checkBox18.CheckedChanged += checkBox18_CheckedChanged;
+            // 
+            // checkBox19
+            // 
+            checkBox19.AutoSize = true;
+            checkBox19.Location = new Point(643, 700);
+            checkBox19.Name = "checkBox19";
+            checkBox19.Size = new Size(61, 19);
+            checkBox19.TabIndex = 99;
+            checkBox19.Text = "Pizza 7";
+            checkBox19.UseVisualStyleBackColor = true;
+            checkBox19.CheckedChanged += checkBox19_CheckedChanged;
+            // 
+            // checkBox20
+            // 
+            checkBox20.AutoSize = true;
+            checkBox20.Location = new Point(516, 700);
+            checkBox20.Name = "checkBox20";
+            checkBox20.Size = new Size(61, 19);
+            checkBox20.TabIndex = 98;
+            checkBox20.Text = "Pizza 6";
+            checkBox20.UseVisualStyleBackColor = true;
+            checkBox20.CheckedChanged += checkBox20_CheckedChanged;
+            // 
             // Activity4
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1158, 784);
+            Controls.Add(checkBox16);
+            Controls.Add(checkBox17);
+            Controls.Add(checkBox18);
+            Controls.Add(checkBox19);
+            Controls.Add(checkBox20);
+            Controls.Add(checkBox11);
+            Controls.Add(checkBox12);
+            Controls.Add(checkBox13);
+            Controls.Add(checkBox14);
+            Controls.Add(checkBox15);
+            Controls.Add(checkBox6);
+            Controls.Add(checkBox7);
+            Controls.Add(checkBox8);
+            Controls.Add(checkBox9);
+            Controls.Add(checkBox10);
+            Controls.Add(checkBox5);
+            Controls.Add(checkBox4);
+            Controls.Add(checkBox3);
+            Controls.Add(checkBox2);
+            Controls.Add(checkBox1);
             Controls.Add(food_bundleA);
-            Controls.Add(radioButton28);
-            Controls.Add(radioButton29);
-            Controls.Add(radioButton30);
-            Controls.Add(radioButton31);
-            Controls.Add(radioButton32);
-            Controls.Add(radioButton23);
-            Controls.Add(radioButton24);
-            Controls.Add(radioButton25);
-            Controls.Add(radioButton26);
-            Controls.Add(radioButton27);
-            Controls.Add(radioButton18);
-            Controls.Add(radioButton19);
-            Controls.Add(radioButton20);
-            Controls.Add(radioButton21);
-            Controls.Add(radioButton22);
-            Controls.Add(radioButton17);
-            Controls.Add(radioButton16);
-            Controls.Add(radioButton15);
-            Controls.Add(radioButton14);
-            Controls.Add(radioButton13);
             Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(button3);
@@ -1143,26 +1143,26 @@
         private Button button3;
         private Button button4;
         private Button button5;
-        private RadioButton radioButton13;
-        private RadioButton radioButton14;
-        private RadioButton radioButton15;
-        private RadioButton radioButton16;
-        private RadioButton radioButton17;
-        private RadioButton radioButton18;
-        private RadioButton radioButton19;
-        private RadioButton radioButton20;
-        private RadioButton radioButton21;
-        private RadioButton radioButton22;
-        private RadioButton radioButton23;
-        private RadioButton radioButton24;
-        private RadioButton radioButton25;
-        private RadioButton radioButton26;
-        private RadioButton radioButton27;
-        private RadioButton radioButton28;
-        private RadioButton radioButton29;
-        private RadioButton radioButton30;
-        private RadioButton radioButton31;
-        private RadioButton radioButton32;
         private RadioButton food_bundleA;
+        private CheckBox checkBox1;
+        private CheckBox checkBox2;
+        private CheckBox checkBox3;
+        private CheckBox checkBox4;
+        private CheckBox checkBox5;
+        private CheckBox checkBox6;
+        private CheckBox checkBox7;
+        private CheckBox checkBox8;
+        private CheckBox checkBox9;
+        private CheckBox checkBox10;
+        private CheckBox checkBox11;
+        private CheckBox checkBox12;
+        private CheckBox checkBox13;
+        private CheckBox checkBox14;
+        private CheckBox checkBox15;
+        private CheckBox checkBox16;
+        private CheckBox checkBox17;
+        private CheckBox checkBox18;
+        private CheckBox checkBox19;
+        private CheckBox checkBox20;
     }
 }
