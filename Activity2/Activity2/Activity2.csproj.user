@@ -5,6 +5,9 @@
     <Compile Update="Activity5.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Activity5_PrintFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

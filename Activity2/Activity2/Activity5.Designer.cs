@@ -306,6 +306,7 @@
             textBox12.Name = "textBox12";
             textBox12.Size = new Size(201, 23);
             textBox12.TabIndex = 24;
+            textBox12.TextChanged += textBox12_TextChanged;
             // 
             // label12
             // 
