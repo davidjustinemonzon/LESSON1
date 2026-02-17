@@ -77,7 +77,7 @@ namespace LESSON1
             discount_amounttxtbox.Text = "200.00";
             price = Convert.ToDouble(pricetxtbox.Text);
             displayListbox.Items.Add(food_bundleB.Text + pricetxtbox.Text);
-            displayListbox.Items.Add("Discounted Amount: " + discounted_amounttxtbox.Text);
+            displayListbox.Items.Add("Discounted Amount: " + discount_amounttxtbox.Text);
             qtytxtbox.Text = "0";
             qtytxtbox.Focus();
 
@@ -118,7 +118,7 @@ namespace LESSON1
             displayListbox.Items.Add("Total Bills: " + total_billstxtbox.Text);
             displayListbox.Items.Add("Cash Given: " + textBox7.Text);
             displayListbox.Items.Add("Change: " + changetxtbox.Text);
-            displayListbox.Items.Add("Total No. of Items: " + total_qtytxtbox);
+            displayListbox.Items.Add("Total No. of Items: " + total_qtytxtbox.Text);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -205,7 +205,7 @@ namespace LESSON1
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             double price;
-            discounted_amounttxtbox.Text = "0.00";
+            discount_amounttxtbox.Text = "0.00";
             pricetxtbox.Text = "500.99";
             price = Convert.ToDouble(pricetxtbox.Text);
             displayListbox.Items.Add(checkBox1.Text + pricetxtbox.Text);
@@ -216,7 +216,7 @@ namespace LESSON1
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
             double price;
-            discounted_amounttxtbox.Text = "0.00";
+            discount_amounttxtbox.Text = "0.00";
             pricetxtbox.Text = "550.99";
             price = Convert.ToDouble(pricetxtbox.Text);
             displayListbox.Items.Add(checkBox2.Text + pricetxtbox.Text);
@@ -227,7 +227,7 @@ namespace LESSON1
         private void checkBox3_CheckedChanged(object sender, EventArgs e)
         {
             double price;
-            discounted_amounttxtbox.Text = "0.00";
+            discount_amounttxtbox.Text = "0.00";
             pricetxtbox.Text = "600.99";
             price = Convert.ToDouble(pricetxtbox.Text);
             displayListbox.Items.Add(checkBox3.Text + pricetxtbox.Text);
@@ -238,7 +238,7 @@ namespace LESSON1
         private void checkBox4_CheckedChanged(object sender, EventArgs e)
         {
             double price;
-            discounted_amounttxtbox.Text = "0.00";
+            discount_amounttxtbox.Text = "0.00";
             pricetxtbox.Text = "700.50";
             price = Convert.ToDouble(pricetxtbox.Text);
             displayListbox.Items.Add(checkBox4.Text + pricetxtbox.Text);
@@ -249,7 +249,7 @@ namespace LESSON1
         private void checkBox5_CheckedChanged(object sender, EventArgs e)
         {
             double price;
-            discounted_amounttxtbox.Text = "0.00";
+            discount_amounttxtbox.Text = "0.00";
             pricetxtbox.Text = "500.00";
             price = Convert.ToDouble(pricetxtbox.Text);
             displayListbox.Items.Add(checkBox5.Text + pricetxtbox.Text);
@@ -260,7 +260,7 @@ namespace LESSON1
         private void checkBox10_CheckedChanged(object sender, EventArgs e)
         {
             double price;
-            discounted_amounttxtbox.Text = "0.00";
+            discount_amounttxtbox.Text = "0.00";
             pricetxtbox.Text = "750.00";
             price = Convert.ToDouble(pricetxtbox.Text);
             displayListbox.Items.Add(checkBox10.Text + pricetxtbox.Text);
@@ -271,7 +271,7 @@ namespace LESSON1
         private void checkBox9_CheckedChanged(object sender, EventArgs e)
         {
             double price;
-            discounted_amounttxtbox.Text = "0.00";
+            discount_amounttxtbox.Text = "0.00";
             pricetxtbox.Text = "700.00";
             price = Convert.ToDouble(pricetxtbox.Text);
             displayListbox.Items.Add(checkBox9.Text + pricetxtbox.Text);
@@ -282,7 +282,7 @@ namespace LESSON1
         private void checkBox8_CheckedChanged(object sender, EventArgs e)
         {
             double price;
-            discounted_amounttxtbox.Text = "0.00";
+            discount_amounttxtbox.Text = "0.00";
             pricetxtbox.Text = "850.00";
             price = Convert.ToDouble(pricetxtbox.Text);
             displayListbox.Items.Add(checkBox8.Text + pricetxtbox.Text);
@@ -293,7 +293,7 @@ namespace LESSON1
         private void checkBox7_CheckedChanged(object sender, EventArgs e)
         {
             double price;
-            discounted_amounttxtbox.Text = "0.00";
+            discount_amounttxtbox.Text = "0.00";
             pricetxtbox.Text = "450.00";
             price = Convert.ToDouble(pricetxtbox.Text);
             displayListbox.Items.Add(checkBox7.Text + pricetxtbox.Text);
@@ -304,7 +304,7 @@ namespace LESSON1
         private void checkBox6_CheckedChanged(object sender, EventArgs e)
         {
             double price;
-            discounted_amounttxtbox.Text = "0.00";
+            discount_amounttxtbox.Text = "0.00";
             pricetxtbox.Text = "650.00";
             price = Convert.ToDouble(pricetxtbox.Text);
             displayListbox.Items.Add(checkBox6.Text + pricetxtbox.Text);
@@ -315,7 +315,7 @@ namespace LESSON1
         private void checkBox15_CheckedChanged(object sender, EventArgs e)
         {
             double price;
-            discounted_amounttxtbox.Text = "0.00";
+            discount_amounttxtbox.Text = "0.00";
             pricetxtbox.Text = "575.00";
             price = Convert.ToDouble(pricetxtbox.Text);
             displayListbox.Items.Add(checkBox15.Text + pricetxtbox.Text);
@@ -326,7 +326,7 @@ namespace LESSON1
         private void checkBox14_CheckedChanged(object sender, EventArgs e)
         {
             double price;
-            discounted_amounttxtbox.Text = "0.00";
+            discount_amounttxtbox.Text = "0.00";
             pricetxtbox.Text = "575.00";
             price = Convert.ToDouble(pricetxtbox.Text);
             displayListbox.Items.Add(checkBox14.Text + pricetxtbox.Text);
@@ -337,7 +337,7 @@ namespace LESSON1
         private void checkBox13_CheckedChanged(object sender, EventArgs e)
         {
             double price;
-            discounted_amounttxtbox.Text = "0.00";
+            discount_amounttxtbox.Text = "0.00";
             pricetxtbox.Text = "575.00";
             price = Convert.ToDouble(pricetxtbox.Text);
             displayListbox.Items.Add(checkBox13.Text + pricetxtbox.Text);
@@ -348,7 +348,7 @@ namespace LESSON1
         private void checkBox12_CheckedChanged(object sender, EventArgs e)
         {
             double price;
-            discounted_amounttxtbox.Text = "0.00";
+            discount_amounttxtbox.Text = "0.00";
             pricetxtbox.Text = "575.00";
             price = Convert.ToDouble(pricetxtbox.Text);
             displayListbox.Items.Add(checkBox12.Text + pricetxtbox.Text);
@@ -359,7 +359,7 @@ namespace LESSON1
         private void checkBox11_CheckedChanged(object sender, EventArgs e)
         {
             double price;
-            discounted_amounttxtbox.Text = "0.00";
+            discount_amounttxtbox.Text = "0.00";
             pricetxtbox.Text = "575.00";
             price = Convert.ToDouble(pricetxtbox.Text);
             displayListbox.Items.Add(checkBox11.Text + pricetxtbox.Text);
@@ -370,7 +370,7 @@ namespace LESSON1
         private void checkBox20_CheckedChanged(object sender, EventArgs e)
         {
             double price;
-            discounted_amounttxtbox.Text = "0.00";
+            discount_amounttxtbox.Text = "0.00";
             pricetxtbox.Text = "575.00";
             price = Convert.ToDouble(pricetxtbox.Text);
             displayListbox.Items.Add(checkBox20.Text + pricetxtbox.Text);
@@ -381,7 +381,7 @@ namespace LESSON1
         private void checkBox19_CheckedChanged(object sender, EventArgs e)
         {
             double price;
-            discounted_amounttxtbox.Text = "0.00";
+            discount_amounttxtbox.Text = "0.00";
             pricetxtbox.Text = "575.00";
             price = Convert.ToDouble(pricetxtbox.Text);
             displayListbox.Items.Add(checkBox19.Text + pricetxtbox.Text);
@@ -392,7 +392,7 @@ namespace LESSON1
         private void checkBox18_CheckedChanged(object sender, EventArgs e)
         {
             double price;
-            discounted_amounttxtbox.Text = "0.00";
+            discount_amounttxtbox.Text = "0.00";
             pricetxtbox.Text = "575.00";
             price = Convert.ToDouble(pricetxtbox.Text);
             displayListbox.Items.Add(checkBox18.Text + pricetxtbox.Text);
@@ -403,7 +403,7 @@ namespace LESSON1
         private void checkBox17_CheckedChanged(object sender, EventArgs e)
         {
             double price;
-            discounted_amounttxtbox.Text = "0.00";
+            discount_amounttxtbox.Text = "0.00";
             pricetxtbox.Text = "575.00";
             price = Convert.ToDouble(pricetxtbox.Text);
             displayListbox.Items.Add(checkBox17.Text + pricetxtbox.Text);
@@ -414,7 +414,7 @@ namespace LESSON1
         private void checkBox16_CheckedChanged(object sender, EventArgs e)
         {
             double price;
-            discounted_amounttxtbox.Text = "0.00";
+            discount_amounttxtbox.Text = "0.00";
             pricetxtbox.Text = "575.00";
             price = Convert.ToDouble(pricetxtbox.Text);
             displayListbox.Items.Add(checkBox16.Text + pricetxtbox.Text);
