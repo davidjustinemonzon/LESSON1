@@ -63,6 +63,16 @@ namespace Activity2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap download__15_ {
+            get {
+                object obj = ResourceManager.GetObject("download (15)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Screenshot_2026_02_05_184846 {
             get {
                 object obj = ResourceManager.GetObject("Screenshot 2026-02-05 184846", resourceCulture);
