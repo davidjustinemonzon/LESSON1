@@ -15,7 +15,7 @@ namespace LESSON1
     {
         private double total_amount = 0;
         private int total_qty = 0;
-
+        
         public Activity4()
         {
             InitializeComponent();
@@ -29,6 +29,19 @@ namespace LESSON1
             total_billstxtbox.Enabled = false;
             discount_amounttxtbox.Enabled = false;
             total_qtytxtbox.Enabled = false;
+
+            radioButton3.Enabled = true;
+            radioButton4.Enabled = true;
+            radioButton5.Enabled = true;
+            radioButton6.Enabled = true;
+            radioButton7.Enabled = true;
+
+            radioButton8.Enabled = false;
+            radioButton9.Enabled = false;
+            radioButton10.Enabled = false;
+            radioButton11.Enabled = false;
+            radioButton12.Enabled = false;
+
         }
 
         // Add this method to your Activity4 class to fix CS1061
@@ -61,10 +74,10 @@ namespace LESSON1
             radioButton12.Checked = false;
 
             pricetxtbox.Text = "1000.00";
-            discounted_amounttxtbox.Text = "200.00";
+            discount_amounttxtbox.Text = "200.00";
             price = Convert.ToDouble(pricetxtbox.Text);
-            displayListbox.Items.Add(food_bundleA.Text + " + pricetxtbox.Text");
-            displayListbox.Items.Add("Discounted Amount: " + "" + discounted_amounttxtbox.Text);
+            displayListbox.Items.Add(food_bundleB.Text + pricetxtbox.Text);
+            displayListbox.Items.Add("Discounted Amount: " + discounted_amounttxtbox.Text);
             qtytxtbox.Text = "0";
             qtytxtbox.Focus();
 
@@ -91,7 +104,7 @@ namespace LESSON1
             radioButton12.Checked = true;
 
             pricetxtbox.Text = "P1,299.00";
-            discounted_amounttxtbox.Text = "(15% of the Price) P194.85";
+            discount_amounttxtbox.Text = "(15% of the Price) P194.85";
             displayListbox.Items.Add(food_bundleA.Text);
         }
 
@@ -100,17 +113,19 @@ namespace LESSON1
             double cash_given, change, total_amountPaid;
             cash_given = Convert.ToDouble(textBox7.Text);
             total_amountPaid = Convert.ToDouble(total_billstxtbox.Text);
-            displayListbox.Items.Add("Total Bills: " + "" + total_billstxtbox.Text);
-            displayListbox.Items.Add("Cash Given: " + "" + textBox7.Text);
-            displayListbox.Items.Add("Change: " + "" + changetxtbox.Text);
+            change = cash_given - total_amountPaid ;
+            changetxtbox.Text = change.ToString("n");
+            displayListbox.Items.Add("Total Bills: " + total_billstxtbox.Text);
+            displayListbox.Items.Add("Cash Given: " + textBox7.Text);
+            displayListbox.Items.Add("Change: " + changetxtbox.Text);
             displayListbox.Items.Add("Total No. of Items: " + total_qtytxtbox);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            LESSON1.Activity4_PrintFrm print = new LESSON1.Activity4_PrintFrm();
-            print.printDisplayListbox.Items.Addrange(this.displayListbox.Items);
-            print.Show();
+         //LESSON1.Activity4_PrintFrm print = new LESSON1.Activity4_PrintFrm();
+            //print.printDisplayListbox.Items.AddRange(this.displayListbox.Items);
+            //print.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -179,7 +194,7 @@ namespace LESSON1
             total_qtytxtbox.Text = total_qty.ToString();
             total_amount += discounted_amount;
             total_billstxtbox.Text = total_amount.ToString("n");
-            discounted_amounttxtbox.Text = discount_amount.ToString("n");
+            discounted_amounttxtbox.Text = discounted_amount.ToString("n");
         }
 
         private void radioButton13_CheckedChanged(object sender, EventArgs e)
