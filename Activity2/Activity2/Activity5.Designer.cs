@@ -51,28 +51,28 @@
             label11 = new Label();
             textBox10 = new TextBox();
             textBox11 = new TextBox();
-            textBox12 = new TextBox();
+            basic_netincometxtbox = new TextBox();
             label12 = new Label();
             label13 = new Label();
             label14 = new Label();
             label15 = new Label();
             label16 = new Label();
             label17 = new Label();
-            textBox13 = new TextBox();
+            hono_netincometxtbox = new TextBox();
             textBox14 = new TextBox();
             textBox15 = new TextBox();
             label18 = new Label();
             label19 = new Label();
             label20 = new Label();
             label21 = new Label();
-            textBox16 = new TextBox();
+            other_netincometxtbox = new TextBox();
             textBox17 = new TextBox();
             textBox18 = new TextBox();
             label22 = new Label();
             label24 = new Label();
             label25 = new Label();
             textBox20 = new TextBox();
-            textBox21 = new TextBox();
+            gross_incometxtbox = new TextBox();
             label26 = new Label();
             label23 = new Label();
             label27 = new Label();
@@ -99,7 +99,7 @@
             label37 = new Label();
             label38 = new Label();
             label39 = new Label();
-            textBox31 = new TextBox();
+            total = new TextBox();
             label40 = new Label();
             pictureBox1 = new PictureBox();
             button1 = new Button();
@@ -300,13 +300,13 @@
             textBox11.Size = new Size(201, 23);
             textBox11.TabIndex = 23;
             // 
-            // textBox12
+            // basic_netincometxtbox
             // 
-            textBox12.Location = new Point(182, 277);
-            textBox12.Name = "textBox12";
-            textBox12.Size = new Size(201, 23);
-            textBox12.TabIndex = 24;
-            textBox12.TextChanged += textBox12_TextChanged;
+            this.basic_netincometxtbox.Location = new Point(182, 277);
+            this.basic_netincometxtbox.Name = "basic_netincometxtbox";
+            this.basic_netincometxtbox.Size = new Size(201, 23);
+            this.basic_netincometxtbox.TabIndex = 24;
+            this.basic_netincometxtbox.TextChanged += this.textBox12_TextChanged;
             // 
             // label12
             // 
@@ -362,12 +362,12 @@
             label17.TabIndex = 32;
             label17.Text = "Rate / Hour:";
             // 
-            // textBox13
+            // hono_netincometxtbox
             // 
-            textBox13.Location = new Point(182, 392);
-            textBox13.Name = "textBox13";
-            textBox13.Size = new Size(201, 23);
-            textBox13.TabIndex = 31;
+            this.hono_netincometxtbox.Location = new Point(182, 392);
+            this.hono_netincometxtbox.Name = "hono_netincometxtbox";
+            this.hono_netincometxtbox.Size = new Size(201, 23);
+            this.hono_netincometxtbox.TabIndex = 31;
             // 
             // textBox14
             // 
@@ -420,12 +420,12 @@
             label21.TabIndex = 39;
             label21.Text = "Rate / Hour:";
             // 
-            // textBox16
+            // other_netincometxtbox
             // 
-            textBox16.Location = new Point(182, 504);
-            textBox16.Name = "textBox16";
-            textBox16.Size = new Size(201, 23);
-            textBox16.TabIndex = 38;
+            this.other_netincometxtbox.Location = new Point(182, 504);
+            this.other_netincometxtbox.Name = "other_netincometxtbox";
+            this.other_netincometxtbox.Size = new Size(201, 23);
+            this.other_netincometxtbox.TabIndex = 38;
             // 
             // textBox17
             // 
@@ -476,12 +476,12 @@
             textBox20.Size = new Size(201, 23);
             textBox20.TabIndex = 44;
             // 
-            // textBox21
+            // gross_incometxtbox
             // 
-            textBox21.Location = new Point(182, 557);
-            textBox21.Name = "textBox21";
-            textBox21.Size = new Size(201, 23);
-            textBox21.TabIndex = 43;
+            this.gross_incometxtbox.Location = new Point(182, 557);
+            this.gross_incometxtbox.Name = "gross_incometxtbox";
+            this.gross_incometxtbox.Size = new Size(201, 23);
+            this.gross_incometxtbox.TabIndex = 43;
             // 
             // label26
             // 
@@ -700,13 +700,13 @@
             label39.TabIndex = 71;
             label39.Text = "DEDUCTION SUMMARY";
             // 
-            // textBox31
+            // total
             // 
-            textBox31.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox31.Location = new Point(580, 594);
-            textBox31.Name = "textBox31";
-            textBox31.Size = new Size(201, 33);
-            textBox31.TabIndex = 74;
+            total.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            total.Location = new Point(580, 594);
+            total.Name = "total";
+            total.Size = new Size(201, 33);
+            total.TabIndex = 74;
             // 
             // label40
             // 
@@ -837,7 +837,7 @@
             Controls.Add(button1);
             Controls.Add(pictureBox1);
             Controls.Add(label40);
-            Controls.Add(textBox31);
+            Controls.Add(total);
             Controls.Add(label38);
             Controls.Add(label39);
             Controls.Add(label37);
@@ -866,26 +866,26 @@
             Controls.Add(label24);
             Controls.Add(label25);
             Controls.Add(textBox20);
-            Controls.Add(textBox21);
+            Controls.Add(this.gross_incometxtbox);
             Controls.Add(label26);
             Controls.Add(label19);
             Controls.Add(label20);
             Controls.Add(label21);
-            Controls.Add(textBox16);
+            Controls.Add(this.other_netincometxtbox);
             Controls.Add(textBox17);
             Controls.Add(textBox18);
             Controls.Add(label22);
             Controls.Add(label15);
             Controls.Add(label16);
             Controls.Add(label17);
-            Controls.Add(textBox13);
+            Controls.Add(this.hono_netincometxtbox);
             Controls.Add(textBox14);
             Controls.Add(textBox15);
             Controls.Add(label18);
             Controls.Add(label14);
             Controls.Add(label13);
             Controls.Add(label12);
-            Controls.Add(textBox12);
+            Controls.Add(this.basic_netincometxtbox);
             Controls.Add(textBox11);
             Controls.Add(textBox10);
             Controls.Add(label11);
@@ -942,6 +942,7 @@
         private Label label11;
         private TextBox textBox10;
         private TextBox textBox11;
+        private TextBox basic_netincometxtbox;
         private TextBox textBox12;
         private Label label12;
         private Label label13;
@@ -949,6 +950,7 @@
         private Label label15;
         private Label label16;
         private Label label17;
+        private TextBox hono_netincometxtbox;
         private TextBox textBox13;
         private TextBox textBox14;
         private TextBox textBox15;
@@ -956,6 +958,7 @@
         private Label label19;
         private Label label20;
         private Label label21;
+        private TextBox other_netincometxtbox;
         private TextBox textBox16;
         private TextBox textBox17;
         private TextBox textBox18;
@@ -963,6 +966,7 @@
         private Label label24;
         private Label label25;
         private TextBox textBox20;
+        private TextBox gross_incometxtbox;
         private TextBox textBox21;
         private Label label26;
         private Label label23;
@@ -990,7 +994,7 @@
         private Label label37;
         private Label label38;
         private Label label39;
-        private TextBox textBox31;
+        private TextBox total;
         private Label label40;
         private PictureBox pictureBox1;
         private Button button1;

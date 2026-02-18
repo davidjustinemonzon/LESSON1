@@ -531,6 +531,7 @@
             // pictureBox7
             // 
             pictureBox7.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox7.Image = Properties.Resources._39d5bfb2479047a9a317dc3c0cb72707;
             pictureBox7.Location = new Point(1024, 270);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(121, 110);
@@ -541,6 +542,7 @@
             // pictureBox8
             // 
             pictureBox8.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox8.Image = Properties.Resources._6b28b438a3b64a7e9fca9081c89f07ff;
             pictureBox8.Location = new Point(897, 270);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(121, 110);
@@ -551,6 +553,7 @@
             // pictureBox9
             // 
             pictureBox9.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox9.Image = Properties.Resources._53d410103c944a3598b5a11cea9e0936;
             pictureBox9.Location = new Point(770, 270);
             pictureBox9.Name = "pictureBox9";
             pictureBox9.Size = new Size(121, 110);
@@ -561,6 +564,7 @@
             // pictureBox10
             // 
             pictureBox10.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox10.Image = Properties.Resources._1e3834b48ea7406ca7afafa0e8dcda28;
             pictureBox10.Location = new Point(643, 270);
             pictureBox10.Name = "pictureBox10";
             pictureBox10.Size = new Size(121, 110);
@@ -571,6 +575,7 @@
             // pictureBox11
             // 
             pictureBox11.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox11.Image = Properties.Resources._08648360db374a7e939a0e5f19d8a7bd;
             pictureBox11.Location = new Point(516, 270);
             pictureBox11.Name = "pictureBox11";
             pictureBox11.Size = new Size(121, 110);
@@ -581,6 +586,7 @@
             // pictureBox12
             // 
             pictureBox12.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox12.Image = Properties.Resources._7b13284763a740db85a2be5ecd8ca024;
             pictureBox12.Location = new Point(1024, 436);
             pictureBox12.Name = "pictureBox12";
             pictureBox12.Size = new Size(121, 110);
@@ -591,6 +597,7 @@
             // pictureBox13
             // 
             pictureBox13.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox13.Image = Properties.Resources._5605e40fab254c87957b6765f721248f;
             pictureBox13.Location = new Point(897, 436);
             pictureBox13.Name = "pictureBox13";
             pictureBox13.Size = new Size(121, 110);
@@ -601,6 +608,7 @@
             // pictureBox14
             // 
             pictureBox14.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox14.Image = Properties.Resources.b5ed9379a0864a43b03145e00deef8db;
             pictureBox14.Location = new Point(770, 436);
             pictureBox14.Name = "pictureBox14";
             pictureBox14.Size = new Size(121, 110);
@@ -611,6 +619,7 @@
             // pictureBox15
             // 
             pictureBox15.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox15.Image = Properties.Resources._4654f5686d9f40f58d8c5d130313eaed;
             pictureBox15.Location = new Point(643, 436);
             pictureBox15.Name = "pictureBox15";
             pictureBox15.Size = new Size(121, 110);
@@ -621,6 +630,7 @@
             // pictureBox16
             // 
             pictureBox16.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox16.Image = Properties.Resources._5c9ef8900b4d4afc8313a2e282574b7f;
             pictureBox16.Location = new Point(516, 436);
             pictureBox16.Name = "pictureBox16";
             pictureBox16.Size = new Size(121, 110);
@@ -631,6 +641,7 @@
             // pictureBox17
             // 
             pictureBox17.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox17.Image = Properties.Resources._785295d4ab6f4f0bab43d5fcf2e123b6;
             pictureBox17.Location = new Point(1024, 584);
             pictureBox17.Name = "pictureBox17";
             pictureBox17.Size = new Size(121, 110);
@@ -641,6 +652,7 @@
             // pictureBox18
             // 
             pictureBox18.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox18.Image = Properties.Resources.ee6654d7ee434fe79fde54ad4abe9102;
             pictureBox18.Location = new Point(897, 584);
             pictureBox18.Name = "pictureBox18";
             pictureBox18.Size = new Size(121, 110);
@@ -651,6 +663,7 @@
             // pictureBox19
             // 
             pictureBox19.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox19.Image = Properties.Resources._1501b7a18cab4f97b3cb834157712052;
             pictureBox19.Location = new Point(770, 584);
             pictureBox19.Name = "pictureBox19";
             pictureBox19.Size = new Size(121, 110);
@@ -661,6 +674,7 @@
             // pictureBox20
             // 
             pictureBox20.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox20.Image = Properties.Resources._1ade887db3a744e3a8637ef1b729d3a8;
             pictureBox20.Location = new Point(643, 584);
             pictureBox20.Name = "pictureBox20";
             pictureBox20.Size = new Size(121, 110);
@@ -671,6 +685,7 @@
             // pictureBox21
             // 
             pictureBox21.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox21.Image = Properties.Resources._9113c8a27ca6445a80d2906b9454f432;
             pictureBox21.Location = new Point(516, 584);
             pictureBox21.Name = "pictureBox21";
             pictureBox21.Size = new Size(121, 110);
