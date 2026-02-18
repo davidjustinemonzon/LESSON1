@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Activity2
 {
@@ -54,10 +55,38 @@ namespace Activity2
 
         private void Activity5_Load(object sender, EventArgs e)
         {
+            basic_netincometxtbox.Enabled = false;
+            hono_netincometxtbox.Enabled = false;
+            other_netincometxtbox.Enabled = false;
+            netincometxtbox.Enabled = false;
+            gross_incometxtbox.Enabled = false;
+            total_deducttxtbox.Enabled = false;
+            sss_contribtxtbox.Text = "0.00";
+            pagibig_contribtxtbox.Text = "0.00";
+            philhealth_contribtxtbox.Text = "0.00";
+            tax_contribtxtbox.Text = "0.00";
+            sss_loantxtbox.Text = "0.00";
+            pagibig_loantxtbox.Text = "0.00";
+            FSD_deposittxtbox.Text = "0.00";
+            FS_loantxtbox.Text = "0.00";
+            sal_loantxtbox.Text = "0.00";
+            other_loantxtBox.Text = "0.00";
+            others_loanCombo.Text = "Select other deduction";
+            others_loanCombo.Items.Add("Other 1");
+            others_loanCombo.Items.Add("Other 2");
+            others_loanCombo.Items.Add("Other 3");
+            others_loanCombo.Items.Add("Other 4");
+            picpathtxtbox.Hide();
+
 
         }
 
         private void textBox12_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void netincometxtbox_TextChanged(object sender, EventArgs e)
         {
 
         }

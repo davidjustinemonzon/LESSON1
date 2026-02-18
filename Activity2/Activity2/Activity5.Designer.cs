@@ -71,35 +71,35 @@
             label22 = new Label();
             label24 = new Label();
             label25 = new Label();
-            textBox20 = new TextBox();
+            netincometxtbox = new TextBox();
             gross_incometxtbox = new TextBox();
             label26 = new Label();
             label23 = new Label();
             label27 = new Label();
             label28 = new Label();
-            textBox19 = new TextBox();
-            textBox22 = new TextBox();
-            textBox23 = new TextBox();
+            pagibig_contribtxtbox = new TextBox();
+            philhealth_contribtxtbox = new TextBox();
+            sss_contribtxtbox = new TextBox();
             label29 = new Label();
             label30 = new Label();
-            textBox24 = new TextBox();
-            textBox25 = new TextBox();
+            tax_contribtxtbox = new TextBox();
+            FS_loantxtbox = new TextBox();
             label31 = new Label();
             label32 = new Label();
             label33 = new Label();
             label34 = new Label();
-            textBox26 = new TextBox();
-            textBox27 = new TextBox();
-            textBox28 = new TextBox();
+            FSD_deposittxtbox = new TextBox();
+            pagibig_loantxtbox = new TextBox();
+            sss_loantxtbox = new TextBox();
             label35 = new Label();
-            textBox29 = new TextBox();
-            comboBox1 = new ComboBox();
-            textBox30 = new TextBox();
+            sal_loantxtbox = new TextBox();
+            others_loanCombo = new ComboBox();
+            other_loantxtBox = new TextBox();
             label36 = new Label();
             label37 = new Label();
             label38 = new Label();
             label39 = new Label();
-            total = new TextBox();
+            total_deducttxtbox = new TextBox();
             label40 = new Label();
             pictureBox1 = new PictureBox();
             button1 = new Button();
@@ -110,7 +110,7 @@
             button6 = new Button();
             button7 = new Button();
             payslip_viewListBox = new ListBox();
-            textBox32 = new TextBox();
+            picpathtxtbox = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -302,11 +302,11 @@
             // 
             // basic_netincometxtbox
             // 
-            this.basic_netincometxtbox.Location = new Point(182, 277);
-            this.basic_netincometxtbox.Name = "basic_netincometxtbox";
-            this.basic_netincometxtbox.Size = new Size(201, 23);
-            this.basic_netincometxtbox.TabIndex = 24;
-            this.basic_netincometxtbox.TextChanged += this.textBox12_TextChanged;
+            basic_netincometxtbox.Location = new Point(182, 277);
+            basic_netincometxtbox.Name = "basic_netincometxtbox";
+            basic_netincometxtbox.Size = new Size(201, 23);
+            basic_netincometxtbox.TabIndex = 24;
+            basic_netincometxtbox.TextChanged += textBox12_TextChanged;
             // 
             // label12
             // 
@@ -364,10 +364,10 @@
             // 
             // hono_netincometxtbox
             // 
-            this.hono_netincometxtbox.Location = new Point(182, 392);
-            this.hono_netincometxtbox.Name = "hono_netincometxtbox";
-            this.hono_netincometxtbox.Size = new Size(201, 23);
-            this.hono_netincometxtbox.TabIndex = 31;
+            hono_netincometxtbox.Location = new Point(182, 392);
+            hono_netincometxtbox.Name = "hono_netincometxtbox";
+            hono_netincometxtbox.Size = new Size(201, 23);
+            hono_netincometxtbox.TabIndex = 31;
             // 
             // textBox14
             // 
@@ -422,10 +422,10 @@
             // 
             // other_netincometxtbox
             // 
-            this.other_netincometxtbox.Location = new Point(182, 504);
-            this.other_netincometxtbox.Name = "other_netincometxtbox";
-            this.other_netincometxtbox.Size = new Size(201, 23);
-            this.other_netincometxtbox.TabIndex = 38;
+            other_netincometxtbox.Location = new Point(182, 504);
+            other_netincometxtbox.Name = "other_netincometxtbox";
+            other_netincometxtbox.Size = new Size(201, 23);
+            other_netincometxtbox.TabIndex = 38;
             // 
             // textBox17
             // 
@@ -469,19 +469,20 @@
             label25.TabIndex = 46;
             label25.Text = "GROSS INCOME:";
             // 
-            // textBox20
+            // netincometxtbox
             // 
-            textBox20.Location = new Point(182, 586);
-            textBox20.Name = "textBox20";
-            textBox20.Size = new Size(201, 23);
-            textBox20.TabIndex = 44;
+            netincometxtbox.Location = new Point(182, 586);
+            netincometxtbox.Name = "netincometxtbox";
+            netincometxtbox.Size = new Size(201, 23);
+            netincometxtbox.TabIndex = 44;
+            netincometxtbox.TextChanged += netincometxtbox_TextChanged;
             // 
             // gross_incometxtbox
             // 
-            this.gross_incometxtbox.Location = new Point(182, 557);
-            this.gross_incometxtbox.Name = "gross_incometxtbox";
-            this.gross_incometxtbox.Size = new Size(201, 23);
-            this.gross_incometxtbox.TabIndex = 43;
+            gross_incometxtbox.Location = new Point(182, 557);
+            gross_incometxtbox.Name = "gross_incometxtbox";
+            gross_incometxtbox.Size = new Size(201, 23);
+            gross_incometxtbox.TabIndex = 43;
             // 
             // label26
             // 
@@ -520,26 +521,26 @@
             label28.TabIndex = 52;
             label28.Text = "SSS Contribution:";
             // 
-            // textBox19
+            // pagibig_contribtxtbox
             // 
-            textBox19.Location = new Point(580, 277);
-            textBox19.Name = "textBox19";
-            textBox19.Size = new Size(201, 23);
-            textBox19.TabIndex = 51;
+            pagibig_contribtxtbox.Location = new Point(580, 277);
+            pagibig_contribtxtbox.Name = "pagibig_contribtxtbox";
+            pagibig_contribtxtbox.Size = new Size(201, 23);
+            pagibig_contribtxtbox.TabIndex = 51;
             // 
-            // textBox22
+            // philhealth_contribtxtbox
             // 
-            textBox22.Location = new Point(580, 248);
-            textBox22.Name = "textBox22";
-            textBox22.Size = new Size(201, 23);
-            textBox22.TabIndex = 50;
+            philhealth_contribtxtbox.Location = new Point(580, 248);
+            philhealth_contribtxtbox.Name = "philhealth_contribtxtbox";
+            philhealth_contribtxtbox.Size = new Size(201, 23);
+            philhealth_contribtxtbox.TabIndex = 50;
             // 
-            // textBox23
+            // sss_contribtxtbox
             // 
-            textBox23.Location = new Point(580, 219);
-            textBox23.Name = "textBox23";
-            textBox23.Size = new Size(201, 23);
-            textBox23.TabIndex = 49;
+            sss_contribtxtbox.Location = new Point(580, 219);
+            sss_contribtxtbox.Name = "sss_contribtxtbox";
+            sss_contribtxtbox.Size = new Size(201, 23);
+            sss_contribtxtbox.TabIndex = 49;
             // 
             // label29
             // 
@@ -560,19 +561,19 @@
             label30.TabIndex = 55;
             label30.Text = "Tax:";
             // 
-            // textBox24
+            // tax_contribtxtbox
             // 
-            textBox24.Location = new Point(580, 306);
-            textBox24.Name = "textBox24";
-            textBox24.Size = new Size(201, 23);
-            textBox24.TabIndex = 56;
+            tax_contribtxtbox.Location = new Point(580, 306);
+            tax_contribtxtbox.Name = "tax_contribtxtbox";
+            tax_contribtxtbox.Size = new Size(201, 23);
+            tax_contribtxtbox.TabIndex = 56;
             // 
-            // textBox25
+            // FS_loantxtbox
             // 
-            textBox25.Location = new Point(580, 458);
-            textBox25.Name = "textBox25";
-            textBox25.Size = new Size(201, 23);
-            textBox25.TabIndex = 65;
+            FS_loantxtbox.Location = new Point(580, 458);
+            FS_loantxtbox.Name = "FS_loantxtbox";
+            FS_loantxtbox.Size = new Size(201, 23);
+            FS_loantxtbox.TabIndex = 65;
             // 
             // label31
             // 
@@ -610,26 +611,26 @@
             label34.TabIndex = 61;
             label34.Text = "SSS Loan:";
             // 
-            // textBox26
+            // FSD_deposittxtbox
             // 
-            textBox26.Location = new Point(580, 429);
-            textBox26.Name = "textBox26";
-            textBox26.Size = new Size(201, 23);
-            textBox26.TabIndex = 60;
+            FSD_deposittxtbox.Location = new Point(580, 429);
+            FSD_deposittxtbox.Name = "FSD_deposittxtbox";
+            FSD_deposittxtbox.Size = new Size(201, 23);
+            FSD_deposittxtbox.TabIndex = 60;
             // 
-            // textBox27
+            // pagibig_loantxtbox
             // 
-            textBox27.Location = new Point(580, 400);
-            textBox27.Name = "textBox27";
-            textBox27.Size = new Size(201, 23);
-            textBox27.TabIndex = 59;
+            pagibig_loantxtbox.Location = new Point(580, 400);
+            pagibig_loantxtbox.Name = "pagibig_loantxtbox";
+            pagibig_loantxtbox.Size = new Size(201, 23);
+            pagibig_loantxtbox.TabIndex = 59;
             // 
-            // textBox28
+            // sss_loantxtbox
             // 
-            textBox28.Location = new Point(580, 371);
-            textBox28.Name = "textBox28";
-            textBox28.Size = new Size(201, 23);
-            textBox28.TabIndex = 58;
+            sss_loantxtbox.Location = new Point(580, 371);
+            sss_loantxtbox.Name = "sss_loantxtbox";
+            sss_loantxtbox.Size = new Size(201, 23);
+            sss_loantxtbox.TabIndex = 58;
             // 
             // label35
             // 
@@ -641,27 +642,27 @@
             label35.TabIndex = 57;
             label35.Text = "OTHER DEDUCTIONS";
             // 
-            // textBox29
+            // sal_loantxtbox
             // 
-            textBox29.Location = new Point(580, 487);
-            textBox29.Name = "textBox29";
-            textBox29.Size = new Size(201, 23);
-            textBox29.TabIndex = 66;
+            sal_loantxtbox.Location = new Point(580, 487);
+            sal_loantxtbox.Name = "sal_loantxtbox";
+            sal_loantxtbox.Size = new Size(201, 23);
+            sal_loantxtbox.TabIndex = 66;
             // 
-            // comboBox1
+            // others_loanCombo
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(580, 516);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(201, 23);
-            comboBox1.TabIndex = 67;
+            others_loanCombo.FormattingEnabled = true;
+            others_loanCombo.Location = new Point(580, 516);
+            others_loanCombo.Name = "others_loanCombo";
+            others_loanCombo.Size = new Size(201, 23);
+            others_loanCombo.TabIndex = 67;
             // 
-            // textBox30
+            // other_loantxtBox
             // 
-            textBox30.Location = new Point(580, 543);
-            textBox30.Name = "textBox30";
-            textBox30.Size = new Size(201, 23);
-            textBox30.TabIndex = 68;
+            other_loantxtBox.Location = new Point(580, 543);
+            other_loantxtBox.Name = "other_loantxtBox";
+            other_loantxtBox.Size = new Size(201, 23);
+            other_loantxtBox.TabIndex = 68;
             // 
             // label36
             // 
@@ -700,13 +701,13 @@
             label39.TabIndex = 71;
             label39.Text = "DEDUCTION SUMMARY";
             // 
-            // total
+            // total_deducttxtbox
             // 
-            total.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            total.Location = new Point(580, 594);
-            total.Name = "total";
-            total.Size = new Size(201, 33);
-            total.TabIndex = 74;
+            total_deducttxtbox.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            total_deducttxtbox.Location = new Point(580, 594);
+            total_deducttxtbox.Name = "total_deducttxtbox";
+            total_deducttxtbox.Size = new Size(201, 33);
+            total_deducttxtbox.TabIndex = 74;
             // 
             // label40
             // 
@@ -814,19 +815,19 @@
             payslip_viewListBox.Size = new Size(339, 634);
             payslip_viewListBox.TabIndex = 84;
             // 
-            // textBox32
+            // picpathtxtbox
             // 
-            textBox32.Location = new Point(626, 109);
-            textBox32.Name = "textBox32";
-            textBox32.Size = new Size(138, 23);
-            textBox32.TabIndex = 85;
+            picpathtxtbox.Location = new Point(626, 109);
+            picpathtxtbox.Name = "picpathtxtbox";
+            picpathtxtbox.Size = new Size(138, 23);
+            picpathtxtbox.TabIndex = 85;
             // 
             // Activity5
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1158, 679);
-            Controls.Add(textBox32);
+            Controls.Add(picpathtxtbox);
             Controls.Add(payslip_viewListBox);
             Controls.Add(button7);
             Controls.Add(button6);
@@ -837,55 +838,55 @@
             Controls.Add(button1);
             Controls.Add(pictureBox1);
             Controls.Add(label40);
-            Controls.Add(total);
+            Controls.Add(total_deducttxtbox);
             Controls.Add(label38);
             Controls.Add(label39);
             Controls.Add(label37);
             Controls.Add(label36);
-            Controls.Add(textBox30);
-            Controls.Add(comboBox1);
-            Controls.Add(textBox29);
-            Controls.Add(textBox25);
+            Controls.Add(other_loantxtBox);
+            Controls.Add(others_loanCombo);
+            Controls.Add(sal_loantxtbox);
+            Controls.Add(FS_loantxtbox);
             Controls.Add(label31);
             Controls.Add(label32);
             Controls.Add(label33);
             Controls.Add(label34);
-            Controls.Add(textBox26);
-            Controls.Add(textBox27);
-            Controls.Add(textBox28);
+            Controls.Add(FSD_deposittxtbox);
+            Controls.Add(pagibig_loantxtbox);
+            Controls.Add(sss_loantxtbox);
             Controls.Add(label35);
-            Controls.Add(textBox24);
+            Controls.Add(tax_contribtxtbox);
             Controls.Add(label30);
             Controls.Add(label23);
             Controls.Add(label27);
             Controls.Add(label28);
-            Controls.Add(textBox19);
-            Controls.Add(textBox22);
-            Controls.Add(textBox23);
+            Controls.Add(pagibig_contribtxtbox);
+            Controls.Add(philhealth_contribtxtbox);
+            Controls.Add(sss_contribtxtbox);
             Controls.Add(label29);
             Controls.Add(label24);
             Controls.Add(label25);
-            Controls.Add(textBox20);
-            Controls.Add(this.gross_incometxtbox);
+            Controls.Add(netincometxtbox);
+            Controls.Add(gross_incometxtbox);
             Controls.Add(label26);
             Controls.Add(label19);
             Controls.Add(label20);
             Controls.Add(label21);
-            Controls.Add(this.other_netincometxtbox);
+            Controls.Add(other_netincometxtbox);
             Controls.Add(textBox17);
             Controls.Add(textBox18);
             Controls.Add(label22);
             Controls.Add(label15);
             Controls.Add(label16);
             Controls.Add(label17);
-            Controls.Add(this.hono_netincometxtbox);
+            Controls.Add(hono_netincometxtbox);
             Controls.Add(textBox14);
             Controls.Add(textBox15);
             Controls.Add(label18);
             Controls.Add(label14);
             Controls.Add(label13);
             Controls.Add(label12);
-            Controls.Add(this.basic_netincometxtbox);
+            Controls.Add(basic_netincometxtbox);
             Controls.Add(textBox11);
             Controls.Add(textBox10);
             Controls.Add(label11);
@@ -965,36 +966,36 @@
         private Label label22;
         private Label label24;
         private Label label25;
-        private TextBox textBox20;
+        private TextBox netincometxtbox;
         private TextBox gross_incometxtbox;
         private TextBox textBox21;
         private Label label26;
         private Label label23;
         private Label label27;
         private Label label28;
-        private TextBox textBox19;
-        private TextBox textBox22;
-        private TextBox textBox23;
+        private TextBox pagibig_contribtxtbox;
+        private TextBox philhealth_contribtxtbox;
+        private TextBox sss_contribtxtbox;
         private Label label29;
         private Label label30;
-        private TextBox textBox24;
-        private TextBox textBox25;
+        private TextBox tax_contribtxtbox;
+        private TextBox FS_loantxtbox;
         private Label label31;
         private Label label32;
         private Label label33;
         private Label label34;
-        private TextBox textBox26;
-        private TextBox textBox27;
-        private TextBox textBox28;
+        private TextBox FSD_deposittxtbox;
+        private TextBox pagibig_loantxtbox;
+        private TextBox sss_loantxtbox;
         private Label label35;
-        private TextBox textBox29;
-        private ComboBox comboBox1;
-        private TextBox textBox30;
+        private TextBox sal_loantxtbox;
+        private ComboBox others_loanCombo;
+        private TextBox other_loantxtBox;
         private Label label36;
         private Label label37;
         private Label label38;
         private Label label39;
-        private TextBox total;
+        private TextBox total_deducttxtbox;
         private Label label40;
         private PictureBox pictureBox1;
         private Button button1;
@@ -1005,6 +1006,6 @@
         private Button button6;
         private Button button7;
         private ListBox payslip_viewListBox;
-        private TextBox textBox32;
+        private TextBox picpathtxtbox;
     }
 }
