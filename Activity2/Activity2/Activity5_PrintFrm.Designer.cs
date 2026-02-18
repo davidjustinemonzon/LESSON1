@@ -28,12 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Activity5_PrintFrm";
+            printDisplayListbox = new ListBox();
+            SuspendLayout();
+            // 
+            // printDisplayListbox
+            // 
+            printDisplayListbox.FormattingEnabled = true;
+            printDisplayListbox.ItemHeight = 15;
+            printDisplayListbox.Location = new Point(12, 12);
+            printDisplayListbox.Name = "printDisplayListbox";
+            printDisplayListbox.Size = new Size(752, 409);
+            printDisplayListbox.TabIndex = 0;
+            // 
+            // Activity5_PrintFrm
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(printDisplayListbox);
+            Name = "Activity5_PrintFrm";
+            Text = "Activity5_PrintFrm";
+            ResumeLayout(false);
         }
 
         #endregion
+
+        public ListBox printDisplayListbox;
     }
 }

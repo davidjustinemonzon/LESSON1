@@ -255,5 +255,12 @@ namespace Activity2
             grossincome = basic_netincome + hono_netincome +
             other_netincome; gross_incometxtbox.Text = grossincome.ToString("n");
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Activity5_PrintFrm print1 = new Activity5_PrintFrm();
+            print1.printDisplayListbox.Items.AddRange(this.payslip_viewListBox.Items);
+            print1.Show();
+        }
     }
 }

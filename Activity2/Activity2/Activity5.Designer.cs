@@ -790,6 +790,7 @@
             button5.TabIndex = 81;
             button5.Text = "PRINT PAY SLIP";
             button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
             // 
             // button6
             // 
