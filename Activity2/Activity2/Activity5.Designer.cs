@@ -299,6 +299,7 @@
             textBox11.Name = "textBox11";
             textBox11.Size = new Size(201, 23);
             textBox11.TabIndex = 23;
+            textBox11.TextChanged += textBox11_TextChanged;
             // 
             // basic_netincometxtbox
             // 
@@ -375,6 +376,7 @@
             textBox14.Name = "textBox14";
             textBox14.Size = new Size(201, 23);
             textBox14.TabIndex = 30;
+            textBox14.TextChanged += textBox14_TextChanged;
             // 
             // textBox15
             // 
@@ -433,6 +435,7 @@
             textBox17.Name = "textBox17";
             textBox17.Size = new Size(201, 23);
             textBox17.TabIndex = 37;
+            textBox17.TextChanged += textBox17_TextChanged;
             // 
             // textBox18
             // 
@@ -739,6 +742,7 @@
             button1.TabIndex = 77;
             button1.Text = "Browse";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -774,6 +778,7 @@
             button4.TabIndex = 80;
             button4.Text = "CANCEL";
             button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // button5
             // 
@@ -808,6 +813,7 @@
             button7.TabIndex = 83;
             button7.Text = "EXIT";
             button7.UseVisualStyleBackColor = false;
+            button7.Click += button7_Click;
             // 
             // payslip_viewListBox
             // 
