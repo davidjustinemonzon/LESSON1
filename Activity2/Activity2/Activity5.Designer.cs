@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
+            emp_nutxtbox = new TextBox();
+            emp_fnametxtbox = new TextBox();
+            emp_mnametxtbox = new TextBox();
+            emp_lnametxtbox = new TextBox();
             textBox5 = new TextBox();
-            textBox6 = new TextBox();
+            desigtxtbox = new TextBox();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -42,10 +42,10 @@
             label6 = new Label();
             label7 = new Label();
             textBox7 = new TextBox();
-            dateTimePicker1 = new DateTimePicker();
+            pdatepicker = new DateTimePicker();
             label8 = new Label();
-            textBox8 = new TextBox();
-            textBox9 = new TextBox();
+            deptnametxtbox = new TextBox();
+            empstatustxtbox = new TextBox();
             label9 = new Label();
             label10 = new Label();
             label11 = new Label();
@@ -114,33 +114,33 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // textBox1
+            // emp_nutxtbox
             // 
-            textBox1.Location = new Point(125, 12);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(160, 23);
-            textBox1.TabIndex = 0;
+            emp_nutxtbox.Location = new Point(125, 12);
+            emp_nutxtbox.Name = "emp_nutxtbox";
+            emp_nutxtbox.Size = new Size(160, 23);
+            emp_nutxtbox.TabIndex = 0;
             // 
-            // textBox2
+            // emp_fnametxtbox
             // 
-            textBox2.Location = new Point(125, 41);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(160, 23);
-            textBox2.TabIndex = 1;
+            emp_fnametxtbox.Location = new Point(125, 41);
+            emp_fnametxtbox.Name = "emp_fnametxtbox";
+            emp_fnametxtbox.Size = new Size(160, 23);
+            emp_fnametxtbox.TabIndex = 1;
             // 
-            // textBox3
+            // emp_mnametxtbox
             // 
-            textBox3.Location = new Point(125, 70);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(160, 23);
-            textBox3.TabIndex = 2;
+            emp_mnametxtbox.Location = new Point(125, 70);
+            emp_mnametxtbox.Name = "emp_mnametxtbox";
+            emp_mnametxtbox.Size = new Size(160, 23);
+            emp_mnametxtbox.TabIndex = 2;
             // 
-            // textBox4
+            // emp_lnametxtbox
             // 
-            textBox4.Location = new Point(125, 99);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(160, 23);
-            textBox4.TabIndex = 3;
+            emp_lnametxtbox.Location = new Point(125, 99);
+            emp_lnametxtbox.Name = "emp_lnametxtbox";
+            emp_lnametxtbox.Size = new Size(160, 23);
+            emp_lnametxtbox.TabIndex = 3;
             // 
             // textBox5
             // 
@@ -149,12 +149,12 @@
             textBox5.Size = new Size(160, 23);
             textBox5.TabIndex = 4;
             // 
-            // textBox6
+            // desigtxtbox
             // 
-            textBox6.Location = new Point(125, 157);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(160, 23);
-            textBox6.TabIndex = 5;
+            desigtxtbox.Location = new Point(125, 157);
+            desigtxtbox.Name = "desigtxtbox";
+            desigtxtbox.Size = new Size(160, 23);
+            desigtxtbox.TabIndex = 5;
             // 
             // label1
             // 
@@ -227,13 +227,13 @@
             textBox7.Size = new Size(171, 33);
             textBox7.TabIndex = 14;
             // 
-            // dateTimePicker1
+            // pdatepicker
             // 
-            dateTimePicker1.Format = DateTimePickerFormat.Custom;
-            dateTimePicker1.Location = new Point(410, 48);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(171, 23);
-            dateTimePicker1.TabIndex = 15;
+            pdatepicker.Format = DateTimePickerFormat.Custom;
+            pdatepicker.Location = new Point(410, 48);
+            pdatepicker.Name = "pdatepicker";
+            pdatepicker.Size = new Size(171, 23);
+            pdatepicker.TabIndex = 15;
             // 
             // label8
             // 
@@ -244,19 +244,19 @@
             label8.TabIndex = 16;
             label8.Text = "Paydate:";
             // 
-            // textBox8
+            // deptnametxtbox
             // 
-            textBox8.Location = new Point(410, 106);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(171, 23);
-            textBox8.TabIndex = 18;
+            deptnametxtbox.Location = new Point(410, 106);
+            deptnametxtbox.Name = "deptnametxtbox";
+            deptnametxtbox.Size = new Size(171, 23);
+            deptnametxtbox.TabIndex = 18;
             // 
-            // textBox9
+            // empstatustxtbox
             // 
-            textBox9.Location = new Point(410, 77);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(171, 23);
-            textBox9.TabIndex = 17;
+            empstatustxtbox.Location = new Point(410, 77);
+            empstatustxtbox.Name = "empstatustxtbox";
+            empstatustxtbox.Size = new Size(171, 23);
+            empstatustxtbox.TabIndex = 17;
             // 
             // label9
             // 
@@ -340,7 +340,7 @@
             label15.AutoSize = true;
             label15.Location = new Point(48, 395);
             label15.Name = "label15";
-            label15.Size = new Size(126, 15);
+            label15.Size = new Size(125, 15);
             label15.TabIndex = 34;
             label15.Text = "Total Honorarium Pay:";
             // 
@@ -398,7 +398,7 @@
             label19.AutoSize = true;
             label19.Location = new Point(42, 507);
             label19.Name = "label19";
-            label19.Size = new Size(134, 15);
+            label19.Size = new Size(133, 15);
             label19.TabIndex = 41;
             label19.Text = "Total Other Income Pay:";
             // 
@@ -456,7 +456,7 @@
             label24.AutoSize = true;
             label24.Location = new Point(62, 589);
             label24.Name = "label24";
-            label24.Size = new Size(81, 15);
+            label24.Size = new Size(80, 15);
             label24.TabIndex = 47;
             label24.Text = "NET INCOME:";
             // 
@@ -687,7 +687,7 @@
             label38.AutoSize = true;
             label38.Location = new Point(468, 603);
             label38.Name = "label38";
-            label38.Size = new Size(99, 15);
+            label38.Size = new Size(98, 15);
             label38.TabIndex = 73;
             label38.Text = "Total Deductions:";
             // 
@@ -750,6 +750,7 @@
             button2.TabIndex = 78;
             button2.Text = "CALCULATE";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -761,6 +762,7 @@
             button3.TabIndex = 79;
             button3.Text = "NEW";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
@@ -794,6 +796,7 @@
             button6.TabIndex = 82;
             button6.Text = "PREVIEW PAYSLIP DETAILS";
             button6.UseVisualStyleBackColor = false;
+            button6.Click += button6_Click;
             // 
             // button7
             // 
@@ -892,10 +895,10 @@
             Controls.Add(label11);
             Controls.Add(label10);
             Controls.Add(label9);
-            Controls.Add(textBox8);
-            Controls.Add(textBox9);
+            Controls.Add(deptnametxtbox);
+            Controls.Add(empstatustxtbox);
             Controls.Add(label8);
-            Controls.Add(dateTimePicker1);
+            Controls.Add(pdatepicker);
             Controls.Add(textBox7);
             Controls.Add(label7);
             Controls.Add(label6);
@@ -904,12 +907,12 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(textBox6);
+            Controls.Add(desigtxtbox);
             Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(emp_lnametxtbox);
+            Controls.Add(emp_mnametxtbox);
+            Controls.Add(emp_fnametxtbox);
+            Controls.Add(emp_nutxtbox);
             Name = "Activity5";
             Text = "Activity5";
             Load += Activity5_Load;
@@ -920,12 +923,12 @@
 
         #endregion
 
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
+        private TextBox emp_nutxtbox;
+        private TextBox emp_fnametxtbox;
+        private TextBox emp_mnametxtbox;
+        private TextBox emp_lnametxtbox;
         private TextBox textBox5;
-        private TextBox textBox6;
+        private TextBox desigtxtbox;
         private Label label1;
         private Label label2;
         private Label label3;
@@ -934,10 +937,10 @@
         private Label label6;
         private Label label7;
         private TextBox textBox7;
-        private DateTimePicker dateTimePicker1;
+        private DateTimePicker pdatepicker;
         private Label label8;
-        private TextBox textBox8;
-        private TextBox textBox9;
+        private TextBox deptnametxtbox;
+        private TextBox empstatustxtbox;
         private Label label9;
         private Label label10;
         private Label label11;

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\LESSON1\\LEESON1(2)\\Activity2\\Activity2\\Activity2.csproj": {}
+    "C:\\Users\\C203-02.C203-02\\source\\repos\\LESSON1\\Activity2\\Activity2\\Activity2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\LESSON1\\LEESON1(2)\\Activity2\\Activity2\\Activity2.csproj": {
+    "C:\\Users\\C203-02.C203-02\\source\\repos\\LESSON1\\Activity2\\Activity2\\Activity2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\LESSON1\\LEESON1(2)\\Activity2\\Activity2\\Activity2.csproj",
+        "projectUniqueName": "C:\\Users\\C203-02.C203-02\\source\\repos\\LESSON1\\Activity2\\Activity2\\Activity2.csproj",
         "projectName": "Activity2",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\LESSON1\\LEESON1(2)\\Activity2\\Activity2\\Activity2.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\LESSON1\\LEESON1(2)\\Activity2\\Activity2\\obj\\",
+        "projectPath": "C:\\Users\\C203-02.C203-02\\source\\repos\\LESSON1\\Activity2\\Activity2\\Activity2.csproj",
+        "packagesPath": "C:\\Users\\C203-02.C203-02\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\C203-02.C203-02\\source\\repos\\LESSON1\\Activity2\\Activity2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\KINEME2\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\C203-02.C203-02\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -68,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

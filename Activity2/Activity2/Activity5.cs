@@ -42,6 +42,7 @@ namespace Activity2
             total_contrib = 0.0,
             total_loan = 0.0;
 
+        private double netincome;
 
         public Activity5()
         {
@@ -88,6 +89,88 @@ namespace Activity2
 
         private void netincometxtbox_TextChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            sss_contrib = Convert.ToDouble(sss_contribtxtbox.Text);
+            pagibig_contrib = Convert.ToDouble(pagibig_contribtxtbox.Text);
+            philhealth_contrib = Convert.ToDouble(philhealth_contribtxtbox.Text);
+            tax_contrib = Convert.ToDouble(tax_contribtxtbox.Text);
+            sss_loan = Convert.ToDouble(sss_loantxtbox.Text);
+            pagibig_loan = Convert.ToDouble(pagibig_loantxtbox.Text);
+            salary_loan = Convert.ToDouble(sal_loantxtbox.Text);
+            faculty_sav_loan = Convert.ToDouble(FS_loantxtbox.Text);
+            salary_savings = Convert.ToDouble(FSD_deposittxtbox.Text);
+            other_deduction = Convert.ToDouble(other_loantxtBox.Text);
+
+            total_contrib = sss_contrib + pagibig_contrib + philhealth_contrib + tax_contrib;
+            total_loan = sss_loan + pagibig_loan + salary_loan + faculty_sav_loan + salary_savings + other_deduction;
+            total_deduction = total_contrib + total_loan;
+
+            total_deducttxtbox.Text = total_deduction.ToString("n");
+            netincome = grossincome - total_deduction;
+            netincometxtbox.Text = netincome.ToString("n");
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            payslip_viewListBox.Items.Add("Employee Number: " + emp_nutxtbox.Text);
+            payslip_viewListBox.Items.Add("Firstname: " + emp_fnametxtbox.Text);
+            payslip_viewListBox.Items.Add("Middlename: " + emp_mnametxtbox.Text);
+            payslip_viewListBox.Items.Add("Surname: " + emp_lnametxtbox.Text);
+            payslip_viewListBox.Items.Add("Designation: " + desigtxtbox.Text);
+            payslip_viewListBox.Items.Add("Employee Status: " + empstatustxtbox.Text);
+            payslip_viewListBox.Items.Add("Department: " + deptnametxtbox.Text);
+            payslip_viewListBox.Items.Add("Pay Date: " + pdatepicker.Text);
+            payslip_viewListBox.Items.Add("------------------------------------------------------------------");
+            payslip_viewListBox.Items.Add("BP Num. of Hrs.: " + textBox10.Text);
+            payslip_viewListBox.Items.Add("BP Rate / Hr: " + textBox11.Text);
+            payslip_viewListBox.Items.Add("Basic Net Income: " + basic_netincometxtbox.Text);
+            payslip_viewListBox.Items.Add("");
+            payslip_viewListBox.Items.Add("HI Num. of Hrs.: " + textBox15.Text);
+            payslip_viewListBox.Items.Add("HI Rate / Hr: " + textBox14.Text);
+            payslip_viewListBox.Items.Add("Honorarium Net Income: " + hono_netincometxtbox.Text);
+            payslip_viewListBox.Items.Add("");
+            payslip_viewListBox.Items.Add("OTI Num. of Hrs.: " + textBox18.Text);
+            payslip_viewListBox.Items.Add("OTI Rate / Hr: " + textBox17.Text);
+            payslip_viewListBox.Items.Add("Other Net Income: " + other_netincometxtbox.Text);
+            payslip_viewListBox.Items.Add("------------------------------------------------------------------");
+            payslip_viewListBox.Items.Add("SSS Contribution: " + sss_contribtxtbox.Text);
+            payslip_viewListBox.Items.Add("PhilHealth Contribution: " + philhealth_contribtxtbox.Text);
+            payslip_viewListBox.Items.Add("Pag-IBIG Contribution: " + pagibig_contribtxtbox.Text);
+            payslip_viewListBox.Items.Add("Faculty Savings Deposit: " + FSD_deposittxtbox.Text);
+            payslip_viewListBox.Items.Add("Faculty Savings Loan: " + FS_loantxtbox.Text);
+            payslip_viewListBox.Items.Add("Salary Loan: " + sal_loantxtbox.Text);
+            payslip_viewListBox.Items.Add("Other Loan: " + other_loantxtBox.Text);
+            payslip_viewListBox.Items.Add("------------------------------------------------------------------");
+            payslip_viewListBox.Items.Add("Total Deduction: " + total_deducttxtbox.Text);
+            payslip_viewListBox.Items.Add("Gross Income: " + gross_incometxtbox.Text);
+            payslip_viewListBox.Items.Add("Net Income: " + netincometxtbox.Text);
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            empstatustxtbox.Clear();
+            desigtxtbox.Clear();
+            emp_lnametxtbox.Clear();
+            emp_mnametxtbox.Clear();
+            emp_fnametxtbox.Clear();
+            emp_nutxtbox.Clear();
+            deptnametxtbox.Clear();
+            textBox10.Clear();
+            textBox11.Clear();
+            basic_netincometxtbox.Clear();
+            textBox15.Clear();
+            textBox14.Clear();
+            hono_netincometxtbox.Clear();
+            textBox18.Clear();
+            textBox17.Clear();
+            other_netincometxtbox.Clear();
+            netincometxtbox.Clear();
+
 
         }
     }
