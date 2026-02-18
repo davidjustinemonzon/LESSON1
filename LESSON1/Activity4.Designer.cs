@@ -287,7 +287,7 @@
             label9.AutoSize = true;
             label9.Location = new Point(12, 367);
             label9.Name = "label9";
-            label9.Size = new Size(60, 15);
+            label9.Size = new Size(59, 15);
             label9.TabIndex = 18;
             label9.Text = "Total bills:";
             // 
@@ -296,7 +296,7 @@
             label10.AutoSize = true;
             label10.Location = new Point(11, 410);
             label10.Name = "label10";
-            label10.Size = new Size(85, 15);
+            label10.Size = new Size(84, 15);
             label10.TabIndex = 19;
             label10.Text = "Total Quantity:";
             // 
@@ -449,9 +449,11 @@
             // pictureBox1
             // 
             pictureBox1.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox1.Image = Properties.Resources._1ade887db3a744e3a8637ef1b729d3a8;
             pictureBox1.Location = new Point(335, 540);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(162, 139);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 34;
             pictureBox1.TabStop = false;
             // 
