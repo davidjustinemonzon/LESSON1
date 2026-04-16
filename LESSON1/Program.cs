@@ -1,4 +1,5 @@
-using MONZON_OOP_CPE201;
+using Lesson_2_Activity;
+
 
 namespace LESSON1
 {
@@ -13,7 +14,7 @@ namespace LESSON1
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form5());
+            Application.Run(new Example_3());
         }
     }
 }

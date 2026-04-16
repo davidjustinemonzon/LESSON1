@@ -226,6 +226,7 @@
             total_deducttxtbox.Name = "total_deducttxtbox";
             total_deducttxtbox.Size = new Size(201, 33);
             total_deducttxtbox.TabIndex = 157;
+            total_deducttxtbox.TextChanged += total_deducttxtbox_TextChanged;
             // 
             // label38
             // 
@@ -278,6 +279,7 @@
             others_loanCombo.Name = "others_loanCombo";
             others_loanCombo.Size = new Size(201, 23);
             others_loanCombo.TabIndex = 151;
+            others_loanCombo.SelectedIndexChanged += others_loanCombo_SelectedIndexChanged;
             // 
             // sal_loantxtbox
             // 
@@ -903,7 +905,7 @@
             Controls.Add(emp_fnametxtbox);
             Controls.Add(emp_nutxtbox);
             Name = "Form5";
-            Text = "Form5";
+            Text = " ";
             Load += Form5_Load;
             ResumeLayout(false);
             PerformLayout();

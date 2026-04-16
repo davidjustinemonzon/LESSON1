@@ -473,43 +473,43 @@ namespace MONZON_OOP_CPE201
                 else
                     sss_contribtxtbox.Text = "581.30";
 
-                if (grossincome < (250000/24))
+                if (grossincome < (250000 / 24))
                 {
                     tax_contribtxtbox.Text = "0.00";
                 }
                 else if (grossincome > 10416.67 && grossincome <= 16666.67)
                 {
-                    tax = ((((grossincome * 24) - 250000) * 0.20)/24);
+                    tax = ((((grossincome * 24) - 250000) * 0.20) / 24);
                     tax_contribtxtbox.Text = tax.ToString("n");
                 }
                 else if (grossincome > 16666.67 && grossincome <= 33333.33)
                 {
-                    tax = (((((grossincome * 24) - 400000) * 0.25) + 30000)/24);
+                    tax = (((((grossincome * 24) - 400000) * 0.25) + 30000) / 24);
                     tax_contribtxtbox.Text = tax.ToString("n");
                 }
                 else if (grossincome > 33333.33 && grossincome <= 83333.33)
                 {
-                    tax = (((((grossincome * 24) - 800000) * 0.30) + 130000)/24);
+                    tax = (((((grossincome * 24) - 800000) * 0.30) + 130000) / 24);
                     tax_contribtxtbox.Text = tax.ToString("n");
                 }
                 else if (grossincome > 83333.33 && grossincome <= 333333.33)
                 {
-                    tax = (((((grossincome * 24) - 2000000) * 0.32) + 490000)/24);
+                    tax = (((((grossincome * 24) - 2000000) * 0.32) + 490000) / 24);
                     tax_contribtxtbox.Text = tax.ToString("n");
                 }
-                else  
+                else
                 {
-                    tax = (((((grossincome * 24) - 8000000) * 0.35) + 2410000)/24);
+                    tax = (((((grossincome * 24) - 8000000) * 0.35) + 2410000) / 24);
                     tax_contribtxtbox.Text = tax.ToString("n");
                 }
 
 
-          
+
             }
-        
+
         }
-    
-       
+
+
 
 
 
@@ -521,6 +521,36 @@ namespace MONZON_OOP_CPE201
             //Activity5_PrintFrm print1 = new Activity5_PrintFrm();
             //print1.printDisplayListbox.Items.AddRange(this.payslip_viewListBox.Items);
             //print1.Show();
+        }
+
+        private void others_loanCombo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (others_loanCombo.Text == "Other 1")
+            {
+                others_loanCombo.Text = "500.00";
+            }
+            else if (others_loanCombo.Text == "Other 2")
+            {
+                others_loanCombo.Text = "550.00";
+            }
+            else if (others_loanCombo.Text == "Other 3")
+            {
+                others_loanCombo.Text = "1550.00";
+            }
+            else if (others_loanCombo.Text == "Other 4")
+            {
+                others_loanCombo.Text = "1250.00";
+            }
+            else
+            {
+                MessageBox.Show("No other loan option selected!");
+            }
+
+        }
+
+        private void total_deducttxtbox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

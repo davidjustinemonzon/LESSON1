@@ -119,6 +119,8 @@ namespace LESSON1
             displayListbox.Items.Add("Cash Given: " + textBox7.Text);
             displayListbox.Items.Add("Change: " + changetxtbox.Text);
             displayListbox.Items.Add("Total No. of Items: " + total_qtytxtbox.Text);
+
+
         }
 
         private void button2_Click(object sender, EventArgs e)
