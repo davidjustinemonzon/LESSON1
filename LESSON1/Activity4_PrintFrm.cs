@@ -12,11 +12,11 @@ namespace LESSON1
 {
     public partial class Activity4_PrintFrm : Form
     {
-        public Activity4_PrintFrm()
+        public Activity4_PrintFrm(ListBox.ObjectCollection items)
         {
             InitializeComponent();
-
-            printDisplayListbox.Items.AddRange(printDisplayListbox.Items);
+            printDisplayListbox.Items.Clear();
+            printDisplayListbox.Items.AddRange(items);
         }
 
         private void Activity4_PrintFrm_Load(object sender, EventArgs e)

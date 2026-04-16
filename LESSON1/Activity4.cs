@@ -103,9 +103,9 @@ namespace LESSON1
             radioButton11.Checked = true;
             radioButton12.Checked = true;
 
-            pricetxtbox.Text = "P1,299.00";
-            discount_amounttxtbox.Text = "(15% of the Price) P194.85";
-            displayListbox.Items.Add(food_bundleA.Text);
+            //pricetxtbox.Text = "P1,299.00";
+            //discount_amounttxtbox.Text = "(15% of the Price) P194.85";
+            //sdisplayListbox.Items.Add(food_bundleA.Text);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -125,9 +125,9 @@ namespace LESSON1
 
         private void button2_Click(object sender, EventArgs e)
         {
-         //LESSON1.Activity4_PrintFrm print = new LESSON1.Activity4_PrintFrm();
+         LESSON1.Activity4_PrintFrm print = new Activity4_PrintFrm(displayListbox.Items);
             //print.printDisplayListbox.Items.AddRange(this.displayListbox.Items);
-            //print.Show();
+            print.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)

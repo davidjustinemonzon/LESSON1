@@ -28,24 +28,61 @@
         /// </summary>
         private void InitializeComponent()
         {
-            picpathtxtbox = new TextBox();
-            payslip_viewListBox = new ListBox();
-            button7 = new Button();
-            button6 = new Button();
-            button5 = new Button();
-            button4 = new Button();
-            button3 = new Button();
-            button2 = new Button();
-            button1 = new Button();
-            label40 = new Label();
-            total_deducttxtbox = new TextBox();
-            label38 = new Label();
-            label39 = new Label();
-            label37 = new Label();
-            label36 = new Label();
-            other_loantxtBox = new TextBox();
-            others_loanCombo = new ComboBox();
-            sal_loantxtbox = new TextBox();
+            emp_nutxtbox = new TextBox();
+            emp_fnametxtbox = new TextBox();
+            emp_mnametxtbox = new TextBox();
+            emp_lnametxtbox = new TextBox();
+            textBox5 = new TextBox();
+            desigtxtbox = new TextBox();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            label5 = new Label();
+            label6 = new Label();
+            label7 = new Label();
+            textBox7 = new TextBox();
+            pdatepicker = new DateTimePicker();
+            label8 = new Label();
+            deptnametxtbox = new TextBox();
+            empstatustxtbox = new TextBox();
+            label9 = new Label();
+            label10 = new Label();
+            label11 = new Label();
+            textBox10 = new TextBox();
+            textBox11 = new TextBox();
+            basic_netincometxtbox = new TextBox();
+            label12 = new Label();
+            label13 = new Label();
+            label14 = new Label();
+            label15 = new Label();
+            label16 = new Label();
+            label17 = new Label();
+            hono_netincometxtbox = new TextBox();
+            textBox14 = new TextBox();
+            textBox15 = new TextBox();
+            label18 = new Label();
+            label19 = new Label();
+            label20 = new Label();
+            label21 = new Label();
+            other_netincometxtbox = new TextBox();
+            textBox17 = new TextBox();
+            textBox18 = new TextBox();
+            label22 = new Label();
+            label24 = new Label();
+            label25 = new Label();
+            netincometxtbox = new TextBox();
+            gross_incometxtbox = new TextBox();
+            label26 = new Label();
+            label23 = new Label();
+            label27 = new Label();
+            label28 = new Label();
+            pagibig_contribtxtbox = new TextBox();
+            philhealth_contribtxtbox = new TextBox();
+            sss_contribtxtbox = new TextBox();
+            label29 = new Label();
+            label30 = new Label();
+            tax_contribtxtbox = new TextBox();
             FS_loantxtbox = new TextBox();
             label31 = new Label();
             label32 = new Label();
@@ -112,45 +149,33 @@
             emp_nutxtbox = new TextBox();
             SuspendLayout();
             // 
-            // picpathtxtbox
+            // textBox1
             // 
-            picpathtxtbox.Location = new Point(647, 112);
-            picpathtxtbox.Name = "picpathtxtbox";
-            picpathtxtbox.Size = new Size(138, 23);
-            picpathtxtbox.TabIndex = 167;
+            textBox1.Location = new Point(125, 12);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(160, 23);
+            textBox1.TabIndex = 0;
             // 
-            // payslip_viewListBox
+            // textBox2
             // 
-            payslip_viewListBox.FormattingEnabled = true;
-            payslip_viewListBox.ItemHeight = 15;
-            payslip_viewListBox.Location = new Point(828, 40);
-            payslip_viewListBox.Name = "payslip_viewListBox";
-            payslip_viewListBox.Size = new Size(339, 634);
-            payslip_viewListBox.TabIndex = 166;
+            textBox2.Location = new Point(125, 41);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(160, 23);
+            textBox2.TabIndex = 1;
             // 
-            // button7
+            // textBox3
             // 
-            button7.BackColor = SystemColors.WindowFrame;
-            button7.ForeColor = Color.White;
-            button7.Location = new Point(684, 641);
-            button7.Name = "button7";
-            button7.Size = new Size(118, 32);
-            button7.TabIndex = 165;
-            button7.Text = "EXIT";
-            button7.UseVisualStyleBackColor = false;
-            button7.Click += button7_Click;
+            textBox3.Location = new Point(125, 70);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(160, 23);
+            textBox3.TabIndex = 2;
             // 
-            // button6
+            // textBox4
             // 
-            button6.BackColor = SystemColors.WindowFrame;
-            button6.ForeColor = Color.White;
-            button6.Location = new Point(513, 641);
-            button6.Name = "button6";
-            button6.Size = new Size(165, 32);
-            button6.TabIndex = 164;
-            button6.Text = "PREVIEW PAYSLIP DETAILS";
-            button6.UseVisualStyleBackColor = false;
-            button6.Click += button6_Click;
+            textBox4.Location = new Point(125, 99);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(160, 23);
+            textBox4.TabIndex = 3;
             // 
             // button5
             // 
@@ -164,17 +189,12 @@
             button5.UseVisualStyleBackColor = false;
             button5.Click += button5_Click;
             // 
-            // button4
+            // textBox6
             // 
-            button4.BackColor = SystemColors.WindowFrame;
-            button4.ForeColor = Color.White;
-            button4.Location = new Point(277, 641);
-            button4.Name = "button4";
-            button4.Size = new Size(105, 32);
-            button4.TabIndex = 162;
-            button4.Text = "CANCEL";
-            button4.UseVisualStyleBackColor = false;
-            button4.Click += button4_Click;
+            textBox6.Location = new Point(125, 157);
+            textBox6.Name = "textBox6";
+            textBox6.Size = new Size(160, 23);
+            textBox6.TabIndex = 5;
             // 
             // button3
             // 
@@ -313,14 +333,13 @@
             label32.TabIndex = 147;
             label32.Text = "Faculty Savings Deposit:";
             // 
-            // label33
+            // dateTimePicker1
             // 
-            label33.AutoSize = true;
-            label33.Location = new Point(458, 406);
-            label33.Name = "label33";
-            label33.Size = new Size(82, 15);
-            label33.TabIndex = 146;
-            label33.Text = "PAGIBIG Loan:";
+            dateTimePicker1.Format = DateTimePickerFormat.Custom;
+            dateTimePicker1.Location = new Point(410, 48);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(171, 23);
+            dateTimePicker1.TabIndex = 15;
             // 
             // label34
             // 
@@ -331,19 +350,19 @@
             label34.TabIndex = 145;
             label34.Text = "SSS Loan:";
             // 
-            // FSD_deposittxtbox
+            // textBox8
             // 
-            FSD_deposittxtbox.Location = new Point(601, 432);
-            FSD_deposittxtbox.Name = "FSD_deposittxtbox";
-            FSD_deposittxtbox.Size = new Size(201, 23);
-            FSD_deposittxtbox.TabIndex = 144;
+            textBox8.Location = new Point(410, 106);
+            textBox8.Name = "textBox8";
+            textBox8.Size = new Size(171, 23);
+            textBox8.TabIndex = 18;
             // 
-            // pagibig_loantxtbox
+            // textBox9
             // 
-            pagibig_loantxtbox.Location = new Point(601, 403);
-            pagibig_loantxtbox.Name = "pagibig_loantxtbox";
-            pagibig_loantxtbox.Size = new Size(201, 23);
-            pagibig_loantxtbox.TabIndex = 143;
+            textBox9.Location = new Point(410, 77);
+            textBox9.Name = "textBox9";
+            textBox9.Size = new Size(171, 23);
+            textBox9.TabIndex = 17;
             // 
             // sss_loantxtbox
             // 
@@ -380,12 +399,10 @@
             // 
             // label23
             // 
-            label23.AutoSize = true;
-            label23.Location = new Point(458, 283);
-            label23.Name = "label23";
-            label23.Size = new Size(121, 15);
-            label23.TabIndex = 138;
-            label23.Text = "Pagibig Contribution:";
+            textBox11.Location = new Point(182, 248);
+            textBox11.Name = "textBox11";
+            textBox11.Size = new Size(201, 23);
+            textBox11.TabIndex = 23;
             // 
             // label27
             // 
@@ -421,10 +438,12 @@
             // 
             // sss_contribtxtbox
             // 
-            sss_contribtxtbox.Location = new Point(601, 222);
-            sss_contribtxtbox.Name = "sss_contribtxtbox";
-            sss_contribtxtbox.Size = new Size(201, 23);
-            sss_contribtxtbox.TabIndex = 133;
+            label15.AutoSize = true;
+            label15.Location = new Point(48, 395);
+            label15.Name = "label15";
+            label15.Size = new Size(126, 15);
+            label15.TabIndex = 34;
+            label15.Text = "Total Honorarium Pay:";
             // 
             // label29
             // 
@@ -456,10 +475,10 @@
             // 
             // netincometxtbox
             // 
-            netincometxtbox.Location = new Point(203, 589);
-            netincometxtbox.Name = "netincometxtbox";
-            netincometxtbox.Size = new Size(201, 23);
-            netincometxtbox.TabIndex = 129;
+            textBox14.Location = new Point(182, 363);
+            textBox14.Name = "textBox14";
+            textBox14.Size = new Size(201, 23);
+            textBox14.TabIndex = 30;
             // 
             // gross_incometxtbox
             // 
@@ -484,7 +503,7 @@
             label19.Location = new Point(63, 510);
             label19.Name = "label19";
             label19.Size = new Size(134, 15);
-            label19.TabIndex = 126;
+            label19.TabIndex = 41;
             label19.Text = "Total Other Income Pay:";
             // 
             // label20
@@ -517,8 +536,7 @@
             textBox17.Location = new Point(203, 478);
             textBox17.Name = "textBox17";
             textBox17.Size = new Size(201, 23);
-            textBox17.TabIndex = 122;
-            textBox17.TextChanged += textBox17_TextChanged;
+            textBox17.TabIndex = 37;
             // 
             // textBox18
             // 
@@ -539,12 +557,12 @@
             // 
             // label15
             // 
-            label15.AutoSize = true;
-            label15.Location = new Point(69, 398);
-            label15.Name = "label15";
-            label15.Size = new Size(126, 15);
-            label15.TabIndex = 119;
-            label15.Text = "Total Honorarium Pay:";
+            label24.AutoSize = true;
+            label24.Location = new Point(62, 589);
+            label24.Name = "label24";
+            label24.Size = new Size(81, 15);
+            label24.TabIndex = 47;
+            label24.Text = "NET INCOME:";
             // 
             // label16
             // 
@@ -768,40 +786,136 @@
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(31, 18);
-            label1.Name = "label1";
-            label1.Size = new Size(109, 15);
-            label1.TabIndex = 92;
-            label1.Text = "Employee Number:";
+            label37.AutoSize = true;
+            label37.Location = new Point(437, 519);
+            label37.Name = "label37";
+            label37.Size = new Size(45, 15);
+            label37.TabIndex = 70;
+            label37.Text = "Others:";
+            // 
+            // label38
+            // 
+            label38.AutoSize = true;
+            label38.Location = new Point(468, 603);
+            label38.Name = "label38";
+            label38.Size = new Size(99, 15);
+            label38.TabIndex = 73;
+            label38.Text = "Total Deductions:";
+            // 
+            // label39
+            // 
+            label39.AutoSize = true;
+            label39.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label39.Location = new Point(410, 571);
+            label39.Name = "label39";
+            label39.Size = new Size(172, 20);
+            label39.TabIndex = 71;
+            label39.Text = "DEDUCTION SUMMARY";
+            // 
+            // total_deducttxtbox
+            // 
+            total_deducttxtbox.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            total_deducttxtbox.Location = new Point(580, 594);
+            total_deducttxtbox.Name = "total_deducttxtbox";
+            total_deducttxtbox.Size = new Size(201, 33);
+            total_deducttxtbox.TabIndex = 74;
+            // 
+            // label40
+            // 
+            label40.AutoSize = true;
+            label40.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label40.Location = new Point(807, 9);
+            label40.Name = "label40";
+            label40.Size = new Size(166, 20);
+            label40.TabIndex = 75;
+            label40.Text = "PAYSLIP VIEW DETAILS";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox1.Image = Properties.Resources.download__15_;
+            pictureBox1.Location = new Point(603, 12);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(178, 134);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 76;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(642, 152);
+            button1.Name = "button1";
+            button1.Size = new Size(104, 27);
+            button1.TabIndex = 77;
+            button1.Text = "Browse";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.BackColor = SystemColors.WindowFrame;
+            button2.ForeColor = Color.White;
+            button2.Location = new Point(10, 638);
+            button2.Name = "button2";
+            button2.Size = new Size(120, 32);
+            button2.TabIndex = 78;
+            button2.Text = "CALCULATE";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            button3.BackColor = SystemColors.WindowFrame;
+            button3.ForeColor = Color.White;
+            button3.Location = new Point(136, 638);
+            button3.Name = "button3";
+            button3.Size = new Size(114, 32);
+            button3.TabIndex = 79;
+            button3.Text = "NEW";
+            button3.UseVisualStyleBackColor = false;
             // 
             // desigtxtbox
             // 
-            desigtxtbox.Location = new Point(146, 160);
-            desigtxtbox.Name = "desigtxtbox";
-            desigtxtbox.Size = new Size(160, 23);
-            desigtxtbox.TabIndex = 91;
+            button4.BackColor = SystemColors.WindowFrame;
+            button4.ForeColor = Color.White;
+            button4.Location = new Point(256, 638);
+            button4.Name = "button4";
+            button4.Size = new Size(105, 32);
+            button4.TabIndex = 80;
+            button4.Text = "CANCEL";
+            button4.UseVisualStyleBackColor = false;
             // 
             // textBox5
             // 
-            textBox5.Location = new Point(146, 131);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(160, 23);
-            textBox5.TabIndex = 90;
+            button5.BackColor = SystemColors.WindowFrame;
+            button5.ForeColor = Color.White;
+            button5.Location = new Point(367, 638);
+            button5.Name = "button5";
+            button5.Size = new Size(119, 32);
+            button5.TabIndex = 81;
+            button5.Text = "PRINT PAY SLIP";
+            button5.UseVisualStyleBackColor = false;
             // 
             // emp_lnametxtbox
             // 
-            emp_lnametxtbox.Location = new Point(146, 102);
-            emp_lnametxtbox.Name = "emp_lnametxtbox";
-            emp_lnametxtbox.Size = new Size(160, 23);
-            emp_lnametxtbox.TabIndex = 89;
+            button6.BackColor = SystemColors.WindowFrame;
+            button6.ForeColor = Color.White;
+            button6.Location = new Point(492, 638);
+            button6.Name = "button6";
+            button6.Size = new Size(165, 32);
+            button6.TabIndex = 82;
+            button6.Text = "PREVIEW PAYSLIP DETAILS";
+            button6.UseVisualStyleBackColor = false;
             // 
             // emp_mnametxtbox
             // 
-            emp_mnametxtbox.Location = new Point(146, 73);
-            emp_mnametxtbox.Name = "emp_mnametxtbox";
-            emp_mnametxtbox.Size = new Size(160, 23);
-            emp_mnametxtbox.TabIndex = 88;
+            button7.BackColor = SystemColors.WindowFrame;
+            button7.ForeColor = Color.White;
+            button7.Location = new Point(663, 638);
+            button7.Name = "button7";
+            button7.Size = new Size(118, 32);
+            button7.TabIndex = 83;
+            button7.Text = "EXIT";
+            button7.UseVisualStyleBackColor = false;
             // 
             // emp_fnametxtbox
             // 
@@ -900,37 +1014,79 @@
             Controls.Add(label1);
             Controls.Add(desigtxtbox);
             Controls.Add(textBox5);
-            Controls.Add(emp_lnametxtbox);
-            Controls.Add(emp_mnametxtbox);
-            Controls.Add(emp_fnametxtbox);
-            Controls.Add(emp_nutxtbox);
-            Name = "Form5";
-            Text = " ";
-            Load += Form5_Load;
+            Controls.Add(textBox4);
+            Controls.Add(textBox3);
+            Controls.Add(textBox2);
+            Controls.Add(textBox1);
+            Name = "Activity5";
+            Text = "Activity5";
+            Load += Activity5_Load;
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private TextBox picpathtxtbox;
-        private ListBox payslip_viewListBox;
-        private Button button7;
-        private Button button6;
-        private Button button5;
-        private Button button4;
-        private Button button3;
-        private Button button2;
-        private Button button1;
-        private Label label40;
-        private TextBox total_deducttxtbox;
-        private Label label38;
-        private Label label39;
-        private Label label37;
-        private Label label36;
-        private TextBox other_loantxtBox;
-        private ComboBox others_loanCombo;
-        private TextBox sal_loantxtbox;
+        private TextBox textBox1;
+        private TextBox textBox2;
+        private TextBox textBox3;
+        private TextBox textBox4;
+        private TextBox textBox5;
+        private TextBox textBox6;
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private Label label4;
+        private Label label5;
+        private Label label6;
+        private Label label7;
+        private TextBox textBox7;
+        private DateTimePicker dateTimePicker1;
+        private Label label8;
+        private TextBox textBox8;
+        private TextBox textBox9;
+        private Label label9;
+        private Label label10;
+        private Label label11;
+        private TextBox textBox10;
+        private TextBox textBox11;
+        private TextBox basic_netincometxtbox;
+        private TextBox textBox12;
+        private Label label12;
+        private Label label13;
+        private Label label14;
+        private Label label15;
+        private Label label16;
+        private Label label17;
+        private TextBox hono_netincometxtbox;
+        private TextBox textBox13;
+        private TextBox textBox14;
+        private TextBox textBox15;
+        private Label label18;
+        private Label label19;
+        private Label label20;
+        private Label label21;
+        private TextBox other_netincometxtbox;
+        private TextBox textBox16;
+        private TextBox textBox17;
+        private TextBox textBox18;
+        private Label label22;
+        private Label label24;
+        private Label label25;
+        private TextBox netincometxtbox;
+        private TextBox gross_incometxtbox;
+        private TextBox textBox21;
+        private Label label26;
+        private Label label23;
+        private Label label27;
+        private Label label28;
+        private TextBox pagibig_contribtxtbox;
+        private TextBox philhealth_contribtxtbox;
+        private TextBox sss_contribtxtbox;
+        private Label label29;
+        private Label label30;
+        private TextBox tax_contribtxtbox;
         private TextBox FS_loantxtbox;
         private Label label31;
         private Label label32;
