@@ -152,8 +152,8 @@ namespace Lesson_2_Activity
 
         private void button4_Click(object sender, EventArgs e)
         {
-           Example_3_prntfrm print = new Example_3_prntfrm(DisplayListbox.Items);
-            print.ShowDialog();
+          //Example_3_prntfrm print = new Example_3_prntfrm(DisplayListbox.Items);
+           // print.ShowDialog();
         }
 
 

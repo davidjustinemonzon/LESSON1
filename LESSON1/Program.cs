@@ -1,4 +1,4 @@
-using Lesson_2_Activity;
+using LESSON1;
 
 
 namespace LESSON1
@@ -14,7 +14,7 @@ namespace LESSON1
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Example_3());
+            Application.Run(new LESSON7_EX4());
         }
     }
 }
