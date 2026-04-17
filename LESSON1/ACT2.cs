@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace LESSON1
 {
-    public partial class ACTIVITY_1 : Form
+    public partial class ACT2 : Form
     {
-        public ACTIVITY_1()
+        public ACT2()
         {
             InitializeComponent();
-        }
-
-        private void ACTIVITY_1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

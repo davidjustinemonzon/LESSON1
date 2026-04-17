@@ -77,6 +77,7 @@ namespace LESSON1
                 net_income = grossincome - total_deduction;
                 TotalDeductionTxtbox.Text = total_deduction.ToString("C");
                 GrossIncomeTxtbox.Text = grossincome.ToString("C");
+                NetIncomeTxtbox.Text = net_income.ToString("C");
             }
             catch (Exception)
             {
