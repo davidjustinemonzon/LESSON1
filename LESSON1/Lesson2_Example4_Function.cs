@@ -14,8 +14,8 @@ namespace LESSON1
     public partial class Lesson2_Example4_Function : Form
     {
 
-        private int price, qty;
-        private double discount_amt;
+        private int qty;
+        private double price, discounted_amt, cash_rendered, change ,discount_totalgiven, discounted_total, qty_total, discount_amt;
         public Lesson2_Example4_Function()
         {
             InitializeComponent();
@@ -30,14 +30,14 @@ namespace LESSON1
         private void quanity_price_Convert()
         {
             qty = Convert.ToInt32(quantitytxtbox.Text);
-            price = Convert.ToInt32(pricetextbox.Text);
+            price = Convert.ToDouble(pricetextbox.Text);
         }
 
         private void computation_Formula_and_Displaydata()
         {
-            discount_amt = (price * qty) - discount_amt;
+            discounted_amt = (price * qty) - discount_amt;
             discounttextbox.Text = discount_amt.ToString("n");
-            Discountedtextbox.Text = discount_amt.ToString("n");
+            Discountedtextbox.Text = discounted_amt.ToString("n");
         }
 
         public void price_item_TextValue(string itemname, string price)
@@ -196,7 +196,7 @@ namespace LESSON1
                 quanity_price_Convert();
                 discount_amt = (price * qty) * 0.30;
                 computation_Formula_and_Displaydata();
-                regularRbtn.Checked = false;
+                radioButton1.Checked = false;
                 EmployeeRdbtn.Checked = false;
                 noTaxRdbtn.Checked = false;
 
@@ -206,6 +206,65 @@ namespace LESSON1
                 MessageBox.Show("Input is Invalid");
                 quantityTxtbox();
             }
+        }
+
+        private void EmployeeRdbtn_CheckedChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                quanity_price_Convert();
+                discount_amt = (price * qty) * 0.15;
+                computation_Formula_and_Displaydata();
+                radioButton1.Checked = false;
+                regularRbtn.Checked = false;
+                noTaxRdbtn.Checked = false;
+
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Input is Invalid");
+                quantityTxtbox();
+            }
+        }
+
+        private void noTaxRdbtn_CheckedChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                quanity_price_Convert();
+                discount_amt = (price * qty) * 0;
+                computation_Formula_and_Displaydata();
+                radioButton1.Checked = false;
+                regularRbtn.Checked = false;
+                EmployeeRdbtn.Checked = false;
+
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Input is Invalid");
+                quantityTxtbox();
+            }
+        }
+
+        private void calculatebtn_Click(object sender, EventArgs e)
+        {
+
+           
+            qty = Convert.ToInt32(quantitytxtbox.Text);
+            discount_amt = Convert.ToDouble(discounttextbox.Text);
+            discounted_amt = Convert.ToDouble(Discountedtextbox.Text);
+            cash_rendered = Convert.ToDouble(cashrenderedtxtbox.Text);
+            qty_total += qty;
+            discount_totalgiven += discount_amt;
+            discounted_total += discounted_amt;
+            change = cash_rendered - discounted_amt;
+            qty_totaltextbox.Text = qty_total.ToString("n");
+            discount_totaltextbox.Text = discount_totalgiven.ToString("n");
+            discounted_totaltextbox.Text = discounted_total.ToString("n");
+            changetxtbox.Text = change.ToString("n");
+            cashrenderedtxtbox.Text = cash_rendered.ToString("n");
+
+
         }
     }
 }

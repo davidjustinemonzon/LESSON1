@@ -161,6 +161,7 @@
             noTaxRdbtn.TabStop = true;
             noTaxRdbtn.Text = "No Discount";
             noTaxRdbtn.UseVisualStyleBackColor = true;
+            noTaxRdbtn.CheckedChanged += noTaxRdbtn_CheckedChanged;
             // 
             // EmployeeRdbtn
             // 
@@ -174,6 +175,7 @@
             EmployeeRdbtn.TabStop = true;
             EmployeeRdbtn.Text = "Employee Disc";
             EmployeeRdbtn.UseVisualStyleBackColor = true;
+            EmployeeRdbtn.CheckedChanged += EmployeeRdbtn_CheckedChanged;
             // 
             // regularRbtn
             // 
@@ -274,6 +276,7 @@
             calculatebtn.TabIndex = 10;
             calculatebtn.Text = "CALCULATE";
             calculatebtn.UseVisualStyleBackColor = false;
+            calculatebtn.Click += calculatebtn_Click;
             // 
             // quantitytxtbox
             // 
