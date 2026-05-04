@@ -28,32 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            printDisplayListbox = new ListBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Activity4_PrintFrm));
+            printDisplayListBox = new ListBox();
             SuspendLayout();
             // 
-            // printDisplayListbox
+            // printDisplayListBox
             // 
-            printDisplayListbox.FormattingEnabled = true;
-            printDisplayListbox.ItemHeight = 15;
-            printDisplayListbox.Location = new Point(14, 16);
-            printDisplayListbox.Name = "printDisplayListbox";
-            printDisplayListbox.Size = new Size(484, 499);
-            printDisplayListbox.TabIndex = 0;
+            resources.ApplyResources(printDisplayListBox, "printDisplayListBox");
+            printDisplayListBox.FormattingEnabled = true;
+            printDisplayListBox.Name = "printDisplayListBox";
+            printDisplayListBox.SelectedIndexChanged += printDisplayListbox_SelectedIndexChanged;
             // 
             // Activity4_PrintFrm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(610, 549);
-            Controls.Add(printDisplayListbox);
+            Controls.Add(printDisplayListBox);
             Name = "Activity4_PrintFrm";
-            Text = "Activity4_PrintFrm";
             Load += Activity4_PrintFrm_Load;
             ResumeLayout(false);
         }
 
         #endregion
 
-        private ListBox printDisplayListbox;
+        public ListBox printDisplayListBox;
     }
 }

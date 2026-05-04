@@ -16,5 +16,10 @@ namespace LESSON1
         {
             InitializeComponent();
         }
+
+        private void Activity5_PrintFrm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

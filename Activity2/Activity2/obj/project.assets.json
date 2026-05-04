@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\LESSON1\\LEESON1(2)\\Activity2\\Activity2\\Activity2.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\LESSON1\\LESSON1\\Activity2\\Activity2\\Activity2.csproj",
       "projectName": "Activity2",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\LESSON1\\LEESON1(2)\\Activity2\\Activity2\\Activity2.csproj",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\LESSON1\\LESSON1\\Activity2\\Activity2\\Activity2.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\LESSON1\\LEESON1(2)\\Activity2\\Activity2\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\source\\repos\\LESSON1\\LESSON1\\Activity2\\Activity2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\KINEME2\\NuGetPackages"
@@ -37,6 +37,7 @@
       },
       "frameworks": {
         "net8.0-windows7.0": {
+          "framework": "net8.0-windows7.0",
           "targetAlias": "net8.0-windows",
           "projectReferences": {}
         }
@@ -51,10 +52,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net8.0-windows7.0": {
+        "framework": "net8.0-windows7.0",
         "targetAlias": "net8.0-windows",
         "imports": [
           "net461",
@@ -75,7 +77,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

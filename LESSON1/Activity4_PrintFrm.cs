@@ -15,11 +15,15 @@ namespace LESSON1
         public Activity4_PrintFrm(ListBox.ObjectCollection items)
         {
             InitializeComponent();
-            printDisplayListbox.Items.Clear();
-            printDisplayListbox.Items.AddRange(items);
+            printDisplayListBox.Items.AddRange(printDisplayListBox.Items);
         }
 
         private void Activity4_PrintFrm_Load(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void printDisplayListbox_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
