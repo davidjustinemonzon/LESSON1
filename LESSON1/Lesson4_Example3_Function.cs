@@ -25,10 +25,10 @@ namespace LESSON1
 
         }
 
-        private void item_priceValue(string price, string discount_amount)
+        private void item_priceValue(string discount_amount, string price)
         {
-            pricetxtbox.Text = price;
             discount_amounttxtbox.Text = discount_amount;
+            pricetxtbox.Text = price;
         }
 
         private void Lesson4_Example3_Function_Load(object sender, EventArgs e)
@@ -105,14 +105,23 @@ namespace LESSON1
         private void button1_Click(object sender, EventArgs e)
         {
             double cash_given, change, total_amountPaid;
-            cash_given = Convert.ToDouble(textBox7.Text);
-            total_amountPaid = Convert.ToDouble(total_billstxtbox.Text);
-            change = cash_given - total_amountPaid;
-            changetxtbox.Text = change.ToString("n");
-            displayListbox.Items.Add("Total Bills: " + total_billstxtbox.Text);
-            displayListbox.Items.Add("Cash Given: " + textBox7.Text);
-            displayListbox.Items.Add("Change: " + changetxtbox.Text);
-            displayListbox.Items.Add("Total No. of Items: " + total_qtytxtbox.Text);
+            try 
+            {
+                
+                cash_given = Convert.ToDouble(textBox7.Text);
+                total_amountPaid = Convert.ToDouble(total_billstxtbox.Text);
+                change = cash_given - total_amountPaid;
+                changetxtbox.Text = change.ToString("n");
+                displayListbox.Items.Add("Total Bills: " + total_billstxtbox.Text);
+                displayListbox.Items.Add("Cash Given: " + textBox7.Text);
+                displayListbox.Items.Add("Change: " + changetxtbox.Text);
+                displayListbox.Items.Add("Total No. of Items: " + total_qtytxtbox.Text);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("An error occurred");
+            }
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -180,15 +189,23 @@ namespace LESSON1
         {
             double price, discounted_amount, discount_amount;
             int qty;
-            price = Convert.ToDouble(pricetxtbox.Text);
-            qty = Convert.ToInt32(qtytxtbox.Text);
-            discount_amount = Convert.ToDouble(discount_amounttxtbox.Text);
-            discounted_amount = (price * qty) - discount_amount;
-            total_qty += qty;
-            total_qtytxtbox.Text = total_qty.ToString();
-            total_amount += discounted_amount;
-            total_billstxtbox.Text = total_amount.ToString("n");
-            discounted_amounttxtbox.Text = discounted_amount.ToString("n");
+            try
+                {
+                price = Convert.ToDouble(pricetxtbox.Text);
+                qty = Convert.ToInt32(qtytxtbox.Text);
+                discount_amount = Convert.ToDouble(discount_amounttxtbox.Text);
+                discounted_amount = (price * qty) - discount_amount;
+                total_qty += qty;
+                total_qtytxtbox.Text = total_qty.ToString();
+                total_amount += discounted_amount;
+                total_billstxtbox.Text = total_amount.ToString("n");
+                discounted_amounttxtbox.Text = discounted_amount.ToString("n");
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Please enter a valid quantity.");
+            }
+        
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -308,7 +325,7 @@ namespace LESSON1
 
         private void checkBox16_CheckedChanged(object sender, EventArgs e)
         {
-            item_priceValue("0.00", "575.00");
+                        item_priceValue("0.00", "575.00");
             quantityTxtbox();
         }
     }

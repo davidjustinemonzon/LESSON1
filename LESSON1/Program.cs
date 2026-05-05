@@ -14,7 +14,7 @@ namespace LESSON1
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Lesson2_Example4_Function());
+            Application.Run(new Lesson4_Example3_Function());
         }
     }
 }
