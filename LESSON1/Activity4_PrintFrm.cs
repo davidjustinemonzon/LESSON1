@@ -15,7 +15,8 @@ namespace LESSON1
         public Activity4_PrintFrm(ListBox.ObjectCollection items)
         {
             InitializeComponent(); this.IsMdiContainer = true;
-            printDisplayListBox.Items.AddRange(printDisplayListBox.Items);
+            printDisplayListBox.Items.Clear();
+            printDisplayListBox.Items.AddRange(items);
         }
 
         private void Activity4_PrintFrm_Load(object sender, EventArgs e)

@@ -250,19 +250,28 @@ namespace LESSON1
         {
 
            
-            qty = Convert.ToInt32(quantitytxtbox.Text);
-            discount_amt = Convert.ToDouble(discounttextbox.Text);
-            discounted_amt = Convert.ToDouble(Discountedtextbox.Text);
-            cash_rendered = Convert.ToDouble(cashrenderedtxtbox.Text);
-            qty_total += qty;
-            discount_totalgiven += discount_amt;
-            discounted_total += discounted_amt;
-            change = cash_rendered - discounted_amt;
-            qty_totaltextbox.Text = qty_total.ToString("n");
-            discount_totaltextbox.Text = discount_totalgiven.ToString("n");
-            discounted_totaltextbox.Text = discounted_total.ToString("n");
-            changetxtbox.Text = change.ToString("n");
-            cashrenderedtxtbox.Text = cash_rendered.ToString("n");
+            try
+            {
+                qty = Convert.ToInt32(quantitytxtbox.Text);
+                discount_amt = Convert.ToDouble(discounttextbox.Text);
+                discounted_amt = Convert.ToDouble(Discountedtextbox.Text);
+                cash_rendered = Convert.ToDouble(cashrenderedtxtbox.Text);
+                qty_total += qty;
+                discount_totalgiven += discount_amt;
+                discounted_total += discounted_amt;
+                change = cash_rendered - discounted_amt;
+                qty_totaltextbox.Text = qty_total.ToString("n");
+                discount_totaltextbox.Text = discount_totalgiven.ToString("n");
+                discounted_totaltextbox.Text = discounted_total.ToString("n");
+                changetxtbox.Text = change.ToString("n");
+                cashrenderedtxtbox.Text = cash_rendered.ToString("n");
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Input is Invalid");
+                cashrenderedtxtbox.Clear();
+                cashrenderedtxtbox.Focus();
+            }
 
 
         }

@@ -126,9 +126,8 @@ namespace LESSON1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //Lesson2_Example4_Function print = new Lesson4_Example3_Function();
-            //print.printDisplayListBox.Items.AddRange(displayListbox.Items);
-            //print.Show();
+            Activity4_PrintFrm printFrm = new Activity4_PrintFrm(displayListbox.Items);
+            printFrm.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)

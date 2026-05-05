@@ -138,8 +138,11 @@ namespace LESSON1
         {
             price = Convert.ToDouble(priceTxtbox.Text);
             quantity = Convert.ToInt32(qtyTxtbox.Text);
+            cash_given = Convert.ToDouble(cash_givenTxtbox.Text);
             amount_paid = price * quantity;
+            change = cash_given - amount_paid;
             amount_paidTxtbox.Text = amount_paid.ToString("n");
+            textBox4.Text = change.ToString("n");
             cash_givenTxtbox.Focus();
 
         }
