@@ -142,6 +142,7 @@
             checkBox16.TabIndex = 184;
             checkBox16.Text = "Amazon Pizza";
             checkBox16.UseVisualStyleBackColor = true;
+            checkBox16.CheckedChanged += checkBox16_CheckedChanged;
             // 
             // checkBox17
             // 
@@ -152,6 +153,7 @@
             checkBox17.TabIndex = 183;
             checkBox17.Text = "Pizza 9";
             checkBox17.UseVisualStyleBackColor = true;
+            checkBox17.CheckedChanged += checkBox17_CheckedChanged;
             // 
             // checkBox18
             // 
@@ -162,6 +164,7 @@
             checkBox18.TabIndex = 182;
             checkBox18.Text = "Pizza 8";
             checkBox18.UseVisualStyleBackColor = true;
+            checkBox18.CheckedChanged += checkBox18_CheckedChanged;
             // 
             // checkBox19
             // 
@@ -172,6 +175,7 @@
             checkBox19.TabIndex = 181;
             checkBox19.Text = "Pizza 7";
             checkBox19.UseVisualStyleBackColor = true;
+            checkBox19.CheckedChanged += checkBox19_CheckedChanged;
             // 
             // checkBox20
             // 
@@ -182,6 +186,7 @@
             checkBox20.TabIndex = 180;
             checkBox20.Text = "Pizza 6";
             checkBox20.UseVisualStyleBackColor = true;
+            checkBox20.CheckedChanged += checkBox20_CheckedChanged;
             // 
             // checkBox11
             // 
@@ -192,6 +197,7 @@
             checkBox11.TabIndex = 179;
             checkBox11.Text = "Pizza 5";
             checkBox11.UseVisualStyleBackColor = true;
+            checkBox11.CheckedChanged += checkBox11_CheckedChanged;
             // 
             // checkBox12
             // 
@@ -202,6 +208,7 @@
             checkBox12.TabIndex = 178;
             checkBox12.Text = "Pizza 4";
             checkBox12.UseVisualStyleBackColor = true;
+            checkBox12.CheckedChanged += checkBox12_CheckedChanged;
             // 
             // checkBox13
             // 
@@ -212,6 +219,7 @@
             checkBox13.TabIndex = 177;
             checkBox13.Text = "Pizza 3";
             checkBox13.UseVisualStyleBackColor = true;
+            checkBox13.CheckedChanged += checkBox13_CheckedChanged;
             // 
             // checkBox14
             // 
@@ -222,6 +230,7 @@
             checkBox14.TabIndex = 176;
             checkBox14.Text = "Pizza 2";
             checkBox14.UseVisualStyleBackColor = true;
+            checkBox14.CheckedChanged += checkBox14_CheckedChanged;
             // 
             // checkBox15
             // 
@@ -232,6 +241,7 @@
             checkBox15.TabIndex = 175;
             checkBox15.Text = "Pizza 1";
             checkBox15.UseVisualStyleBackColor = true;
+            checkBox15.CheckedChanged += checkBox15_CheckedChanged;
             // 
             // checkBox6
             // 
@@ -242,6 +252,7 @@
             checkBox6.TabIndex = 174;
             checkBox6.Text = "Pizza Barbeque";
             checkBox6.UseVisualStyleBackColor = true;
+            checkBox6.CheckedChanged += checkBox6_CheckedChanged;
             // 
             // checkBox7
             // 
@@ -252,6 +263,7 @@
             checkBox7.TabIndex = 173;
             checkBox7.Text = "Pizza Special D";
             checkBox7.UseVisualStyleBackColor = true;
+            checkBox7.CheckedChanged += checkBox7_CheckedChanged;
             // 
             // checkBox8
             // 
@@ -262,6 +274,7 @@
             checkBox8.TabIndex = 172;
             checkBox8.Text = "Pizza Special C";
             checkBox8.UseVisualStyleBackColor = true;
+            checkBox8.CheckedChanged += checkBox8_CheckedChanged;
             // 
             // checkBox9
             // 
@@ -272,6 +285,7 @@
             checkBox9.TabIndex = 171;
             checkBox9.Text = "Pizza Special B";
             checkBox9.UseVisualStyleBackColor = true;
+            checkBox9.CheckedChanged += checkBox9_CheckedChanged;
             // 
             // checkBox10
             // 
@@ -282,6 +296,7 @@
             checkBox10.TabIndex = 170;
             checkBox10.Text = "Pizza Special A";
             checkBox10.UseVisualStyleBackColor = true;
+            checkBox10.CheckedChanged += checkBox10_CheckedChanged;
             // 
             // checkBox5
             // 
@@ -292,6 +307,7 @@
             checkBox5.TabIndex = 169;
             checkBox5.Text = "Dominos";
             checkBox5.UseVisualStyleBackColor = true;
+            checkBox5.CheckedChanged += checkBox5_CheckedChanged;
             // 
             // checkBox4
             // 
@@ -302,6 +318,7 @@
             checkBox4.TabIndex = 168;
             checkBox4.Text = "Cauliflower Crust";
             checkBox4.UseVisualStyleBackColor = true;
+            checkBox4.CheckedChanged += checkBox4_CheckedChanged;
             // 
             // checkBox3
             // 
@@ -312,6 +329,7 @@
             checkBox3.TabIndex = 167;
             checkBox3.Text = "Pepperoni";
             checkBox3.UseVisualStyleBackColor = true;
+            checkBox3.CheckedChanged += checkBox3_CheckedChanged;
             // 
             // checkBox2
             // 
@@ -322,6 +340,7 @@
             checkBox2.TabIndex = 166;
             checkBox2.Text = "New York Style";
             checkBox2.UseVisualStyleBackColor = true;
+            checkBox2.CheckedChanged += checkBox2_CheckedChanged;
             // 
             // checkBox1
             // 

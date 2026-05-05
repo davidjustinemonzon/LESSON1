@@ -66,5 +66,10 @@ namespace LESSON1
             newMDIChild.MdiParent = this;
             newMDIChild.Show();
         }
+
+        private void MENUSTRIP_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -114,6 +114,7 @@
             MainMenuStrip = menuStrip1;
             Name = "MENUSTRIP";
             Text = "MENUSTRIP";
+            Load += MENUSTRIP_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
