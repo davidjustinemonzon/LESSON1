@@ -99,7 +99,7 @@ namespace LESSON1
 
             pricetxtbox.Text = "P1,299.00";
             discount_amounttxtbox.Text = "(15% of the Price) P194.85";
-            displayListbox.Items.Add(food_bundleA.Text);
+           // displayListbox.Items.Add(food_bundleA.Text);
         }
 
         private void button1_Click(object sender, EventArgs e)
