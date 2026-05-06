@@ -10,19 +10,16 @@ using System.Windows.Forms;
 
 namespace LESSON1
 {
-    public partial class Lesson4_Example3_Function : Form
+
+    public partial class Lesson4_Example3_Class : Form
     {
+
         private double total_amount = 0;
         private int total_qty = 0;
 
-        public Lesson4_Example3_Function()
+        public Lesson4_Example3_Class()
         {
             InitializeComponent(); this.IsMdiContainer = true;
-        }
-
-        private void quantityTxtbox()
-        {
-
         }
 
         private void item_priceValue(string discount_amount, string price)
@@ -31,7 +28,21 @@ namespace LESSON1
             pricetxtbox.Text = price;
         }
 
-        private void Lesson4_Example3_Function_Load(object sender, EventArgs e)
+        Item_Name_Value item_Name_Value = new Item_Name_Value();
+        Variables variables = new Variables();
+
+        private void quantityTxtbox()
+        {
+            qtytxtbox.Text = "0";
+            qtytxtbox.Focus();
+        }
+
+        private void foodradiobtn()
+        {
+            food_bundleA.Checked = false;
+            food_bundleB.Checked = false;
+        }
+        private void Lesson4_Example3_Class_Load(object sender, EventArgs e)
         {
             pricetxtbox.Enabled = false;
             discounted_amounttxtbox.Enabled = false;
@@ -99,15 +110,15 @@ namespace LESSON1
 
             pricetxtbox.Text = "P1,299.00";
             discount_amounttxtbox.Text = "(15% of the Price) P194.85";
-           // displayListbox.Items.Add(food_bundleA.Text);
+            // displayListbox.Items.Add(food_bundleA.Text);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             double cash_given, change, total_amountPaid;
-            try 
+            try
             {
-                
+
                 cash_given = Convert.ToDouble(textBox7.Text);
                 total_amountPaid = Convert.ToDouble(total_billstxtbox.Text);
                 change = cash_given - total_amountPaid;
@@ -121,7 +132,6 @@ namespace LESSON1
             {
                 MessageBox.Show("An error occurred");
             }
-
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -189,7 +199,7 @@ namespace LESSON1
             double price, discounted_amount, discount_amount;
             int qty;
             try
-                {
+            {
                 price = Convert.ToDouble(pricetxtbox.Text);
                 qty = Convert.ToInt32(qtytxtbox.Text);
                 discount_amount = Convert.ToDouble(discount_amounttxtbox.Text);
@@ -204,19 +214,17 @@ namespace LESSON1
             {
                 MessageBox.Show("Please enter a valid quantity.");
             }
-        
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            item_priceValue("0.00", "500.99");
-            displayListbox.Items.Add(checkBox1.Text + " " + pricetxtbox.Text);
+            item_priceValue("0.00", "550.00");
             quantityTxtbox();
         }
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
-            item_priceValue("0.00", "550.00");
+            item_priceValue("0.00", "600.99");
             quantityTxtbox();
         }
 
@@ -228,7 +236,7 @@ namespace LESSON1
 
         private void checkBox4_CheckedChanged(object sender, EventArgs e)
         {
-            item_priceValue("0.00", "750.50");
+            item_priceValue("0.00", "500.00");
             quantityTxtbox();
         }
 
@@ -246,13 +254,13 @@ namespace LESSON1
 
         private void checkBox9_CheckedChanged(object sender, EventArgs e)
         {
-            item_priceValue("0.00", "700.00");
+            item_priceValue("0.00", "750.00");
             quantityTxtbox();
         }
 
         private void checkBox8_CheckedChanged(object sender, EventArgs e)
         {
-            item_priceValue("0.00", "850.00");
+            item_priceValue("0.00", "450.00");
             quantityTxtbox();
         }
 
@@ -264,7 +272,7 @@ namespace LESSON1
 
         private void checkBox6_CheckedChanged(object sender, EventArgs e)
         {
-            item_priceValue("0.00", "650.00");
+            item_priceValue("0.00", "575.00");
             quantityTxtbox();
         }
 
@@ -276,13 +284,13 @@ namespace LESSON1
 
         private void checkBox14_CheckedChanged(object sender, EventArgs e)
         {
-            item_priceValue("0.00", "575.00");
+            item_priceValue("0.00", "850.00");
             quantityTxtbox();
         }
 
         private void checkBox13_CheckedChanged(object sender, EventArgs e)
         {
-            item_priceValue("0.00", "575.00");
+            item_priceValue("0.00", "850.00");
             quantityTxtbox();
         }
 
@@ -300,31 +308,31 @@ namespace LESSON1
 
         private void checkBox20_CheckedChanged(object sender, EventArgs e)
         {
-            item_priceValue("0.00", "575.00");
+            item_priceValue("0.00", "750.50");
             quantityTxtbox();
         }
 
         private void checkBox19_CheckedChanged(object sender, EventArgs e)
         {
-            item_priceValue("0.00", "575.00");
+            item_priceValue("0.00", "750.50");
             quantityTxtbox();
         }
 
         private void checkBox18_CheckedChanged(object sender, EventArgs e)
         {
-            item_priceValue("0.00", "575.00");
+            item_priceValue("0.00", "750.50");
             quantityTxtbox();
         }
 
         private void checkBox17_CheckedChanged(object sender, EventArgs e)
         {
-            item_priceValue("0.00", "575.00");
+            item_priceValue("0.00", "750.50");
             quantityTxtbox();
         }
 
         private void checkBox16_CheckedChanged(object sender, EventArgs e)
         {
-            item_priceValue("0.00", "575.00");
+            item_priceValue("0.00", "750.50");
             quantityTxtbox();
         }
     }
