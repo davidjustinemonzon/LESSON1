@@ -155,7 +155,7 @@
             label30.ForeColor = Color.Black;
             label30.Location = new Point(639, 605);
             label30.Name = "label30";
-            label30.Size = new Size(56, 15);
+            label30.Size = new Size(55, 15);
             label30.TabIndex = 38;
             label30.Text = "TAHONG";
             // 
@@ -196,7 +196,7 @@
             label25.ForeColor = Color.Black;
             label25.Location = new Point(639, 454);
             label25.Name = "label25";
-            label25.Size = new Size(44, 17);
+            label25.Size = new Size(42, 17);
             label25.TabIndex = 33;
             label25.Text = "TORTA";
             // 
@@ -207,7 +207,7 @@
             label26.ForeColor = Color.Black;
             label26.Location = new Point(471, 454);
             label26.Name = "label26";
-            label26.Size = new Size(90, 17);
+            label26.Size = new Size(89, 17);
             label26.TabIndex = 32;
             label26.Text = "PANCIT BIHON";
             // 
@@ -229,7 +229,7 @@
             label28.ForeColor = Color.Black;
             label28.Location = new Point(198, 456);
             label28.Name = "label28";
-            label28.Size = new Size(72, 17);
+            label28.Size = new Size(71, 17);
             label28.TabIndex = 30;
             label28.Text = "CALDERETA";
             // 
@@ -240,7 +240,7 @@
             label29.ForeColor = Color.Black;
             label29.Location = new Point(51, 456);
             label29.Name = "label29";
-            label29.Size = new Size(56, 17);
+            label29.Size = new Size(54, 17);
             label29.TabIndex = 29;
             label29.Text = "PATATIM";
             // 
@@ -257,7 +257,7 @@
             label32.ForeColor = Color.Black;
             label32.Location = new Point(344, 605);
             label32.Name = "label32";
-            label32.Size = new Size(41, 15);
+            label32.Size = new Size(40, 15);
             label32.TabIndex = 36;
             label32.Text = "PIGETI";
             // 
@@ -338,7 +338,7 @@
             label14.ForeColor = Color.Transparent;
             label14.Location = new Point(322, 80);
             label14.Name = "label14";
-            label14.Size = new Size(72, 15);
+            label14.Size = new Size(71, 15);
             label14.TabIndex = 44;
             label14.Text = "Terminal#21";
             // 
@@ -399,7 +399,7 @@
             label9.ForeColor = Color.Black;
             label9.Location = new Point(6, 19);
             label9.Name = "label9";
-            label9.Size = new Size(82, 15);
+            label9.Size = new Size(81, 15);
             label9.TabIndex = 7;
             label9.Text = "Total Quantity";
             // 
@@ -517,7 +517,7 @@
             label7.ForeColor = Color.Black;
             label7.Location = new Point(6, 75);
             label7.Name = "label7";
-            label7.Size = new Size(143, 15);
+            label7.Size = new Size(142, 15);
             label7.TabIndex = 5;
             label7.Text = "Total Discounted Amount";
             // 
@@ -755,7 +755,7 @@
             label8.ForeColor = Color.Black;
             label8.Location = new Point(6, 47);
             label8.Name = "label8";
-            label8.Size = new Size(130, 15);
+            label8.Size = new Size(129, 15);
             label8.TabIndex = 6;
             label8.Text = "Total Discount Amount";
             // 
@@ -940,6 +940,7 @@
             quantitytxtbox.Name = "quantitytxtbox";
             quantitytxtbox.Size = new Size(83, 23);
             quantitytxtbox.TabIndex = 6;
+            quantitytxtbox.TextChanged += quantitytxtbox_TextChanged;
             // 
             // label6
             // 

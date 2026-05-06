@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LESSON1
 {
-    internal class Lesson2_Example4_Class_2_
+    internal class Item_Name_Value
     {
         public String price, itemname, discount_amount;
 

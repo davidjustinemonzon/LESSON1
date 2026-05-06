@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LESSON1
 {
-    internal class Lesson2_Example4_Class
+    internal class Variables
     {
         public Double amount_paid;
         public Double price;
