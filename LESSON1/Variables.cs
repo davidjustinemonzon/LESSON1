@@ -12,12 +12,14 @@ namespace LESSON1
         public Double price;
         public Double change;
         public Double cash_given;
-        public Double qty_total;
+        public Double qty_total = 0;
         public Double discount_totalgiven = 0;
         public Double discount_total = 0;
         public Double discount_amt;
         public Double discounted_amt;
         public Double total_amountPaid;
-        public Double quantity;
+        public Int32 quantity;
+
+
     }
 }

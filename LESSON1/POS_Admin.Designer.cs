@@ -116,7 +116,7 @@
             button4 = new Button();
             button5 = new Button();
             button6 = new Button();
-            dataGridView1 = new DataGridView();
+            datagriddisplay = new DataGridView();
             PICP1 = new TextBox();
             PICP2 = new TextBox();
             PICP3 = new TextBox();
@@ -158,6 +158,7 @@
             label41 = new Label();
             pictureBox20 = new PictureBox();
             openFileDialog1 = new OpenFileDialog();
+            button7 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -174,7 +175,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox16).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)datagriddisplay).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox17).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox18).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox19).BeginInit();
@@ -862,6 +863,7 @@
             button1.TabIndex = 85;
             button1.Text = "SEARCH";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -871,6 +873,7 @@
             button2.TabIndex = 86;
             button2.Text = "SAVE";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -880,10 +883,11 @@
             button3.TabIndex = 87;
             button3.Text = "UPDATE";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
-            button4.Location = new Point(995, 216);
+            button4.Location = new Point(995, 268);
             button4.Name = "button4";
             button4.Size = new Size(166, 42);
             button4.TabIndex = 88;
@@ -892,29 +896,31 @@
             // 
             // button5
             // 
-            button5.Location = new Point(995, 264);
+            button5.Location = new Point(995, 316);
             button5.Name = "button5";
             button5.Size = new Size(166, 42);
             button5.TabIndex = 89;
             button5.Text = "NEW/CANCEL";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // button6
             // 
-            button6.Location = new Point(995, 312);
+            button6.Location = new Point(995, 364);
             button6.Name = "button6";
             button6.Size = new Size(166, 42);
             button6.TabIndex = 90;
             button6.Text = "EXIT";
             button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
-            // dataGridView1
+            // datagriddisplay
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(994, 360);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(167, 327);
-            dataGridView1.TabIndex = 91;
+            datagriddisplay.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            datagriddisplay.Location = new Point(994, 412);
+            datagriddisplay.Name = "datagriddisplay";
+            datagriddisplay.Size = new Size(167, 327);
+            datagriddisplay.TabIndex = 91;
             // 
             // PICP1
             // 
@@ -1224,11 +1230,22 @@
             // 
             openFileDialog1.FileName = "openFileDialog1";
             // 
+            // button7
+            // 
+            button7.Location = new Point(994, 220);
+            button7.Name = "button7";
+            button7.Size = new Size(166, 42);
+            button7.TabIndex = 132;
+            button7.Text = "DELETE";
+            button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
+            // 
             // POS_Admin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1200, 792);
+            Controls.Add(button7);
             Controls.Add(PICP20);
             Controls.Add(PICP15);
             Controls.Add(PICP10);
@@ -1269,7 +1286,7 @@
             Controls.Add(PICP3);
             Controls.Add(PICP2);
             Controls.Add(PICP1);
-            Controls.Add(dataGridView1);
+            Controls.Add(datagriddisplay);
             Controls.Add(button6);
             Controls.Add(button5);
             Controls.Add(button4);
@@ -1377,7 +1394,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox16).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)datagriddisplay).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox17).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox18).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox19).EndInit();
@@ -1476,7 +1493,7 @@
         private Button button4;
         private Button button5;
         private Button button6;
-        private DataGridView dataGridView1;
+        private DataGridView datagriddisplay;
         private TextBox PICP1;
         private TextBox PICP2;
         private TextBox PICP3;
@@ -1518,5 +1535,6 @@
         private Label label41;
         private PictureBox pictureBox20;
         private OpenFileDialog openFileDialog1;
+        private Button button7;
     }
 }
