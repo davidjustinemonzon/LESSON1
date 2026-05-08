@@ -337,7 +337,7 @@ namespace LESSON1
 
                 // Assuming you have a function to clear textboxes
                 cleartextboxes();
-
+                //
                 MessageBox.Show("Record deleted successfully!");
             }
             catch (Exception)
