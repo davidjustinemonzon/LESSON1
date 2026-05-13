@@ -27,7 +27,7 @@ namespace LESSON1
         {
             try
             {
-                pic = Image.FromFile("C:\\Users\\C203-13\\Downloads");
+                pic = Image.FromFile("C:\\Users\\C203-13\\Downloads\\difim.png");
 
                 P1.Clear(); P11.Clear();
                 P2.Clear(); P12.Clear();
@@ -137,7 +137,7 @@ namespace LESSON1
 
         private void button2_Click(object sender, EventArgs e)
         {
-           // try
+            try
             {
                 // Insert into name table
                 posdb_connect.pos_sql = "INSERT INTO pos_nameTbl (pos_id, name1, name2, name3, name4, name5, name6, name7, name8, name9, name10, name11, name12, name13, name14, name15, name16, name17, name18, name19, name20) VALUES ('" + comboBox1.Text + "','" + N1.Text + "','" + N2.Text + "','" + N3.Text + "','" + N4.Text + "','" + N5.Text + "','" + N6.Text + "','" + N6.Text + "','" + N6.Text + "','" + N6.Text + "','" + N6.Text + "','" + N6.Text + "','" + N7.Text + "','" + N13.Text + "','" + N14.Text + "','" + N15.Text + "','" + N16.Text + "','" + N17.Text + "','" + N18.Text + "','" + N19.Text + "','" + N20.Text + "')";
@@ -161,10 +161,10 @@ namespace LESSON1
                 posdb_connect.pos_sqldatasetSELECT();
                 datagriddisplay.DataSource = posdb_connect.pos_sql_dataset.Tables[0];
                 cleartextboxes();
-          // }
-           // catch (Exception)
-           // {
-           //     MessageBox.Show("Error occurs in this area. Please contact your administrator!");
+           }
+            catch (Exception)
+            {
+                MessageBox.Show("Error occurs in this area. Please contact your administrator!");
             }
         }
 
