@@ -381,31 +381,31 @@ namespace LESSON1
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
-            try { openFileDialog1.ShowDialog(); pictureBox6.Image = Image.FromFile(openFileDialog1.FileName); PICP2.Text = openFileDialog1.FileName; }
+            try { openFileDialog1.ShowDialog(); pictureBox2.Image = Image.FromFile(openFileDialog1.FileName); PICP2.Text = openFileDialog1.FileName; }
             catch { MessageBox.Show("No image selected!"); }
         }
 
         private void pictureBox12_Click(object sender, EventArgs e)
         {
-            try { openFileDialog1.ShowDialog(); pictureBox11.Image = Image.FromFile(openFileDialog1.FileName); PICP3.Text = openFileDialog1.FileName; }
+            try { openFileDialog1.ShowDialog(); pictureBox3.Image = Image.FromFile(openFileDialog1.FileName); PICP3.Text = openFileDialog1.FileName; }
             catch { MessageBox.Show("No image selected!"); }
         }
 
         private void pictureBox16_Click(object sender, EventArgs e)
         {
-            try { openFileDialog1.ShowDialog(); pictureBox16.Image = Image.FromFile(openFileDialog1.FileName); PICP4.Text = openFileDialog1.FileName; }
+            try { openFileDialog1.ShowDialog(); pictureBox4.Image = Image.FromFile(openFileDialog1.FileName); PICP4.Text = openFileDialog1.FileName; }
             catch { MessageBox.Show("No image selected!"); }
         }
 
         private void pictureBox20_Click(object sender, EventArgs e)
         {
-            try { openFileDialog1.ShowDialog(); pictureBox17.Image = Image.FromFile(openFileDialog1.FileName); PICP5.Text = openFileDialog1.FileName; }
+            try { openFileDialog1.ShowDialog(); pictureBox5.Image = Image.FromFile(openFileDialog1.FileName); PICP5.Text = openFileDialog1.FileName; }
             catch { MessageBox.Show("No image selected!"); }
         }
 
         private void pictureBox2_Click_1(object sender, EventArgs e)
         {
-            try { openFileDialog1.ShowDialog(); pictureBox12.Image = Image.FromFile(openFileDialog1.FileName); PICP6.Text = openFileDialog1.FileName; }
+            try { openFileDialog1.ShowDialog(); pictureBox6.Image = Image.FromFile(openFileDialog1.FileName); PICP6.Text = openFileDialog1.FileName; }
             catch { MessageBox.Show("No image selected!"); }
         }
 
@@ -417,37 +417,37 @@ namespace LESSON1
 
         private void pictureBox11_Click(object sender, EventArgs e)
         {
-            try { openFileDialog1.ShowDialog(); pictureBox2.Image = Image.FromFile(openFileDialog1.FileName); PICP8.Text = openFileDialog1.FileName; }
+            try { openFileDialog1.ShowDialog(); pictureBox8.Image = Image.FromFile(openFileDialog1.FileName); PICP8.Text = openFileDialog1.FileName; }
             catch { MessageBox.Show("No image selected!"); }
         }
 
         private void pictureBox15_Click(object sender, EventArgs e)
         {
-            try { openFileDialog1.ShowDialog(); pictureBox18.Image = Image.FromFile(openFileDialog1.FileName); PICP9.Text = openFileDialog1.FileName; }
+            try { openFileDialog1.ShowDialog(); pictureBox9.Image = Image.FromFile(openFileDialog1.FileName); PICP9.Text = openFileDialog1.FileName; }
             catch { MessageBox.Show("No image selected!"); }
         }
 
         private void pictureBox19_Click(object sender, EventArgs e)
         {
-            try { openFileDialog1.ShowDialog(); pictureBox13.Image = Image.FromFile(openFileDialog1.FileName); PICP10.Text = openFileDialog1.FileName; }
+            try { openFileDialog1.ShowDialog(); pictureBox10.Image = Image.FromFile(openFileDialog1.FileName); PICP10.Text = openFileDialog1.FileName; }
             catch { MessageBox.Show("No image selected!"); }
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            try { openFileDialog1.ShowDialog(); pictureBox8.Image = Image.FromFile(openFileDialog1.FileName); PICP11.Text = openFileDialog1.FileName; }
+            try { openFileDialog1.ShowDialog(); pictureBox11.Image = Image.FromFile(openFileDialog1.FileName); PICP11.Text = openFileDialog1.FileName; }
             catch { MessageBox.Show("No image selected!"); }
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
-            try { openFileDialog1.ShowDialog(); pictureBox3.Image = Image.FromFile(openFileDialog1.FileName); PICP12.Text = openFileDialog1.FileName; }
+            try { openFileDialog1.ShowDialog(); pictureBox12.Image = Image.FromFile(openFileDialog1.FileName); PICP12.Text = openFileDialog1.FileName; }
             catch { MessageBox.Show("No image selected!"); }
         }
 
         private void pictureBox10_Click(object sender, EventArgs e)
         {
-            try { openFileDialog1.ShowDialog(); pictureBox19.Image = Image.FromFile(openFileDialog1.FileName); PICP13.Text = openFileDialog1.FileName; }
+            try { openFileDialog1.ShowDialog(); pictureBox13.Image = Image.FromFile(openFileDialog1.FileName); PICP13.Text = openFileDialog1.FileName; }
             catch { MessageBox.Show("No image selected!"); }
         }
 
@@ -459,37 +459,37 @@ namespace LESSON1
 
         private void pictureBox18_Click(object sender, EventArgs e)
         {
-            try { openFileDialog1.ShowDialog(); pictureBox9.Image = Image.FromFile(openFileDialog1.FileName); PICP15.Text = openFileDialog1.FileName; }
+            try { openFileDialog1.ShowDialog(); pictureBox15.Image = Image.FromFile(openFileDialog1.FileName); PICP15.Text = openFileDialog1.FileName; }
             catch { MessageBox.Show("No image selected!"); }
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            try { openFileDialog1.ShowDialog(); pictureBox4.Image = Image.FromFile(openFileDialog1.FileName); PICP16.Text = openFileDialog1.FileName; }
+            try { openFileDialog1.ShowDialog(); pictureBox16.Image = Image.FromFile(openFileDialog1.FileName); PICP16.Text = openFileDialog1.FileName; }
             catch { MessageBox.Show("No image selected!"); }
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            try { openFileDialog1.ShowDialog(); pictureBox20.Image = Image.FromFile(openFileDialog1.FileName); PICP17.Text = openFileDialog1.FileName; }
+            try { openFileDialog1.ShowDialog(); pictureBox17.Image = Image.FromFile(openFileDialog1.FileName); PICP17.Text = openFileDialog1.FileName; }
             catch { MessageBox.Show("No image selected!"); }
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
-            try { openFileDialog1.ShowDialog(); pictureBox15.Image = Image.FromFile(openFileDialog1.FileName); PICP18.Text = openFileDialog1.FileName; }
+            try { openFileDialog1.ShowDialog(); pictureBox18.Image = Image.FromFile(openFileDialog1.FileName); PICP18.Text = openFileDialog1.FileName; }
             catch { MessageBox.Show("No image selected!"); }
         }
 
         private void pictureBox13_Click(object sender, EventArgs e)
         {
-            try { openFileDialog1.ShowDialog(); pictureBox10.Image = Image.FromFile(openFileDialog1.FileName); PICP19.Text = openFileDialog1.FileName; }
+            try { openFileDialog1.ShowDialog(); pictureBox19.Image = Image.FromFile(openFileDialog1.FileName); PICP19.Text = openFileDialog1.FileName; }
             catch { MessageBox.Show("No image selected!"); }
         }
 
         private void pictureBox17_Click(object sender, EventArgs e)
         {
-            try { openFileDialog1.ShowDialog(); pictureBox5.Image = Image.FromFile(openFileDialog1.FileName); PICP20.Text = openFileDialog1.FileName; }
+            try { openFileDialog1.ShowDialog(); pictureBox20.Image = Image.FromFile(openFileDialog1.FileName); PICP20.Text = openFileDialog1.FileName; }
             catch { MessageBox.Show("No image selected!"); }
         }
     }
