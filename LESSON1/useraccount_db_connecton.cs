@@ -21,7 +21,7 @@ namespace LESSON1
         {
             // codes to establish connection from C# forms to the SQL Server database
             useraccount_sql_connection = new SqlConnection();
-            useraccount_connectionString = "Data Source=C203-05; Initial Catalog=POSDB; user id=sa; password=B1Admin123@; TrustServerCertificate=True";
+            useraccount_connectionString = "Data Source=C203-13; Initial Catalog=POSDB; user id=sa; password=B1Admin123@; TrustServerCertificate=True";
             useraccount_sql_connection = new SqlConnection(useraccount_connectionString);
             useraccount_sql_connection.ConnectionString = useraccount_connectionString;
             useraccount_sql_connection.Open();

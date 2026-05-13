@@ -17,11 +17,12 @@ namespace LESSON1
         public SqlDataAdapter pos_sql_dataadapter;
         public string pos_sql = null;
 
+
         public void pos_connString()
         {
             // codes to establish connection from C# forms to the SQL Server database
             pos_sql_connection = new SqlConnection();
-            pos_connectionString = "Data Source=C203-05; Initial Catalog=POSDB; user id=sa; password=B1Admin123@; TrustServerCertificate=True";
+            pos_connectionString = "Data Source=C203-13; Initial Catalog=POSDB; user id=sa; password=B1Admin123@; TrustServerCertificate=True";
             pos_sql_connection = new SqlConnection(pos_connectionString);
             pos_sql_connection.ConnectionString = pos_connectionString;
             pos_sql_connection.Open();

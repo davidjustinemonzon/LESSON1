@@ -37,27 +37,27 @@
             N6 = new TextBox();
             label3 = new Label();
             label4 = new Label();
-            pictureBox2 = new PictureBox();
+            pictureBox6 = new PictureBox();
             P11 = new TextBox();
             N11 = new TextBox();
             label5 = new Label();
             label6 = new Label();
-            pictureBox3 = new PictureBox();
+            pictureBox11 = new PictureBox();
             P16 = new TextBox();
             N16 = new TextBox();
             label7 = new Label();
             label8 = new Label();
-            pictureBox4 = new PictureBox();
+            pictureBox16 = new PictureBox();
             P17 = new TextBox();
             N17 = new TextBox();
             label9 = new Label();
             label10 = new Label();
-            pictureBox5 = new PictureBox();
+            pictureBox17 = new PictureBox();
             P12 = new TextBox();
             N12 = new TextBox();
             label11 = new Label();
             label12 = new Label();
-            pictureBox6 = new PictureBox();
+            pictureBox12 = new PictureBox();
             P7 = new TextBox();
             N7 = new TextBox();
             label13 = new Label();
@@ -67,32 +67,32 @@
             N2 = new TextBox();
             label15 = new Label();
             label16 = new Label();
-            pictureBox8 = new PictureBox();
+            pictureBox2 = new PictureBox();
             P18 = new TextBox();
             N18 = new TextBox();
             label17 = new Label();
             label18 = new Label();
-            pictureBox9 = new PictureBox();
+            pictureBox18 = new PictureBox();
             P13 = new TextBox();
             N13 = new TextBox();
             label19 = new Label();
             label20 = new Label();
-            pictureBox10 = new PictureBox();
+            pictureBox13 = new PictureBox();
             P8 = new TextBox();
             N8 = new TextBox();
             label21 = new Label();
             label22 = new Label();
-            pictureBox11 = new PictureBox();
+            pictureBox8 = new PictureBox();
             P3 = new TextBox();
             N3 = new TextBox();
             label23 = new Label();
             label24 = new Label();
-            pictureBox12 = new PictureBox();
+            pictureBox3 = new PictureBox();
             P19 = new TextBox();
             N19 = new TextBox();
             label25 = new Label();
             label26 = new Label();
-            pictureBox13 = new PictureBox();
+            pictureBox19 = new PictureBox();
             P14 = new TextBox();
             N14 = new TextBox();
             label27 = new Label();
@@ -102,12 +102,12 @@
             N9 = new TextBox();
             label29 = new Label();
             label30 = new Label();
-            pictureBox15 = new PictureBox();
+            pictureBox9 = new PictureBox();
             P4 = new TextBox();
             N4 = new TextBox();
             label31 = new Label();
             label32 = new Label();
-            pictureBox16 = new PictureBox();
+            pictureBox4 = new PictureBox();
             comboBox1 = new ComboBox();
             label33 = new Label();
             button1 = new Button();
@@ -141,45 +141,45 @@
             N20 = new TextBox();
             label34 = new Label();
             label35 = new Label();
-            pictureBox17 = new PictureBox();
+            pictureBox20 = new PictureBox();
             P15 = new TextBox();
             N15 = new TextBox();
             label36 = new Label();
             label37 = new Label();
-            pictureBox18 = new PictureBox();
+            pictureBox15 = new PictureBox();
             P10 = new TextBox();
             N10 = new TextBox();
             label38 = new Label();
             label39 = new Label();
-            pictureBox19 = new PictureBox();
+            pictureBox10 = new PictureBox();
             P5 = new TextBox();
             N5 = new TextBox();
             label40 = new Label();
             label41 = new Label();
-            pictureBox20 = new PictureBox();
+            pictureBox5 = new PictureBox();
             openFileDialog1 = new OpenFileDialog();
             button7 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox16).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)datagriddisplay).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox17).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox18).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox19).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)datagriddisplay).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox20).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
@@ -190,6 +190,7 @@
             pictureBox1.Size = new Size(189, 128);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // label1
             // 
@@ -255,14 +256,15 @@
             label4.TabIndex = 9;
             label4.Text = "Name:";
             // 
-            // pictureBox2
+            // pictureBox6
             // 
-            pictureBox2.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox2.Location = new Point(9, 203);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(189, 128);
-            pictureBox2.TabIndex = 8;
-            pictureBox2.TabStop = false;
+            pictureBox6.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox6.Location = new Point(9, 203);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(189, 128);
+            pictureBox6.TabIndex = 8;
+            pictureBox6.TabStop = false;
+            pictureBox6.Click += pictureBox2_Click_1;
             // 
             // P11
             // 
@@ -296,14 +298,15 @@
             label6.TabIndex = 14;
             label6.Text = "Name:";
             // 
-            // pictureBox3
+            // pictureBox11
             // 
-            pictureBox3.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox3.Location = new Point(9, 397);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(189, 128);
-            pictureBox3.TabIndex = 13;
-            pictureBox3.TabStop = false;
+            pictureBox11.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox11.Location = new Point(9, 397);
+            pictureBox11.Name = "pictureBox11";
+            pictureBox11.Size = new Size(189, 128);
+            pictureBox11.TabIndex = 13;
+            pictureBox11.TabStop = false;
+            pictureBox11.Click += pictureBox3_Click;
             // 
             // P16
             // 
@@ -337,14 +340,15 @@
             label8.TabIndex = 19;
             label8.Text = "Name:";
             // 
-            // pictureBox4
+            // pictureBox16
             // 
-            pictureBox4.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox4.Location = new Point(9, 591);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(189, 128);
-            pictureBox4.TabIndex = 18;
-            pictureBox4.TabStop = false;
+            pictureBox16.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox16.Location = new Point(9, 591);
+            pictureBox16.Name = "pictureBox16";
+            pictureBox16.Size = new Size(189, 128);
+            pictureBox16.TabIndex = 18;
+            pictureBox16.TabStop = false;
+            pictureBox16.Click += pictureBox4_Click;
             // 
             // P17
             // 
@@ -378,14 +382,15 @@
             label10.TabIndex = 39;
             label10.Text = "Name:";
             // 
-            // pictureBox5
+            // pictureBox17
             // 
-            pictureBox5.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox5.Location = new Point(204, 591);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(189, 128);
-            pictureBox5.TabIndex = 38;
-            pictureBox5.TabStop = false;
+            pictureBox17.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox17.Location = new Point(204, 591);
+            pictureBox17.Name = "pictureBox17";
+            pictureBox17.Size = new Size(189, 128);
+            pictureBox17.TabIndex = 38;
+            pictureBox17.TabStop = false;
+            pictureBox17.Click += pictureBox5_Click;
             // 
             // P12
             // 
@@ -419,14 +424,15 @@
             label12.TabIndex = 34;
             label12.Text = "Name:";
             // 
-            // pictureBox6
+            // pictureBox12
             // 
-            pictureBox6.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox6.Location = new Point(204, 397);
-            pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(189, 128);
-            pictureBox6.TabIndex = 33;
-            pictureBox6.TabStop = false;
+            pictureBox12.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox12.Location = new Point(204, 397);
+            pictureBox12.Name = "pictureBox12";
+            pictureBox12.Size = new Size(189, 128);
+            pictureBox12.TabIndex = 33;
+            pictureBox12.TabStop = false;
+            pictureBox12.Click += pictureBox6_Click;
             // 
             // P7
             // 
@@ -468,6 +474,7 @@
             pictureBox7.Size = new Size(189, 128);
             pictureBox7.TabIndex = 28;
             pictureBox7.TabStop = false;
+            pictureBox7.Click += pictureBox7_Click;
             // 
             // P2
             // 
@@ -501,14 +508,15 @@
             label16.TabIndex = 24;
             label16.Text = "Name:";
             // 
-            // pictureBox8
+            // pictureBox2
             // 
-            pictureBox8.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox8.Location = new Point(204, 9);
-            pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(189, 128);
-            pictureBox8.TabIndex = 23;
-            pictureBox8.TabStop = false;
+            pictureBox2.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox2.Location = new Point(204, 9);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(189, 128);
+            pictureBox2.TabIndex = 23;
+            pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox8_Click;
             // 
             // P18
             // 
@@ -542,14 +550,15 @@
             label18.TabIndex = 59;
             label18.Text = "Name:";
             // 
-            // pictureBox9
+            // pictureBox18
             // 
-            pictureBox9.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox9.Location = new Point(399, 591);
-            pictureBox9.Name = "pictureBox9";
-            pictureBox9.Size = new Size(189, 128);
-            pictureBox9.TabIndex = 58;
-            pictureBox9.TabStop = false;
+            pictureBox18.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox18.Location = new Point(399, 591);
+            pictureBox18.Name = "pictureBox18";
+            pictureBox18.Size = new Size(189, 128);
+            pictureBox18.TabIndex = 58;
+            pictureBox18.TabStop = false;
+            pictureBox18.Click += pictureBox9_Click;
             // 
             // P13
             // 
@@ -583,14 +592,15 @@
             label20.TabIndex = 54;
             label20.Text = "Name:";
             // 
-            // pictureBox10
+            // pictureBox13
             // 
-            pictureBox10.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox10.Location = new Point(399, 397);
-            pictureBox10.Name = "pictureBox10";
-            pictureBox10.Size = new Size(189, 128);
-            pictureBox10.TabIndex = 53;
-            pictureBox10.TabStop = false;
+            pictureBox13.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox13.Location = new Point(399, 397);
+            pictureBox13.Name = "pictureBox13";
+            pictureBox13.Size = new Size(189, 128);
+            pictureBox13.TabIndex = 53;
+            pictureBox13.TabStop = false;
+            pictureBox13.Click += pictureBox10_Click;
             // 
             // P8
             // 
@@ -624,14 +634,15 @@
             label22.TabIndex = 49;
             label22.Text = "Name:";
             // 
-            // pictureBox11
+            // pictureBox8
             // 
-            pictureBox11.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox11.Location = new Point(399, 203);
-            pictureBox11.Name = "pictureBox11";
-            pictureBox11.Size = new Size(189, 128);
-            pictureBox11.TabIndex = 48;
-            pictureBox11.TabStop = false;
+            pictureBox8.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox8.Location = new Point(399, 203);
+            pictureBox8.Name = "pictureBox8";
+            pictureBox8.Size = new Size(189, 128);
+            pictureBox8.TabIndex = 48;
+            pictureBox8.TabStop = false;
+            pictureBox8.Click += pictureBox11_Click;
             // 
             // P3
             // 
@@ -665,14 +676,15 @@
             label24.TabIndex = 44;
             label24.Text = "Name:";
             // 
-            // pictureBox12
+            // pictureBox3
             // 
-            pictureBox12.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox12.Location = new Point(399, 9);
-            pictureBox12.Name = "pictureBox12";
-            pictureBox12.Size = new Size(189, 128);
-            pictureBox12.TabIndex = 43;
-            pictureBox12.TabStop = false;
+            pictureBox3.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox3.Location = new Point(399, 9);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(189, 128);
+            pictureBox3.TabIndex = 43;
+            pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox12_Click;
             // 
             // P19
             // 
@@ -706,14 +718,15 @@
             label26.TabIndex = 79;
             label26.Text = "Name:";
             // 
-            // pictureBox13
+            // pictureBox19
             // 
-            pictureBox13.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox13.Location = new Point(594, 591);
-            pictureBox13.Name = "pictureBox13";
-            pictureBox13.Size = new Size(189, 128);
-            pictureBox13.TabIndex = 78;
-            pictureBox13.TabStop = false;
+            pictureBox19.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox19.Location = new Point(594, 591);
+            pictureBox19.Name = "pictureBox19";
+            pictureBox19.Size = new Size(189, 128);
+            pictureBox19.TabIndex = 78;
+            pictureBox19.TabStop = false;
+            pictureBox19.Click += pictureBox13_Click;
             // 
             // P14
             // 
@@ -755,6 +768,7 @@
             pictureBox14.Size = new Size(189, 128);
             pictureBox14.TabIndex = 73;
             pictureBox14.TabStop = false;
+            pictureBox14.Click += pictureBox14_Click;
             // 
             // P9
             // 
@@ -788,14 +802,15 @@
             label30.TabIndex = 69;
             label30.Text = "Name:";
             // 
-            // pictureBox15
+            // pictureBox9
             // 
-            pictureBox15.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox15.Location = new Point(594, 203);
-            pictureBox15.Name = "pictureBox15";
-            pictureBox15.Size = new Size(189, 128);
-            pictureBox15.TabIndex = 68;
-            pictureBox15.TabStop = false;
+            pictureBox9.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox9.Location = new Point(594, 203);
+            pictureBox9.Name = "pictureBox9";
+            pictureBox9.Size = new Size(189, 128);
+            pictureBox9.TabIndex = 68;
+            pictureBox9.TabStop = false;
+            pictureBox9.Click += pictureBox15_Click;
             // 
             // P4
             // 
@@ -829,14 +844,15 @@
             label32.TabIndex = 64;
             label32.Text = "Name:";
             // 
-            // pictureBox16
+            // pictureBox4
             // 
-            pictureBox16.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox16.Location = new Point(594, 9);
-            pictureBox16.Name = "pictureBox16";
-            pictureBox16.Size = new Size(189, 128);
-            pictureBox16.TabIndex = 63;
-            pictureBox16.TabStop = false;
+            pictureBox4.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox4.Location = new Point(594, 9);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(189, 128);
+            pictureBox4.TabIndex = 63;
+            pictureBox4.TabStop = false;
+            pictureBox4.Click += pictureBox16_Click;
             // 
             // comboBox1
             // 
@@ -1094,14 +1110,15 @@
             label35.TabIndex = 124;
             label35.Text = "Name:";
             // 
-            // pictureBox17
+            // pictureBox20
             // 
-            pictureBox17.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox17.Location = new Point(789, 591);
-            pictureBox17.Name = "pictureBox17";
-            pictureBox17.Size = new Size(189, 128);
-            pictureBox17.TabIndex = 123;
-            pictureBox17.TabStop = false;
+            pictureBox20.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox20.Location = new Point(789, 591);
+            pictureBox20.Name = "pictureBox20";
+            pictureBox20.Size = new Size(189, 128);
+            pictureBox20.TabIndex = 123;
+            pictureBox20.TabStop = false;
+            pictureBox20.Click += pictureBox17_Click;
             // 
             // P15
             // 
@@ -1135,14 +1152,15 @@
             label37.TabIndex = 119;
             label37.Text = "Name:";
             // 
-            // pictureBox18
+            // pictureBox15
             // 
-            pictureBox18.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox18.Location = new Point(789, 397);
-            pictureBox18.Name = "pictureBox18";
-            pictureBox18.Size = new Size(189, 128);
-            pictureBox18.TabIndex = 118;
-            pictureBox18.TabStop = false;
+            pictureBox15.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox15.Location = new Point(789, 397);
+            pictureBox15.Name = "pictureBox15";
+            pictureBox15.Size = new Size(189, 128);
+            pictureBox15.TabIndex = 118;
+            pictureBox15.TabStop = false;
+            pictureBox15.Click += pictureBox18_Click;
             // 
             // P10
             // 
@@ -1176,14 +1194,15 @@
             label39.TabIndex = 114;
             label39.Text = "Name:";
             // 
-            // pictureBox19
+            // pictureBox10
             // 
-            pictureBox19.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox19.Location = new Point(789, 203);
-            pictureBox19.Name = "pictureBox19";
-            pictureBox19.Size = new Size(189, 128);
-            pictureBox19.TabIndex = 113;
-            pictureBox19.TabStop = false;
+            pictureBox10.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox10.Location = new Point(789, 203);
+            pictureBox10.Name = "pictureBox10";
+            pictureBox10.Size = new Size(189, 128);
+            pictureBox10.TabIndex = 113;
+            pictureBox10.TabStop = false;
+            pictureBox10.Click += pictureBox19_Click;
             // 
             // P5
             // 
@@ -1217,14 +1236,15 @@
             label41.TabIndex = 109;
             label41.Text = "Name:";
             // 
-            // pictureBox20
+            // pictureBox5
             // 
-            pictureBox20.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox20.Location = new Point(789, 9);
-            pictureBox20.Name = "pictureBox20";
-            pictureBox20.Size = new Size(189, 128);
-            pictureBox20.TabIndex = 108;
-            pictureBox20.TabStop = false;
+            pictureBox5.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox5.Location = new Point(789, 9);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(189, 128);
+            pictureBox5.TabIndex = 108;
+            pictureBox5.TabStop = false;
+            pictureBox5.Click += pictureBox20_Click;
             // 
             // openFileDialog1
             // 
@@ -1254,22 +1274,22 @@
             Controls.Add(N20);
             Controls.Add(label34);
             Controls.Add(label35);
-            Controls.Add(pictureBox17);
+            Controls.Add(pictureBox20);
             Controls.Add(P15);
             Controls.Add(N15);
             Controls.Add(label36);
             Controls.Add(label37);
-            Controls.Add(pictureBox18);
+            Controls.Add(pictureBox15);
             Controls.Add(P10);
             Controls.Add(N10);
             Controls.Add(label38);
             Controls.Add(label39);
-            Controls.Add(pictureBox19);
+            Controls.Add(pictureBox10);
             Controls.Add(P5);
             Controls.Add(N5);
             Controls.Add(label40);
             Controls.Add(label41);
-            Controls.Add(pictureBox20);
+            Controls.Add(pictureBox5);
             Controls.Add(PICP19);
             Controls.Add(PICP18);
             Controls.Add(PICP17);
@@ -1299,7 +1319,7 @@
             Controls.Add(N19);
             Controls.Add(label25);
             Controls.Add(label26);
-            Controls.Add(pictureBox13);
+            Controls.Add(pictureBox19);
             Controls.Add(P14);
             Controls.Add(N14);
             Controls.Add(label27);
@@ -1309,42 +1329,42 @@
             Controls.Add(N9);
             Controls.Add(label29);
             Controls.Add(label30);
-            Controls.Add(pictureBox15);
+            Controls.Add(pictureBox9);
             Controls.Add(P4);
             Controls.Add(N4);
             Controls.Add(label31);
             Controls.Add(label32);
-            Controls.Add(pictureBox16);
+            Controls.Add(pictureBox4);
             Controls.Add(P18);
             Controls.Add(N18);
             Controls.Add(label17);
             Controls.Add(label18);
-            Controls.Add(pictureBox9);
+            Controls.Add(pictureBox18);
             Controls.Add(P13);
             Controls.Add(N13);
             Controls.Add(label19);
             Controls.Add(label20);
-            Controls.Add(pictureBox10);
+            Controls.Add(pictureBox13);
             Controls.Add(P8);
             Controls.Add(N8);
             Controls.Add(label21);
             Controls.Add(label22);
-            Controls.Add(pictureBox11);
+            Controls.Add(pictureBox8);
             Controls.Add(P3);
             Controls.Add(N3);
             Controls.Add(label23);
             Controls.Add(label24);
-            Controls.Add(pictureBox12);
+            Controls.Add(pictureBox3);
             Controls.Add(P17);
             Controls.Add(N17);
             Controls.Add(label9);
             Controls.Add(label10);
-            Controls.Add(pictureBox5);
+            Controls.Add(pictureBox17);
             Controls.Add(P12);
             Controls.Add(N12);
             Controls.Add(label11);
             Controls.Add(label12);
-            Controls.Add(pictureBox6);
+            Controls.Add(pictureBox12);
             Controls.Add(P7);
             Controls.Add(N7);
             Controls.Add(label13);
@@ -1354,22 +1374,22 @@
             Controls.Add(N2);
             Controls.Add(label15);
             Controls.Add(label16);
-            Controls.Add(pictureBox8);
+            Controls.Add(pictureBox2);
             Controls.Add(P16);
             Controls.Add(N16);
             Controls.Add(label7);
             Controls.Add(label8);
-            Controls.Add(pictureBox4);
+            Controls.Add(pictureBox16);
             Controls.Add(P11);
             Controls.Add(N11);
             Controls.Add(label5);
             Controls.Add(label6);
-            Controls.Add(pictureBox3);
+            Controls.Add(pictureBox11);
             Controls.Add(P6);
             Controls.Add(N6);
             Controls.Add(label3);
             Controls.Add(label4);
-            Controls.Add(pictureBox2);
+            Controls.Add(pictureBox6);
             Controls.Add(P1);
             Controls.Add(N1);
             Controls.Add(label2);
@@ -1379,26 +1399,26 @@
             Text = "POS_Admin";
             Load += POS_Admin_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox16).EndInit();
-            ((System.ComponentModel.ISupportInitialize)datagriddisplay).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox17).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox18).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox19).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)datagriddisplay).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox20).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -1414,27 +1434,27 @@
         private TextBox N6;
         private Label label3;
         private Label label4;
-        private PictureBox pictureBox2;
+        private PictureBox pictureBox6;
         private TextBox P11;
         private TextBox N11;
         private Label label5;
         private Label label6;
-        private PictureBox pictureBox3;
+        private PictureBox pictureBox11;
         private TextBox P16;
         private TextBox N16;
         private Label label7;
         private Label label8;
-        private PictureBox pictureBox4;
+        private PictureBox pictureBox16;
         private TextBox P17;
         private TextBox N17;
         private Label label9;
         private Label label10;
-        private PictureBox pictureBox5;
+        private PictureBox pictureBox17;
         private TextBox P12;
         private TextBox N12;
         private Label label11;
         private Label label12;
-        private PictureBox pictureBox6;
+        private PictureBox pictureBox12;
         private TextBox P7;
         private TextBox N7;
         private Label label13;
@@ -1444,32 +1464,32 @@
         private TextBox N2;
         private Label label15;
         private Label label16;
-        private PictureBox pictureBox8;
+        private PictureBox pictureBox2;
         private TextBox P18;
         private TextBox N18;
         private Label label17;
         private Label label18;
-        private PictureBox pictureBox9;
+        private PictureBox pictureBox18;
         private TextBox P13;
         private TextBox N13;
         private Label label19;
         private Label label20;
-        private PictureBox pictureBox10;
+        private PictureBox pictureBox13;
         private TextBox P8;
         private TextBox N8;
         private Label label21;
         private Label label22;
-        private PictureBox pictureBox11;
+        private PictureBox pictureBox8;
         private TextBox P3;
         private TextBox N3;
         private Label label23;
         private Label label24;
-        private PictureBox pictureBox12;
+        private PictureBox pictureBox3;
         private TextBox P19;
         private TextBox N19;
         private Label label25;
         private Label label26;
-        private PictureBox pictureBox13;
+        private PictureBox pictureBox19;
         private TextBox P14;
         private TextBox N14;
         private Label label27;
@@ -1479,12 +1499,12 @@
         private TextBox N9;
         private Label label29;
         private Label label30;
-        private PictureBox pictureBox15;
+        private PictureBox pictureBox9;
         private TextBox P4;
         private TextBox N4;
         private Label label31;
         private Label label32;
-        private PictureBox pictureBox16;
+        private PictureBox pictureBox4;
         private ComboBox comboBox1;
         private Label label33;
         private Button button1;
@@ -1518,22 +1538,22 @@
         private TextBox N20;
         private Label label34;
         private Label label35;
-        private PictureBox pictureBox17;
+        private PictureBox pictureBox20;
         private TextBox P15;
         private TextBox N15;
         private Label label36;
         private Label label37;
-        private PictureBox pictureBox18;
+        private PictureBox pictureBox15;
         private TextBox P10;
         private TextBox N10;
         private Label label38;
         private Label label39;
-        private PictureBox pictureBox19;
+        private PictureBox pictureBox10;
         private TextBox P5;
         private TextBox N5;
         private Label label40;
         private Label label41;
-        private PictureBox pictureBox20;
+        private PictureBox pictureBox5;
         private OpenFileDialog openFileDialog1;
         private Button button7;
     }

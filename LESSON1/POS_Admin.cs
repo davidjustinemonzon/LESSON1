@@ -27,6 +27,8 @@ namespace LESSON1
         {
             try
             {
+                pic = Image.FromFile("C:\\Users\\C203-13\\Downloads");
+
                 P1.Clear(); P11.Clear();
                 P2.Clear(); P12.Clear();
                 P3.Clear(); P13.Clear();
@@ -61,25 +63,25 @@ namespace LESSON1
                 N10.Clear(); N20.Clear();
 
                 pictureBox1.Image = pic;
-                pictureBox2.Image = pic;
-                pictureBox3.Image = pic;
-                pictureBox4.Image = pic;
-                pictureBox5.Image = pic;
                 pictureBox6.Image = pic;
-                pictureBox7.Image = pic;
-                pictureBox8.Image = pic;
-                pictureBox9.Image = pic;
-                pictureBox10.Image = pic;
                 pictureBox11.Image = pic;
-                pictureBox12.Image = pic;
-                pictureBox13.Image = pic;
-                pictureBox14.Image = pic;
-                pictureBox15.Image = pic;
                 pictureBox16.Image = pic;
                 pictureBox17.Image = pic;
+                pictureBox12.Image = pic;
+                pictureBox7.Image = pic;
+                pictureBox2.Image = pic;
                 pictureBox18.Image = pic;
+                pictureBox13.Image = pic;
+                pictureBox8.Image = pic;
+                pictureBox3.Image = pic;
                 pictureBox19.Image = pic;
+                pictureBox14.Image = pic;
+                pictureBox9.Image = pic;
+                pictureBox4.Image = pic;
                 pictureBox20.Image = pic;
+                pictureBox15.Image = pic;
+                pictureBox10.Image = pic;
+                pictureBox5.Image = pic;
 
 
 
@@ -93,7 +95,7 @@ namespace LESSON1
 
         private void open_file_image()
         {
-            openFileDialog1.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp";
+            openFileDialog1.Filter = "Image File |*.jpg;*.jpeg;*.png;*.bmp";
             openFileDialog1.ShowDialog();
 
         }
@@ -121,6 +123,8 @@ namespace LESSON1
                 posdb_connect.pos_select();
                 posdb_connect.pos_cmd();
                 posdb_connect.pos_sqladapterSelect();
+                posdb_connect.pos_sqldatasetSELECT();
+
                 datagriddisplay.DataSource = posdb_connect.pos_sql_dataset.Tables[0];
 
             }
@@ -133,7 +137,7 @@ namespace LESSON1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            try
+           // try
             {
                 // Insert into name table
                 posdb_connect.pos_sql = "INSERT INTO pos_nameTbl (pos_id, name1, name2, name3, name4, name5, name6, name7, name8, name9, name10, name11, name12, name13, name14, name15, name16, name17, name18, name19, name20) VALUES ('" + comboBox1.Text + "','" + N1.Text + "','" + N2.Text + "','" + N3.Text + "','" + N4.Text + "','" + N5.Text + "','" + N6.Text + "','" + N6.Text + "','" + N6.Text + "','" + N6.Text + "','" + N6.Text + "','" + N6.Text + "','" + N7.Text + "','" + N13.Text + "','" + N14.Text + "','" + N15.Text + "','" + N16.Text + "','" + N17.Text + "','" + N18.Text + "','" + N19.Text + "','" + N20.Text + "')";
@@ -157,10 +161,10 @@ namespace LESSON1
                 posdb_connect.pos_sqldatasetSELECT();
                 datagriddisplay.DataSource = posdb_connect.pos_sql_dataset.Tables[0];
                 cleartextboxes();
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("Error occurs in this area. Please contact your administrator!");
+          // }
+           // catch (Exception)
+           // {
+           //     MessageBox.Show("Error occurs in this area. Please contact your administrator!");
             }
         }
 
@@ -209,43 +213,43 @@ namespace LESSON1
                 PICP1.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][24].ToString();
                 pictureBox1.Image = Image.FromFile(PICP1.Text);
                 PICP2.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][25].ToString();
-                pictureBox2.Image = Image.FromFile(PICP2.Text);
+                pictureBox6.Image = Image.FromFile(PICP2.Text);
                 PICP3.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][26].ToString();
-                pictureBox3.Image = Image.FromFile(PICP3.Text);
+                pictureBox11.Image = Image.FromFile(PICP3.Text);
                 PICP4.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][27].ToString();
-                pictureBox4.Image = Image.FromFile(PICP4.Text);
+                pictureBox16.Image = Image.FromFile(PICP4.Text);
                 PICP5.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][28].ToString();
-                pictureBox5.Image = Image.FromFile(PICP5.Text);
+                pictureBox17.Image = Image.FromFile(PICP5.Text);
                 PICP6.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][29].ToString();
-                pictureBox6.Image = Image.FromFile(PICP6.Text);
+                pictureBox12.Image = Image.FromFile(PICP6.Text);
                 PICP7.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][30].ToString();
                 pictureBox7.Image = Image.FromFile(PICP7.Text);
                 PICP8.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][31].ToString();
-                pictureBox8.Image = Image.FromFile(PICP8.Text);
+                pictureBox2.Image = Image.FromFile(PICP8.Text);
                 PICP9.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][32].ToString();
-                pictureBox9.Image = Image.FromFile(PICP9.Text);
+                pictureBox18.Image = Image.FromFile(PICP9.Text);
                 PICP10.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][33].ToString();
-                pictureBox10.Image = Image.FromFile(PICP10.Text);
+                pictureBox13.Image = Image.FromFile(PICP10.Text);
                 PICP11.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][34].ToString();
-                pictureBox11.Image = Image.FromFile(PICP11.Text);
+                pictureBox8.Image = Image.FromFile(PICP11.Text);
                 PICP12.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][35].ToString();
-                pictureBox12.Image = Image.FromFile(PICP12.Text);
+                pictureBox3.Image = Image.FromFile(PICP12.Text);
                 PICP13.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][36].ToString();
-                pictureBox13.Image = Image.FromFile(PICP13.Text);
+                pictureBox19.Image = Image.FromFile(PICP13.Text);
                 PICP14.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][37].ToString();
                 pictureBox14.Image = Image.FromFile(PICP14.Text);
                 PICP15.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][38].ToString();
-                pictureBox15.Image = Image.FromFile(PICP15.Text);
+                pictureBox9.Image = Image.FromFile(PICP15.Text);
                 PICP16.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][39].ToString();
-                pictureBox16.Image = Image.FromFile(PICP16.Text);
+                pictureBox4.Image = Image.FromFile(PICP16.Text);
                 PICP17.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][40].ToString();
-                pictureBox17.Image = Image.FromFile(PICP17.Text);
+                pictureBox20.Image = Image.FromFile(PICP17.Text);
                 PICP18.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][41].ToString();
-                pictureBox18.Image = Image.FromFile(PICP18.Text);
+                pictureBox15.Image = Image.FromFile(PICP18.Text);
                 PICP19.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][42].ToString();
-                pictureBox19.Image = Image.FromFile(PICP19.Text);
+                pictureBox10.Image = Image.FromFile(PICP19.Text);
                 PICP20.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][43].ToString();
-                pictureBox20.Image = Image.FromFile(PICP20.Text);
+                pictureBox5.Image = Image.FromFile(PICP20.Text);
 
                 // 6. Map Price TextBoxes (P) - Indexes [46] to [65]
                 P1.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][46].ToString();
@@ -356,5 +360,139 @@ namespace LESSON1
         {
             this.Close();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                openFileDialog1.Filter = "Image File | *.gif; *.jpg; *.png; *.bmp"; // filtering image display
+                if (openFileDialog1.ShowDialog() == DialogResult.OK) // displaying the file dialogbox
+                {
+                    pictureBox1.Image = Image.FromFile(openFileDialog1.FileName); // inserting selected image
+                    string picpath = openFileDialog1.FileName; // storing the file location to a variable
+                    PICP1.Text = picpath; // displaying the file location to the textbox
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("No image selected!");
+            }
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            try { openFileDialog1.ShowDialog(); pictureBox6.Image = Image.FromFile(openFileDialog1.FileName); PICP2.Text = openFileDialog1.FileName; }
+            catch { MessageBox.Show("No image selected!"); }
+        }
+
+        private void pictureBox12_Click(object sender, EventArgs e)
+        {
+            try { openFileDialog1.ShowDialog(); pictureBox11.Image = Image.FromFile(openFileDialog1.FileName); PICP3.Text = openFileDialog1.FileName; }
+            catch { MessageBox.Show("No image selected!"); }
+        }
+
+        private void pictureBox16_Click(object sender, EventArgs e)
+        {
+            try { openFileDialog1.ShowDialog(); pictureBox16.Image = Image.FromFile(openFileDialog1.FileName); PICP4.Text = openFileDialog1.FileName; }
+            catch { MessageBox.Show("No image selected!"); }
+        }
+
+        private void pictureBox20_Click(object sender, EventArgs e)
+        {
+            try { openFileDialog1.ShowDialog(); pictureBox17.Image = Image.FromFile(openFileDialog1.FileName); PICP5.Text = openFileDialog1.FileName; }
+            catch { MessageBox.Show("No image selected!"); }
+        }
+
+        private void pictureBox2_Click_1(object sender, EventArgs e)
+        {
+            try { openFileDialog1.ShowDialog(); pictureBox12.Image = Image.FromFile(openFileDialog1.FileName); PICP6.Text = openFileDialog1.FileName; }
+            catch { MessageBox.Show("No image selected!"); }
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            try { openFileDialog1.ShowDialog(); pictureBox7.Image = Image.FromFile(openFileDialog1.FileName); PICP7.Text = openFileDialog1.FileName; }
+            catch { MessageBox.Show("No image selected!"); }
+        }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+            try { openFileDialog1.ShowDialog(); pictureBox2.Image = Image.FromFile(openFileDialog1.FileName); PICP8.Text = openFileDialog1.FileName; }
+            catch { MessageBox.Show("No image selected!"); }
+        }
+
+        private void pictureBox15_Click(object sender, EventArgs e)
+        {
+            try { openFileDialog1.ShowDialog(); pictureBox18.Image = Image.FromFile(openFileDialog1.FileName); PICP9.Text = openFileDialog1.FileName; }
+            catch { MessageBox.Show("No image selected!"); }
+        }
+
+        private void pictureBox19_Click(object sender, EventArgs e)
+        {
+            try { openFileDialog1.ShowDialog(); pictureBox13.Image = Image.FromFile(openFileDialog1.FileName); PICP10.Text = openFileDialog1.FileName; }
+            catch { MessageBox.Show("No image selected!"); }
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            try { openFileDialog1.ShowDialog(); pictureBox8.Image = Image.FromFile(openFileDialog1.FileName); PICP11.Text = openFileDialog1.FileName; }
+            catch { MessageBox.Show("No image selected!"); }
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            try { openFileDialog1.ShowDialog(); pictureBox3.Image = Image.FromFile(openFileDialog1.FileName); PICP12.Text = openFileDialog1.FileName; }
+            catch { MessageBox.Show("No image selected!"); }
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            try { openFileDialog1.ShowDialog(); pictureBox19.Image = Image.FromFile(openFileDialog1.FileName); PICP13.Text = openFileDialog1.FileName; }
+            catch { MessageBox.Show("No image selected!"); }
+        }
+
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+            try { openFileDialog1.ShowDialog(); pictureBox14.Image = Image.FromFile(openFileDialog1.FileName); PICP14.Text = openFileDialog1.FileName; }
+            catch { MessageBox.Show("No image selected!"); }
+        }
+
+        private void pictureBox18_Click(object sender, EventArgs e)
+        {
+            try { openFileDialog1.ShowDialog(); pictureBox9.Image = Image.FromFile(openFileDialog1.FileName); PICP15.Text = openFileDialog1.FileName; }
+            catch { MessageBox.Show("No image selected!"); }
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            try { openFileDialog1.ShowDialog(); pictureBox4.Image = Image.FromFile(openFileDialog1.FileName); PICP16.Text = openFileDialog1.FileName; }
+            catch { MessageBox.Show("No image selected!"); }
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            try { openFileDialog1.ShowDialog(); pictureBox20.Image = Image.FromFile(openFileDialog1.FileName); PICP17.Text = openFileDialog1.FileName; }
+            catch { MessageBox.Show("No image selected!"); }
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            try { openFileDialog1.ShowDialog(); pictureBox15.Image = Image.FromFile(openFileDialog1.FileName); PICP18.Text = openFileDialog1.FileName; }
+            catch { MessageBox.Show("No image selected!"); }
+        }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+            try { openFileDialog1.ShowDialog(); pictureBox10.Image = Image.FromFile(openFileDialog1.FileName); PICP19.Text = openFileDialog1.FileName; }
+            catch { MessageBox.Show("No image selected!"); }
+        }
+
+        private void pictureBox17_Click(object sender, EventArgs e)
+        {
+            try { openFileDialog1.ShowDialog(); pictureBox5.Image = Image.FromFile(openFileDialog1.FileName); PICP20.Text = openFileDialog1.FileName; }
+            catch { MessageBox.Show("No image selected!"); }
+        }
     }
 }
+
+
