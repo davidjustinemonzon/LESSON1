@@ -22,7 +22,7 @@ namespace LESSON1
         {
             // Codes to establish a connection from C# forms to the SQL Server database
             login_sql_connection = new SqlConnection();
-            login_connectionString = "Data Source=C203-13; Initial Catalog=POSDB; user id=sa; password=B1Admin123@; TrustServerCertificate=True";
+            login_connectionString = "Data Source=C203-13; Initial Catalog=POSDB; user id=SA; password=B1Admin123@; TrustServerCertificate=True";
             login_sql_connection.ConnectionString = login_connectionString;
             login_sql_connection.Open();
         }

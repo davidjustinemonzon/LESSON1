@@ -20,7 +20,7 @@ namespace LESSON1
         public void payrol_connString()
         {
             payrol_sql_connection = new SqlConnection();
-            payrol_connectionString = "Data Source=C203-13; Initial Catalog=POSDB; user id=sa; password=B1Admin123@; TrustServerCertificate=True";
+            payrol_connectionString = "Data Source=C203-13; Initial Catalog=POSDB; user id=SA; password=B1Admin123@; TrustServerCertificate=True";
             payrol_sql_connection = new SqlConnection(payrol_connectionString);
             payrol_sql_connection.ConnectionString = payrol_connectionString;
             payrol_sql_connection.Open();
