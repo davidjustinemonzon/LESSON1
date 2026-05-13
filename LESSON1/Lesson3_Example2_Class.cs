@@ -155,7 +155,7 @@ namespace LESSON1
             try
             {
                 variables.price = Convert.ToDouble(priceTxtbox.Text);
-                variables.quantity = Convert.ToDouble(qtyTxtbox.Text);
+                variables.quantity = Convert.ToInt32(qtyTxtbox.Text);
                 variables.amount_paid = variables.price * variables.quantity;
                 amount_paidTxtbox.Text = variables.amount_paid.ToString("n");
                 cash_givenTxtbox.Focus();
